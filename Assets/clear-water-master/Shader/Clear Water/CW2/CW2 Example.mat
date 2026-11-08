@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CW2 Example
-  m_Shader: {fileID: 4800000, guid: 24d8e1d99d50a0b4789de8d29247161a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 700b6993d0919a54789097de1c0c3ed4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -45,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Foam:
-        m_Texture: {fileID: 2800000, guid: f6168229305547d4088b11c9ca33c8a5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -66,12 +66,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Wave:
         m_Texture: {fileID: 2800000, guid: 8884489275fda5f4b9059c9194c0d4b0, type: 3}
-        m_Scale: {x: 0.1, y: 0.1}
+        m_Scale: {x: 0.13, y: 0.11}
         m_Offset: {x: 0, y: 0}
     - _Wave2:
         m_Texture: {fileID: 2800000, guid: 8884489275fda5f4b9059c9194c0d4b0, type: 3}
-        m_Scale: {x: 0.1, y: 0.1}
-        m_Offset: {x: 0, y: 0}
+        m_Scale: {x: 0.07, y: 0.09}
+        m_Offset: {x: 0.37, y: 0.61}
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
@@ -84,7 +84,7 @@ Material:
     - _DepthNear: -80
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FoamDensity: 1
+    - _FoamDensity: 0.07
     - _FoamDistortion: 0.5
     - _FoamMax: 0.17399997
     - _FoamMin: 1.076
@@ -104,15 +104,15 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _WaterFogDensity: 0.15
-    - _Wave2ScrollSpeed: 0.19
-    - _Wave2ScrollX: 0.343
+    - _Wave2ScrollSpeed: 0.05
+    - _Wave2ScrollX: 0.557
     - _Wave2ScrollY: 0
-    - _Wave2Strength: 0.21
+    - _Wave2Strength: 0.18
     - _WaveReflectionDistortion: 0.25
-    - _WaveScrollSpeed: 0.69
-    - _WaveScrollX: 0.223
-    - _WaveScrollY: 0.52
-    - _WaveStrength: 0.58
+    - _WaveScrollSpeed: 0.15
+    - _WaveScrollX: 0.34
+    - _WaveScrollY: -0.413
+    - _WaveStrength: 0.35
     - _ZWrite: 1
     - _foamMax: 0
     - _foamMin: 1
