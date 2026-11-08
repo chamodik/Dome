@@ -1,0 +1,3760 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1126 &-8198917539227302217
+PackedAssets:
+  m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 78176
+    offset: 0
+    sourceAssetGUID: 95b0d3eba85586d4d9eb952e15088b07
+    buildTimeAssetPath: Assets/Starter Components/Models/Looping_Rumble.mp3
+--- !u!1521398425 &-7400598277233185100
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!668709126 &-6344579427395572630
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-vrcdefaultworldscene 2-3ce88bbc-741d-4357-a7b5-60826c8c9106.vrcw
+    bundleArchiveFile: 3
+    packagedFileIndices: 000000000100000002000000
+  - bundleName: PXR 2026
+    bundleArchiveFile: 6
+    packagedFileIndices: 05000000
+--- !u!1126 &-547123864420595623
+PackedAssets:
+  m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.sharedAssets
+  m_Overhead: 150679
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 109
+    offset: 151064
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 220
+    offset: 151176
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 908
+    offset: 151400
+    sourceAssetGUID: 23e059b013cbeea46a7769037204b4f7
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Models/ARK_Split.fbx
+  - fileID: 4
+    classID: 21
+    packedSize: 964
+    offset: 152312
+    sourceAssetGUID: 23e059b013cbeea46a7769037204b4f7
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Models/ARK_Split.fbx
+  - fileID: 5
+    classID: 21
+    packedSize: 1080
+    offset: 153280
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 6
+    classID: 21
+    packedSize: 208
+    offset: 154360
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 7
+    classID: 21
+    packedSize: 924
+    offset: 154568
+    sourceAssetGUID: fef8205b76d0de746a42a92057e64181
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Materials/Edge Light.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 960
+    offset: 155496
+    sourceAssetGUID: 5e4fe5a25531cdf4f800695d25132486
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Materials/Glass.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 920
+    offset: 156456
+    sourceAssetGUID: 09003199ccc59934bb090c70a4d03ae2
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Materials/Planet.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 932
+    offset: 157376
+    sourceAssetGUID: e26f30beaba42b742910c2602924797a
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Materials/Sun.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 904
+    offset: 158312
+    sourceAssetGUID: 185a0be5714adb043ae6cc3538cf6a84
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Materials/sci fi 1.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 904
+    offset: 159216
+    sourceAssetGUID: 3ca2a3a70f85a49439cc9a1ed2fdea35
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Materials/sci fi 2.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 904
+    offset: 160120
+    sourceAssetGUID: 16b562c7a9f8eb2479f8ec64e28970af
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Materials/sci fi 3.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 904
+    offset: 161024
+    sourceAssetGUID: 76b6afdf33b4fa84bb6a42ab9586053e
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Materials/sci fi.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 724
+    offset: 161928
+    sourceAssetGUID: 829cc3d0c857f804e926bd0a82ca3218
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/New Material.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 912
+    offset: 162656
+    sourceAssetGUID: 5c651a8fcd7817842901723ab86d627a
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/Scuffed Metal 1.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 912
+    offset: 163568
+    sourceAssetGUID: ed58cfde1c55a2647a156ab771fcf974
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/Scuffed Metal.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 1656
+    offset: 164480
+    sourceAssetGUID: b50112420b053c84f84584d46bd13b0a
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/material/PropMats/DisplayCase_2_Glass.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 1556
+    offset: 166136
+    sourceAssetGUID: 822b87797d622754fb059cd082007220
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/material/PropMats/DisplayCase_2_Mat.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 1548
+    offset: 167696
+    sourceAssetGUID: ae94d8965a85f7746874db7cf3f80f3b
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/material/PropMats/Spanner_Mat.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 1416
+    offset: 169248
+    sourceAssetGUID: 925f7bb54935f544a8e7073a5e0d1647
+    buildTimeAssetPath: Assets/Prefab Assets/Cosmic_Retro_Station_Props_FREE/Materials/Cosmic_Retro_Station_Props_1_FREE.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 1380
+    offset: 170664
+    sourceAssetGUID: d31e38d56d57f2a4c9447c89e712fac8
+    buildTimeAssetPath: Assets/Prefab Assets/FREE/Cosmic_Retro_Mesa_Props_FREE/Materials/Cosmic_Retro_Mesa_Props_Free.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 968
+    offset: 172048
+    sourceAssetGUID: 2536f1f630d08f441b76cba76e8cf597
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Materials/timber_1_fixed_d.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 976
+    offset: 173016
+    sourceAssetGUID: f50fd987009300249ad223e750bb4396
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Materials/wooden-boards-texture_d.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 904
+    offset: 173992
+    sourceAssetGUID: e87132562ebb59444af3d79817621f4c
+    buildTimeAssetPath: Assets/Starter Components/Models/Gun 1.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 900
+    offset: 174896
+    sourceAssetGUID: 2c92c2ecfa8ffb84fa44e8a07a48a7d9
+    buildTimeAssetPath: Assets/Starter Components/Models/Gun.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 908
+    offset: 175800
+    sourceAssetGUID: 419ae9fed5372564c995339c60fd7ebf
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Eraser/eraser
+      (0).mat
+  - fileID: 28
+    classID: 21
+    packedSize: 908
+    offset: 176712
+    sourceAssetGUID: 3f13a5d1eb038764b804d1aabffed55f
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Eraser/eraser
+      (1).mat
+  - fileID: 29
+    classID: 21
+    packedSize: 908
+    offset: 177624
+    sourceAssetGUID: e86e7281176dae945bd655f34805ed55
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Eraser/eraser
+      (2).mat
+  - fileID: 30
+    classID: 21
+    packedSize: 908
+    offset: 178536
+    sourceAssetGUID: 4455a0149b18e614483058a1d4ace637
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Eraser/eraser_white.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 148
+    offset: 179448
+    sourceAssetGUID: 6b64136272204b8458c4bd55be9f97cb
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Ink_PC.mat
+  - fileID: 32
+    classID: 21
+    packedSize: 1004
+    offset: 179600
+    sourceAssetGUID: e52e94d0a6629e14c916b1fa6580c2bc
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Ink_Quest.mat
+  - fileID: 33
+    classID: 21
+    packedSize: 944
+    offset: 180608
+    sourceAssetGUID: 51d72acecdb1ba249957953415f8e29b
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (0).mat
+  - fileID: 34
+    classID: 21
+    packedSize: 944
+    offset: 181552
+    sourceAssetGUID: b24ed807dd7dc224baf5390f46738647
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (1).mat
+  - fileID: 35
+    classID: 21
+    packedSize: 944
+    offset: 182496
+    sourceAssetGUID: 43d0ae848fdfe6d4495a87f8e80e386b
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (10).mat
+  - fileID: 36
+    classID: 21
+    packedSize: 944
+    offset: 183440
+    sourceAssetGUID: 254a177cd9c57e84683d0fd3bd1be46d
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (11).mat
+  - fileID: 37
+    classID: 21
+    packedSize: 944
+    offset: 184384
+    sourceAssetGUID: e01134920adbcf549ac7f52ceeb583a2
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (12).mat
+  - fileID: 38
+    classID: 21
+    packedSize: 944
+    offset: 185328
+    sourceAssetGUID: 56778de2f4060f14fb06bc8cba7e30b7
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (13).mat
+  - fileID: 39
+    classID: 21
+    packedSize: 908
+    offset: 186272
+    sourceAssetGUID: 5b91c5c74862dba4d9fc2e8ae3e07b70
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (14).mat
+  - fileID: 40
+    classID: 21
+    packedSize: 944
+    offset: 187184
+    sourceAssetGUID: b3889ddf2a4bd9346a4843eb47e0acb1
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (2).mat
+  - fileID: 41
+    classID: 21
+    packedSize: 944
+    offset: 188128
+    sourceAssetGUID: 49c7ed6d767622b4fadcf200017fd44f
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (3).mat
+  - fileID: 42
+    classID: 21
+    packedSize: 944
+    offset: 189072
+    sourceAssetGUID: dd75a5d3bd47a0c489c0fd71aff39ede
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (4).mat
+  - fileID: 43
+    classID: 21
+    packedSize: 944
+    offset: 190016
+    sourceAssetGUID: a393dafb2990e2c4fa0628ace4444efa
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (5).mat
+  - fileID: 44
+    classID: 21
+    packedSize: 944
+    offset: 190960
+    sourceAssetGUID: 88aa935393607b6409baa45499f5156b
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (6).mat
+  - fileID: 45
+    classID: 21
+    packedSize: 944
+    offset: 191904
+    sourceAssetGUID: 9db9f48f3ee803d448488d4368a140f9
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (7).mat
+  - fileID: 46
+    classID: 21
+    packedSize: 944
+    offset: 192848
+    sourceAssetGUID: 87529c80faca0ef4a881efba652815f3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (8).mat
+  - fileID: 47
+    classID: 21
+    packedSize: 944
+    offset: 193792
+    sourceAssetGUID: 885a01c79ffd5024489a1fb31f3fffb5
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/Pen/color
+      (9).mat
+  - fileID: 48
+    classID: 21
+    packedSize: 500
+    offset: 194736
+    sourceAssetGUID: d85fbf95e8c57ae4ba4e7e74bc5ae854
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/pointer/pointer_idle.mat
+  - fileID: 49
+    classID: 21
+    packedSize: 500
+    offset: 195240
+    sourceAssetGUID: 62da9edddc7701d4ab4956aceacbcd96
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/pointer/pointer_use.mat
+  - fileID: 50
+    classID: 21
+    packedSize: 496
+    offset: 195744
+    sourceAssetGUID: 48f32ce8d7140f045a2c568df3a8d9bd
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/pointer/reticle.mat
+  - fileID: 51
+    classID: 21
+    packedSize: 900
+    offset: 196240
+    sourceAssetGUID: c2af845bdfb561149b08ba13167ff040
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Material/wood.mat
+  - fileID: 52
+    classID: 21
+    packedSize: 1152
+    offset: 197144
+    sourceAssetGUID: c815f7613a04b724089c206857e57c6a
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Materials/MirrorReflection.mat
+  - fileID: 53
+    classID: 21
+    packedSize: 708
+    offset: 198296
+    sourceAssetGUID: 35630e38b4e5ffb40b44ec5348b4333f
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Editor/VRCSDK/SDK3/VRCSuperSampledUIMaterial.mat
+  - fileID: 54
+    classID: 21
+    packedSize: 592
+    offset: 199008
+    sourceAssetGUID: 0631ccb710c1d0944a6d9e416142742c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      1.prefab
+  - fileID: 55
+    classID: 21
+    packedSize: 592
+    offset: 199600
+    sourceAssetGUID: 1833ba93709e80944b9f2627881f3f4c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C.prefab
+  - fileID: 56
+    classID: 21
+    packedSize: 1008
+    offset: 200192
+    sourceAssetGUID: 1a7d988da17e44741aabfb0c94a2035b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B.prefab
+  - fileID: 57
+    classID: 21
+    packedSize: 1008
+    offset: 201200
+    sourceAssetGUID: 1c76c5499a5fe2f499296444f6385157
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      1.prefab
+  - fileID: 58
+    classID: 21
+    packedSize: 592
+    offset: 202208
+    sourceAssetGUID: 21f2d407f2be8054b9893ae2066f850a
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      2.prefab
+  - fileID: 59
+    classID: 21
+    packedSize: 664
+    offset: 202800
+    sourceAssetGUID: 2c33c759b6bfb1448a79429a0c761b44
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A.prefab
+  - fileID: 60
+    classID: 21
+    packedSize: 592
+    offset: 203464
+    sourceAssetGUID: 561f00bc1248acf46aab111adff46340
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      1.prefab
+  - fileID: 61
+    classID: 21
+    packedSize: 1008
+    offset: 204056
+    sourceAssetGUID: 6157644d53626e242a54bfcf3ef9d45c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      2.prefab
+  - fileID: 62
+    classID: 21
+    packedSize: 592
+    offset: 205064
+    sourceAssetGUID: 7320ce78f51995e418db9cd723a0e363
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      2.prefab
+  - fileID: 63
+    classID: 21
+    packedSize: 592
+    offset: 205656
+    sourceAssetGUID: 7339dae416f2f4a4ca569f0e289de0f1
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      1.prefab
+  - fileID: 64
+    classID: 21
+    packedSize: 592
+    offset: 206248
+    sourceAssetGUID: 76221aed845c98e4482cc2856cc7257d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A.prefab
+  - fileID: 65
+    classID: 21
+    packedSize: 592
+    offset: 206840
+    sourceAssetGUID: be3f73bf90d13be4bb9e0c2606502a4f
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      2.prefab
+  - fileID: 66
+    classID: 21
+    packedSize: 592
+    offset: 207432
+    sourceAssetGUID: bf68be3621a129c48b56c6ffde6f3f7f
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B.prefab
+  - fileID: 67
+    classID: 21
+    packedSize: 1048
+    offset: 208024
+    sourceAssetGUID: c95a6819d062dd9408b96aa9278f78e7
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      2.prefab
+  - fileID: 68
+    classID: 21
+    packedSize: 592
+    offset: 209072
+    sourceAssetGUID: cfe0412d7fa12f243b181e3f547a2294
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A.prefab
+  - fileID: 69
+    classID: 21
+    packedSize: 664
+    offset: 209664
+    sourceAssetGUID: dc3583028c46e9d46aa34c96b07cac4c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      1.prefab
+  - fileID: 70
+    classID: 21
+    packedSize: 1048
+    offset: 210328
+    sourceAssetGUID: df52958adb4ad56498c57fde8525380d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A.prefab
+  - fileID: 71
+    classID: 21
+    packedSize: 592
+    offset: 211376
+    sourceAssetGUID: e179f1c5b9c1c844ea45c8b5209f9a47
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      1.prefab
+  - fileID: 72
+    classID: 21
+    packedSize: 592
+    offset: 211968
+    sourceAssetGUID: f70b9624f950a1a40a00cf124963d4fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      2.prefab
+  - fileID: 73
+    classID: 21
+    packedSize: 1048
+    offset: 212560
+    sourceAssetGUID: faa1b449eeb4157479176dd717ac6035
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      1.prefab
+  - fileID: 74
+    classID: 21
+    packedSize: 452
+    offset: 213608
+    sourceAssetGUID: 0631ccb710c1d0944a6d9e416142742c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      1.prefab
+  - fileID: 75
+    classID: 21
+    packedSize: 432
+    offset: 214064
+    sourceAssetGUID: 1175c4563a5b466479faa3985e452631
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead.prefab
+  - fileID: 76
+    classID: 21
+    packedSize: 452
+    offset: 214496
+    sourceAssetGUID: 1833ba93709e80944b9f2627881f3f4c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C.prefab
+  - fileID: 77
+    classID: 21
+    packedSize: 848
+    offset: 214952
+    sourceAssetGUID: 1a7d988da17e44741aabfb0c94a2035b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B.prefab
+  - fileID: 78
+    classID: 21
+    packedSize: 848
+    offset: 215800
+    sourceAssetGUID: 1c76c5499a5fe2f499296444f6385157
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      1.prefab
+  - fileID: 79
+    classID: 21
+    packedSize: 452
+    offset: 216648
+    sourceAssetGUID: 21f2d407f2be8054b9893ae2066f850a
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      2.prefab
+  - fileID: 80
+    classID: 21
+    packedSize: 452
+    offset: 217104
+    sourceAssetGUID: 2c33c759b6bfb1448a79429a0c761b44
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A.prefab
+  - fileID: 81
+    classID: 21
+    packedSize: 452
+    offset: 217560
+    sourceAssetGUID: 561f00bc1248acf46aab111adff46340
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      1.prefab
+  - fileID: 82
+    classID: 21
+    packedSize: 432
+    offset: 218016
+    sourceAssetGUID: 5ab980af0be660a4198224f11cc571dc
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      2.prefab
+  - fileID: 83
+    classID: 21
+    packedSize: 848
+    offset: 218448
+    sourceAssetGUID: 6157644d53626e242a54bfcf3ef9d45c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      2.prefab
+  - fileID: 84
+    classID: 21
+    packedSize: 452
+    offset: 219296
+    sourceAssetGUID: 723fce56e1388ae4fbe8cde744767a9c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      2.prefab
+  - fileID: 85
+    classID: 21
+    packedSize: 452
+    offset: 219752
+    sourceAssetGUID: 7320ce78f51995e418db9cd723a0e363
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      2.prefab
+  - fileID: 86
+    classID: 21
+    packedSize: 452
+    offset: 220208
+    sourceAssetGUID: 7339dae416f2f4a4ca569f0e289de0f1
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      1.prefab
+  - fileID: 87
+    classID: 21
+    packedSize: 452
+    offset: 220664
+    sourceAssetGUID: 76221aed845c98e4482cc2856cc7257d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A.prefab
+  - fileID: 88
+    classID: 21
+    packedSize: 432
+    offset: 221120
+    sourceAssetGUID: 7ad0d2e59d13d2b49bd0fdea441d6996
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      1.prefab
+  - fileID: 89
+    classID: 21
+    packedSize: 452
+    offset: 221552
+    sourceAssetGUID: be3f73bf90d13be4bb9e0c2606502a4f
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      2.prefab
+  - fileID: 90
+    classID: 21
+    packedSize: 452
+    offset: 222008
+    sourceAssetGUID: bf68be3621a129c48b56c6ffde6f3f7f
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B.prefab
+  - fileID: 91
+    classID: 21
+    packedSize: 1072
+    offset: 222464
+    sourceAssetGUID: c95a6819d062dd9408b96aa9278f78e7
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      2.prefab
+  - fileID: 92
+    classID: 21
+    packedSize: 452
+    offset: 223536
+    sourceAssetGUID: cfe0412d7fa12f243b181e3f547a2294
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A.prefab
+  - fileID: 93
+    classID: 21
+    packedSize: 452
+    offset: 223992
+    sourceAssetGUID: dc3583028c46e9d46aa34c96b07cac4c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      1.prefab
+  - fileID: 94
+    classID: 21
+    packedSize: 1072
+    offset: 224448
+    sourceAssetGUID: df52958adb4ad56498c57fde8525380d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A.prefab
+  - fileID: 95
+    classID: 21
+    packedSize: 452
+    offset: 225520
+    sourceAssetGUID: e179f1c5b9c1c844ea45c8b5209f9a47
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      1.prefab
+  - fileID: 96
+    classID: 21
+    packedSize: 452
+    offset: 225976
+    sourceAssetGUID: f70b9624f950a1a40a00cf124963d4fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      2.prefab
+  - fileID: 97
+    classID: 21
+    packedSize: 1072
+    offset: 226432
+    sourceAssetGUID: faa1b449eeb4157479176dd717ac6035
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      1.prefab
+  - fileID: 98
+    classID: 28
+    packedSize: 1398264
+    offset: 227504
+    sourceAssetGUID: 001393a01699dec469a97400cf74c43e
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-1_comp_dir.png
+  - fileID: 99
+    classID: 28
+    packedSize: 1398252
+    offset: 1625768
+    sourceAssetGUID: 004fc52f14c9d5e47963b7932458046c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      1_Textures/diffuse.png
+  - fileID: 100
+    classID: 28
+    packedSize: 1398260
+    offset: 3024024
+    sourceAssetGUID: 0446257842d785c498d44e252bd2d1fd
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      2_Textures/normal_specular.png
+  - fileID: 101
+    classID: 28
+    packedSize: 1398252
+    offset: 4422288
+    sourceAssetGUID: 0457fcd92b57d6342b2a4229e7fd82ea
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      2_Textures/diffuse.png
+  - fileID: 102
+    classID: 28
+    packedSize: 1398264
+    offset: 5820544
+    sourceAssetGUID: 045f68f78850ea947bff9b1c50858938
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-9_comp_dir.png
+  - fileID: 103
+    classID: 28
+    packedSize: 1398264
+    offset: 7218808
+    sourceAssetGUID: 04f2c1f076e4bdc458bdb08eea9b7911
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A_Textures/translucency_gloss.png
+  - fileID: 104
+    classID: 28
+    packedSize: 1398264
+    offset: 8617072
+    sourceAssetGUID: 05b30d8192ad7f044ace9b25d7fc29f6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      1_Textures/translucency_gloss.png
+  - fileID: 105
+    classID: 28
+    packedSize: 1398264
+    offset: 10015336
+    sourceAssetGUID: 05b814b0db1409240973ea511f9aadc5
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      2_Textures/translucency_gloss.png
+  - fileID: 106
+    classID: 28
+    packedSize: 43828
+    offset: 11413600
+    sourceAssetGUID: 0792b20b691a6044eba3c7b2e9cd8422
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      1_Textures/shadow.png
+  - fileID: 107
+    classID: 28
+    packedSize: 1398264
+    offset: 11457432
+    sourceAssetGUID: 0a44ed8ceb7b4db46ada6743f85699ff
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A_Textures/translucency_gloss.png
+  - fileID: 108
+    classID: 28
+    packedSize: 35664
+    offset: 12855696
+    sourceAssetGUID: 0f2aecb16f5388645a9ea60dcb06b3ef
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/indicator.png
+  - fileID: 109
+    classID: 28
+    packedSize: 1398252
+    offset: 12891360
+    sourceAssetGUID: 0fe724642766206499a2b24696b9ad32
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      1_Textures/diffuse.png
+  - fileID: 110
+    classID: 28
+    packedSize: 1398260
+    offset: 14289616
+    sourceAssetGUID: 14b672e3a51c6bd48aebdf105d791a2e
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      1_Textures/normal_specular.png
+  - fileID: 111
+    classID: 28
+    packedSize: 1398264
+    offset: 15687880
+    sourceAssetGUID: 155f452f5cf311e4f9f9aff6938e2e1f
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      2_Textures/translucency_gloss.png
+  - fileID: 112
+    classID: 28
+    packedSize: 43828
+    offset: 17086144
+    sourceAssetGUID: 15659fb36355b8849b3a9b2a3ea386d3
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      2_Textures/shadow.png
+  - fileID: 113
+    classID: 28
+    packedSize: 1398252
+    offset: 17129976
+    sourceAssetGUID: 15db16efa0580034189bf40d6d163b4a
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead_Textures/diffuse.png
+  - fileID: 114
+    classID: 28
+    packedSize: 1398252
+    offset: 18528232
+    sourceAssetGUID: 1966f9ae5febdc34ca429301320231b2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A_Textures/diffuse.png
+  - fileID: 115
+    classID: 28
+    packedSize: 1398264
+    offset: 19926488
+    sourceAssetGUID: 1d1c7d6281824f841a139b7236c89559
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      2_Textures/translucency_gloss.png
+  - fileID: 116
+    classID: 28
+    packedSize: 1398260
+    offset: 21324752
+    sourceAssetGUID: 1d7d540be645f78499e12018a284c85b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      1_Textures/normal_specular.png
+  - fileID: 117
+    classID: 28
+    packedSize: 1398252
+    offset: 22723016
+    sourceAssetGUID: 1f2e82e98c28dda428c0fbbd7243c493
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      1_Textures/diffuse.png
+  - fileID: 118
+    classID: 28
+    packedSize: 1398264
+    offset: 24121272
+    sourceAssetGUID: 203947b193a94e04d81a748f76193726
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      1_Textures/translucency_gloss.png
+  - fileID: 119
+    classID: 28
+    packedSize: 1398264
+    offset: 25519536
+    sourceAssetGUID: 22a8ffabec44d0244a8678a273a5865e
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-10_comp_dir.png
+  - fileID: 120
+    classID: 28
+    packedSize: 1398260
+    offset: 26917800
+    sourceAssetGUID: 2383fbd96d9b32d4f8e1c489951d6988
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      2_Textures/normal_specular.png
+  - fileID: 121
+    classID: 28
+    packedSize: 1398260
+    offset: 28316064
+    sourceAssetGUID: 23b97e84ad462174ba17ecb4edfb3118
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      2_Textures/normal_specular.png
+  - fileID: 122
+    classID: 28
+    packedSize: 1398268
+    offset: 29714328
+    sourceAssetGUID: 25886862f9ea8c840a6bdc05af256981
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Textures/wooden-boards-texture_m.png
+  - fileID: 123
+    classID: 28
+    packedSize: 174924
+    offset: 31112600
+    sourceAssetGUID: 25ea1d2c23a84154695e789b47c2aef3
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/e4c761cc171d17efee81b2380160eb58.jpg
+  - fileID: 124
+    classID: 28
+    packedSize: 1398264
+    offset: 31287528
+    sourceAssetGUID: 27acd2265e358144b83d2eb743105f9b
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-0_comp_dir.png
+  - fileID: 125
+    classID: 28
+    packedSize: 1398244
+    offset: 32685792
+    sourceAssetGUID: 28229028ae834fb4692ec5d8ba86b768
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/sky tex.png
+  - fileID: 126
+    classID: 28
+    packedSize: 1398268
+    offset: 34084040
+    sourceAssetGUID: 29a91b4e0cd1a6749b1f85231f53752d
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-2_comp_light.exr
+  - fileID: 127
+    classID: 28
+    packedSize: 43828
+    offset: 35482312
+    sourceAssetGUID: 2f19092a9759abb4490682460a9ab42d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      1_Textures/shadow.png
+  - fileID: 128
+    classID: 28
+    packedSize: 1398264
+    offset: 35526144
+    sourceAssetGUID: 2f872720e6244ef4d983861aefaf116a
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      1_Textures/translucency_gloss.png
+  - fileID: 129
+    classID: 28
+    packedSize: 1398260
+    offset: 36924408
+    sourceAssetGUID: 31c8b057acd918343a5dddb96bfa3ae8
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead_Textures/normal_specular.png
+  - fileID: 130
+    classID: 28
+    packedSize: 43828
+    offset: 38322672
+    sourceAssetGUID: 329d9bce48f232f4a8383184a94e0f43
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A_Textures/shadow.png
+  - fileID: 131
+    classID: 28
+    packedSize: 1398264
+    offset: 38366504
+    sourceAssetGUID: 3533e772d87960a468ec1f0ab87542a4
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-2_comp_dir.png
+  - fileID: 132
+    classID: 28
+    packedSize: 1398268
+    offset: 39764768
+    sourceAssetGUID: 391759e08e78c134d9a09c6a75f2563f
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-9_comp_light.exr
+  - fileID: 133
+    classID: 28
+    packedSize: 348
+    offset: 41163040
+    sourceAssetGUID: 3a5feae542b7e8a40b17934762dbf3c3
+    buildTimeAssetPath: Assets/Prefab Assets/FREE/Cosmic_Retro_Mesa_Props_FREE/Textures/Cosmic_Retro_Mesa_Props_Emissive_Free.png
+  - fileID: 134
+    classID: 28
+    packedSize: 43828
+    offset: 41163392
+    sourceAssetGUID: 3c7ea7f1ff0653244b1b615e5903328b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Textures/shadow.png
+  - fileID: 135
+    classID: 28
+    packedSize: 1398260
+    offset: 41207224
+    sourceAssetGUID: 3cde3e14c144ee84eb14da5a7819284c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Textures/normal_specular.png
+  - fileID: 136
+    classID: 28
+    packedSize: 1398252
+    offset: 42605488
+    sourceAssetGUID: 3e5ac3490085b93488c91cd61379bc56
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      2_Textures/diffuse.png
+  - fileID: 137
+    classID: 28
+    packedSize: 1398264
+    offset: 44003744
+    sourceAssetGUID: 424ab9cb242d0834f9415f007e2bebcf
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead_Textures/translucency_gloss.png
+  - fileID: 138
+    classID: 28
+    packedSize: 1398268
+    offset: 45402008
+    sourceAssetGUID: 43546729bbd90fb4b9bd9ee2d9573299
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-5_comp_light.exr
+  - fileID: 139
+    classID: 28
+    packedSize: 1398252
+    offset: 46800280
+    sourceAssetGUID: 45ef14e1589b6144d99c7fdfd999f643
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      1_Textures/diffuse.png
+  - fileID: 140
+    classID: 28
+    packedSize: 1398268
+    offset: 48198536
+    sourceAssetGUID: 47f20890379bebf4b93931f189ad1f65
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-10_comp_light.exr
+  - fileID: 141
+    classID: 28
+    packedSize: 1398260
+    offset: 49596808
+    sourceAssetGUID: 48babb80d67d6cf40b903d5444e9289a
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      1_Textures/normal_specular.png
+  - fileID: 142
+    classID: 28
+    packedSize: 43828
+    offset: 50995072
+    sourceAssetGUID: 4911b9e43df5c2d4391b9be141b380ac
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      1_Textures/shadow.png
+  - fileID: 143
+    classID: 28
+    packedSize: 43828
+    offset: 51038904
+    sourceAssetGUID: 4e57a4f58f269e84bb25600ff4f43b58
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/snow_3.jpeg
+  - fileID: 144
+    classID: 28
+    packedSize: 1398252
+    offset: 51082736
+    sourceAssetGUID: 509121c1adb7f614b82d9820fedda9fb
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B_Textures/diffuse.png
+  - fileID: 145
+    classID: 28
+    packedSize: 1398260
+    offset: 52480992
+    sourceAssetGUID: 53055e6f318187d4086d26c88c945f97
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A_Textures/normal_specular.png
+  - fileID: 146
+    classID: 28
+    packedSize: 1398268
+    offset: 53879256
+    sourceAssetGUID: 53bf01fa2039c1b488e693a1dbe5c148
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-6_comp_light.exr
+  - fileID: 147
+    classID: 28
+    packedSize: 349676
+    offset: 55277528
+    sourceAssetGUID: 54b9dd88f9edd6f45b6a87df84d9d298
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/water.jpg
+  - fileID: 148
+    classID: 28
+    packedSize: 1398252
+    offset: 55627208
+    sourceAssetGUID: 573d8cc67f3276841bf16ff3b2814d7b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      1_Textures/diffuse.png
+  - fileID: 149
+    classID: 28
+    packedSize: 1398264
+    offset: 57025464
+    sourceAssetGUID: 59d19c0531e6e6647a35f3e2210805e0
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-6_comp_dir.png
+  - fileID: 150
+    classID: 28
+    packedSize: 43828
+    offset: 58423728
+    sourceAssetGUID: 60692d0c83edc2f4ca37f044f84e5292
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      2_Textures/shadow.png
+  - fileID: 151
+    classID: 28
+    packedSize: 699196
+    offset: 58467560
+    sourceAssetGUID: 6287d43a8e4aeaa47940bae017ea40ad
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Textures/timber_1_fixed_d.png
+  - fileID: 152
+    classID: 28
+    packedSize: 1398264
+    offset: 59166760
+    sourceAssetGUID: 65adcbd0751c9f7428419ed439393683
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Textures/translucency_gloss.png
+  - fileID: 153
+    classID: 28
+    packedSize: 1398260
+    offset: 60565024
+    sourceAssetGUID: 684e252d1e1a11048a4c59d993f79a7f
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A_Textures/normal_specular.png
+  - fileID: 154
+    classID: 28
+    packedSize: 1398252
+    offset: 61963288
+    sourceAssetGUID: 68d09744ca1bfa148a24bb472ecb2456
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A_Textures/diffuse.png
+  - fileID: 155
+    classID: 28
+    packedSize: 174908
+    offset: 63361544
+    sourceAssetGUID: 693b1ff30f5b234449812253c05379e5
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Sand Seamless.jpg
+  - fileID: 156
+    classID: 28
+    packedSize: 1398260
+    offset: 63536456
+    sourceAssetGUID: 6a2b7a7d4f353174f91ef3bbcfa707f9
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      1_Textures/normal_specular.png
+  - fileID: 157
+    classID: 28
+    packedSize: 1398268
+    offset: 64934720
+    sourceAssetGUID: 6a7ab41da856b8a4195e9b32f829afe0
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-1_comp_light.exr
+  - fileID: 158
+    classID: 28
+    packedSize: 174908
+    offset: 66332992
+    sourceAssetGUID: 6a854b1a356af214bbb96e0a5fe15ccf
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/scuffed metal.jpg
+  - fileID: 159
+    classID: 28
+    packedSize: 1398260
+    offset: 66507904
+    sourceAssetGUID: 6b55a409f4118894684c31104cb8a1b9
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B_Textures/normal_specular.png
+  - fileID: 160
+    classID: 28
+    packedSize: 1398260
+    offset: 67906168
+    sourceAssetGUID: 6b9f360baabad2f4eb5d401a0bd718b9
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      2_Textures/normal_specular.png
+  - fileID: 161
+    classID: 28
+    packedSize: 1398268
+    offset: 69304432
+    sourceAssetGUID: 6c1c8098f1c7a9d40b05280aeb985902
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-3_comp_light.exr
+  - fileID: 162
+    classID: 28
+    packedSize: 1398264
+    offset: 70702704
+    sourceAssetGUID: 6c4cafc35a95c5549b3ce792491e9479
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      1_Textures/translucency_gloss.png
+  - fileID: 163
+    classID: 28
+    packedSize: 396
+    offset: 72100968
+    sourceAssetGUID: 6cf49dde1e0634a41bf68e558be5a77f
+    buildTimeAssetPath: Assets/Prefab Assets/Cosmic_Retro_Station_Props_FREE/Textures/CosmicRetroProps2_FREE.png
+  - fileID: 164
+    classID: 28
+    packedSize: 74460
+    offset: 72101368
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 165
+    classID: 28
+    packedSize: 944
+    offset: 72175832
+    sourceAssetGUID: 6f83de0656dded943a5f7f3b396fbb8c
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/rainbow.png
+  - fileID: 166
+    classID: 28
+    packedSize: 1398260
+    offset: 72176776
+    sourceAssetGUID: 6fac68b2ad252b34ca24f52b55951fdf
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      1_Textures/normal_specular.png
+  - fileID: 167
+    classID: 28
+    packedSize: 1398260
+    offset: 73575040
+    sourceAssetGUID: 70fae31ea13f069418d752478ebf953c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A_Textures/normal_specular.png
+  - fileID: 168
+    classID: 28
+    packedSize: 1398260
+    offset: 74973304
+    sourceAssetGUID: 722390a243113914db49b2085843bea6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A_Textures/normal_specular.png
+  - fileID: 169
+    classID: 28
+    packedSize: 43828
+    offset: 76371568
+    sourceAssetGUID: 7311d9980844cb14da559ad2686eee46
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      2_Textures/shadow.png
+  - fileID: 170
+    classID: 28
+    packedSize: 1398252
+    offset: 76415400
+    sourceAssetGUID: 751f84b02bf3975469a3bab18df92ab2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A_Textures/diffuse.png
+  - fileID: 171
+    classID: 28
+    packedSize: 1398252
+    offset: 77813656
+    sourceAssetGUID: 7598bf0a53adf4f48b91734a96460ce6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      1_Textures/diffuse.png
+  - fileID: 172
+    classID: 28
+    packedSize: 1398260
+    offset: 79211912
+    sourceAssetGUID: 7cafc7f23e5ce5244aead28db5f9e684
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      1_Textures/normal_specular.png
+  - fileID: 173
+    classID: 28
+    packedSize: 1398260
+    offset: 80610176
+    sourceAssetGUID: 7dadb248540fe104aae6240fa61b1bc8
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      1_Textures/normal_specular.png
+  - fileID: 174
+    classID: 28
+    packedSize: 1398248
+    offset: 82008440
+    sourceAssetGUID: 7efb3e39764f8424fb1167ffdc81c5d1
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/planet mat.png
+  - fileID: 175
+    classID: 28
+    packedSize: 43828
+    offset: 83406688
+    sourceAssetGUID: 7f43387de95b9f44cb65d69765ad2078
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Grass 1.jpg
+  - fileID: 176
+    classID: 28
+    packedSize: 1398260
+    offset: 83450520
+    sourceAssetGUID: 80162f4a4f0c8674ea67fc1aa4108b7c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      2_Textures/normal_specular.png
+  - fileID: 177
+    classID: 28
+    packedSize: 174908
+    offset: 84848784
+    sourceAssetGUID: 804a44e1002cdce4c9e90782926459dc
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Dirt Seamless
+      1.jpg
+  - fileID: 178
+    classID: 28
+    packedSize: 43828
+    offset: 85023696
+    sourceAssetGUID: 80e076cfbcaeff44081355c8ce5b9267
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      1_Textures/shadow.png
+  - fileID: 179
+    classID: 28
+    packedSize: 1398264
+    offset: 85067528
+    sourceAssetGUID: 8273bf6f4ca4f264a815d8b16d50a914
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      2_Textures/translucency_gloss.png
+  - fileID: 180
+    classID: 28
+    packedSize: 1398264
+    offset: 86465792
+    sourceAssetGUID: 86ffe909dab46814c92dae55ac124ae4
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-5_comp_dir.png
+  - fileID: 181
+    classID: 28
+    packedSize: 699188
+    offset: 87864056
+    sourceAssetGUID: 8b71ef84378d5734899ec06c28cdaecf
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      2_Textures/diffuse.png
+  - fileID: 182
+    classID: 28
+    packedSize: 1398252
+    offset: 88563248
+    sourceAssetGUID: 952187276aa8add4282a93441acd90d2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      1_Textures/diffuse.png
+  - fileID: 183
+    classID: 28
+    packedSize: 1398252
+    offset: 89961504
+    sourceAssetGUID: 99c5cb4e009d5024ca16a6deab223372
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/planet emission.png
+  - fileID: 184
+    classID: 28
+    packedSize: 699196
+    offset: 91359760
+    sourceAssetGUID: 9ab9b95b727dc8e41b36fa8599840780
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Textures/timber_1_fixed_o.png
+  - fileID: 185
+    classID: 28
+    packedSize: 43828
+    offset: 92058960
+    sourceAssetGUID: 9c04d19f5b819314b9a6dfb2cda62177
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B_Textures/shadow.png
+  - fileID: 186
+    classID: 28
+    packedSize: 1398252
+    offset: 92102792
+    sourceAssetGUID: 9cd4889e1f9f60443b46a07c46c5fce9
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      2_Textures/diffuse.png
+  - fileID: 187
+    classID: 28
+    packedSize: 1398264
+    offset: 93501048
+    sourceAssetGUID: 9d2505cbd1b356a4f96848f4670d870b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B_Textures/translucency_gloss.png
+  - fileID: 188
+    classID: 28
+    packedSize: 1398264
+    offset: 94899312
+    sourceAssetGUID: 9e8cc2824335b4e439852ab126282862
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-4_comp_dir.png
+  - fileID: 189
+    classID: 28
+    packedSize: 1398268
+    offset: 96297576
+    sourceAssetGUID: a0cffd3420f613c43bae3db04c30b460
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-0_comp_light.exr
+  - fileID: 190
+    classID: 28
+    packedSize: 43828
+    offset: 97695848
+    sourceAssetGUID: a109731f7be02264c86b7bcaffbad21d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A_Textures/shadow.png
+  - fileID: 191
+    classID: 28
+    packedSize: 43828
+    offset: 97739680
+    sourceAssetGUID: a27e855e5416bb142a5cbaaf517b2f5b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      2_Textures/shadow.png
+  - fileID: 192
+    classID: 28
+    packedSize: 699204
+    offset: 97783512
+    sourceAssetGUID: a35216cf1895fac409b4d89c3def4cac
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Textures/wooden-boards-texture_d.png
+  - fileID: 193
+    classID: 28
+    packedSize: 1398264
+    offset: 98482720
+    sourceAssetGUID: a3cbbebe654cdc443beb52878d3e2c6e
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A_Textures/translucency_gloss.png
+  - fileID: 194
+    classID: 28
+    packedSize: 1398252
+    offset: 99880984
+    sourceAssetGUID: a93719ea647381d4c895f25a370a59a8
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      2_Textures/diffuse.png
+  - fileID: 195
+    classID: 28
+    packedSize: 1398268
+    offset: 101279240
+    sourceAssetGUID: ab44ce89db1effc44a85ef34ff5411e3
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-7_comp_light.exr
+  - fileID: 196
+    classID: 28
+    packedSize: 1398264
+    offset: 102677512
+    sourceAssetGUID: ac55ee21e8cdc4b4ea227a31a4527835
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      2_Textures/translucency_gloss.png
+  - fileID: 197
+    classID: 28
+    packedSize: 1398264
+    offset: 104075776
+    sourceAssetGUID: b50749a127eeaba47a1d99fc60c0753d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      2_Textures/translucency_gloss.png
+  - fileID: 198
+    classID: 28
+    packedSize: 43828
+    offset: 105474040
+    sourceAssetGUID: b5296293e000f8448aba6559ed160bf0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B_Textures/shadow.png
+  - fileID: 199
+    classID: 28
+    packedSize: 1398268
+    offset: 105517872
+    sourceAssetGUID: b75cf78b01f621544a2d77e808e3fb5c
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Textures/wooden-boards-texture_n.png
+  - fileID: 200
+    classID: 28
+    packedSize: 43828
+    offset: 106916144
+    sourceAssetGUID: b774524c308cdbb40be62e8b2806f0e7
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A_Textures/shadow.png
+  - fileID: 201
+    classID: 28
+    packedSize: 43828
+    offset: 106959976
+    sourceAssetGUID: b8dad06f7ad04ae4a85d26346106d703
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      1_Textures/shadow.png
+  - fileID: 202
+    classID: 28
+    packedSize: 174900
+    offset: 107003808
+    sourceAssetGUID: ba0ee2b9124d69f4bab67870d2108b05
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/stone.png
+  - fileID: 203
+    classID: 28
+    packedSize: 1398264
+    offset: 107178712
+    sourceAssetGUID: ba4496b53cf140f44a75903f475e2580
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      1_Textures/translucency_gloss.png
+  - fileID: 204
+    classID: 28
+    packedSize: 1398252
+    offset: 108576976
+    sourceAssetGUID: bc2206abe332f2a47bc43091b9f46aa1
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      2_Textures/diffuse.png
+  - fileID: 205
+    classID: 28
+    packedSize: 43828
+    offset: 109975232
+    sourceAssetGUID: c1ba45a44e56251418824fdf614a8216
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      2_Textures/shadow.png
+  - fileID: 206
+    classID: 28
+    packedSize: 699188
+    offset: 110019064
+    sourceAssetGUID: c2305b6a0834b3143828d87b657cc622
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/grass.jpg
+  - fileID: 207
+    classID: 28
+    packedSize: 1398264
+    offset: 110718256
+    sourceAssetGUID: c58722c6e1560a64f9af8bcd50b71a91
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      2_Textures/translucency_gloss.png
+  - fileID: 208
+    classID: 28
+    packedSize: 43828
+    offset: 112116520
+    sourceAssetGUID: c6b9f050d7f94c7408d49c248340905a
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      1_Textures/shadow.png
+  - fileID: 209
+    classID: 28
+    packedSize: 1398252
+    offset: 112160352
+    sourceAssetGUID: c987d1c2e16f99941b95186a978b55be
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A_Textures/diffuse.png
+  - fileID: 210
+    classID: 28
+    packedSize: 1398260
+    offset: 113558608
+    sourceAssetGUID: ca0e3b3431e77d640b671dc29b73aa1b
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Textures/timber_1_fixed_s.png
+  - fileID: 211
+    classID: 28
+    packedSize: 1398260
+    offset: 114956872
+    sourceAssetGUID: ca5177294609edf448c9d84ffa1cfc23
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      2_Textures/normal_specular.png
+  - fileID: 212
+    classID: 28
+    packedSize: 43828
+    offset: 116355136
+    sourceAssetGUID: ce08a8e647694cc48a7dd995dd54d241
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A_Textures/shadow.png
+  - fileID: 213
+    classID: 28
+    packedSize: 1398264
+    offset: 116398968
+    sourceAssetGUID: ce469e287522704469e33d39ae850284
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-7_comp_dir.png
+  - fileID: 214
+    classID: 28
+    packedSize: 21432
+    offset: 117797232
+    sourceAssetGUID: cf9fa1cfecb3b294c9a35b8ea1375a1f
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/indicator_text.png
+  - fileID: 215
+    classID: 28
+    packedSize: 1398252
+    offset: 117818664
+    sourceAssetGUID: d1833b118ef1949488addf9c84eab319
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      1_Textures/diffuse.png
+  - fileID: 216
+    classID: 28
+    packedSize: 699204
+    offset: 119216920
+    sourceAssetGUID: d1c5d20e80169274e9181f7a26f4eb72
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Textures/wooden-boards-texture_o.png
+  - fileID: 217
+    classID: 28
+    packedSize: 1398264
+    offset: 119916128
+    sourceAssetGUID: d329ad58ab24987428a857bc37d15a5b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      2_Textures/translucency_gloss.png
+  - fileID: 218
+    classID: 28
+    packedSize: 1398260
+    offset: 121314392
+    sourceAssetGUID: d51869bb4c1798a48878a16a2c228718
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      2_Textures/normal_specular.png
+  - fileID: 219
+    classID: 28
+    packedSize: 1398264
+    offset: 122712656
+    sourceAssetGUID: d5bc916362e72384b810411032c9d343
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-8_comp_dir.png
+  - fileID: 220
+    classID: 28
+    packedSize: 1398260
+    offset: 124110920
+    sourceAssetGUID: d6042ab25ef2b444fbd38d1e2036409e
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      1_Textures/normal_specular.png
+  - fileID: 221
+    classID: 28
+    packedSize: 1398252
+    offset: 125509184
+    sourceAssetGUID: d7f9639a9987293409af61852e3395c7
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Textures/diffuse.png
+  - fileID: 222
+    classID: 28
+    packedSize: 1398264
+    offset: 126907440
+    sourceAssetGUID: d9a75d09d7015ff43a0aa9312dd5ef62
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-3_comp_dir.png
+  - fileID: 223
+    classID: 28
+    packedSize: 1398268
+    offset: 128305704
+    sourceAssetGUID: deea805768f552b4884c391766abc2ae
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-4_comp_light.exr
+  - fileID: 224
+    classID: 28
+    packedSize: 1398268
+    offset: 129703976
+    sourceAssetGUID: e075e60a87effaf43933ca779668fac0
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/Lightmap-8_comp_light.exr
+  - fileID: 225
+    classID: 28
+    packedSize: 1398260
+    offset: 131102248
+    sourceAssetGUID: e154b43ed5b29c5479be24683831377e
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/Textures/timber_1_fixed_n.png
+  - fileID: 226
+    classID: 28
+    packedSize: 1398252
+    offset: 132500512
+    sourceAssetGUID: e39c2ff42c180c440bb7cba34bb12032
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      2_Textures/diffuse.png
+  - fileID: 227
+    classID: 28
+    packedSize: 1398260
+    offset: 133898768
+    sourceAssetGUID: e5a69094447065549907f8c4eb325ac3
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      2_Textures/normal_specular.png
+  - fileID: 228
+    classID: 28
+    packedSize: 1398264
+    offset: 135297032
+    sourceAssetGUID: ea81b1759b31c274a8716fd1f039f04d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A_Textures/translucency_gloss.png
+  - fileID: 229
+    classID: 28
+    packedSize: 1398264
+    offset: 136695296
+    sourceAssetGUID: eb45664aec0acf440be04d2cd2f9f988
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      1_Textures/translucency_gloss.png
+  - fileID: 230
+    classID: 28
+    packedSize: 396
+    offset: 138093560
+    sourceAssetGUID: ecbf02ef36d0d7b4a827a2f96bff7d2d
+    buildTimeAssetPath: Assets/Prefab Assets/Cosmic_Retro_Station_Props_FREE/Textures/CosmicRetroProps_FREE.png
+  - fileID: 231
+    classID: 28
+    packedSize: 1398260
+    offset: 138093960
+    sourceAssetGUID: f0cb33afac60bc24ba6b72c683b664b4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B_Textures/normal_specular.png
+  - fileID: 232
+    classID: 28
+    packedSize: 1398252
+    offset: 139492224
+    sourceAssetGUID: f5af859a50913244faf803a247fc05d1
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      2_Textures/diffuse.png
+  - fileID: 233
+    classID: 28
+    packedSize: 1398264
+    offset: 140890480
+    sourceAssetGUID: f791a603bfd8fa74b8d35935c16dd4b6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      1_Textures/translucency_gloss.png
+  - fileID: 234
+    classID: 28
+    packedSize: 1398252
+    offset: 142288744
+    sourceAssetGUID: f7ca2177aed2c414b97900eb667a6f0d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B_Textures/diffuse.png
+  - fileID: 235
+    classID: 28
+    packedSize: 1398264
+    offset: 143687000
+    sourceAssetGUID: f80f7c95c474aa946bf84f9fcc3db256
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B_Textures/translucency_gloss.png
+  - fileID: 236
+    classID: 28
+    packedSize: 43828
+    offset: 145085264
+    sourceAssetGUID: f93989e93bd34904aa1c76e8815ec847
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      1_Textures/shadow.png
+  - fileID: 237
+    classID: 28
+    packedSize: 344
+    offset: 145129096
+    sourceAssetGUID: fa6f3a5be1579a64dadd94208a093aa8
+    buildTimeAssetPath: Assets/Prefab Assets/FREE/Cosmic_Retro_Mesa_Props_FREE/Textures/Cosmic_Retro_Mesa_Props_Albedo_Free.png
+  - fileID: 238
+    classID: 28
+    packedSize: 43828
+    offset: 145129440
+    sourceAssetGUID: fbabbfb94ef58d54b9d3d7fa23bb00a7
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      2_Textures/shadow.png
+  - fileID: 239
+    classID: 28
+    packedSize: 2796376
+    offset: 145173272
+    sourceAssetGUID: fe913fdb2f2ff2343b826ea10c1ce049
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/dcuxgtv-d482c609-473b-477e-8a56-a45d9e4a6c6c.png
+  - fileID: 240
+    classID: 28
+    packedSize: 1398264
+    offset: 147969648
+    sourceAssetGUID: ff8fcf09e7ef5484590e71979f70e4f0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      1_Textures/translucency_gloss.png
+  - fileID: 241
+    classID: 28
+    packedSize: 1398228
+    offset: 149367912
+    sourceAssetGUID: f87a627d66b2513459911bd930fe4d5d
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/World Data/New Terrain 1.asset
+  - fileID: 242
+    classID: 28
+    packedSize: 1398228
+    offset: 150766144
+    sourceAssetGUID: f87a627d66b2513459911bd930fe4d5d
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/World Data/New Terrain 1.asset
+  - fileID: 243
+    classID: 43
+    packedSize: 12676
+    offset: 152164376
+    sourceAssetGUID: 23e059b013cbeea46a7769037204b4f7
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Models/ARK_Split.fbx
+  - fileID: 244
+    classID: 43
+    packedSize: 2884
+    offset: 152177056
+    sourceAssetGUID: c3f3cb37605ff6f4ba51a237a9284260
+    buildTimeAssetPath: Assets/Starter Components/Models/Rocket Gun.fbx
+  - fileID: 245
+    classID: 43
+    packedSize: 6336
+    offset: 152179944
+    sourceAssetGUID: 0c5d3a96723f51a4bbd76e4a2a7f4927
+    buildTimeAssetPath: Assets/Prefab Assets/FREE/Cosmic_Retro_Mesa_Props_FREE/Models/Cosmic_retro_mesa_tablet_flat_a.fbx
+  - fileID: 246
+    classID: 43
+    packedSize: 6356
+    offset: 152186280
+    sourceAssetGUID: 02842f6d0fa91c84281245a71db8e780
+    buildTimeAssetPath: Assets/Prefab Assets/Cosmic_Retro_Station_Props_FREE/Models/CR_Table_Small_2.fbx
+  - fileID: 247
+    classID: 43
+    packedSize: 5576
+    offset: 152192640
+    sourceAssetGUID: 2503a0906d3903848942835fb7b3ee8b
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/fbx/SciFiLikeTiles.fbx
+  - fileID: 248
+    classID: 43
+    packedSize: 8944
+    offset: 152198216
+    sourceAssetGUID: 2503a0906d3903848942835fb7b3ee8b
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/fbx/SciFiLikeTiles.fbx
+  - fileID: 249
+    classID: 43
+    packedSize: 2372
+    offset: 152207160
+    sourceAssetGUID: b243b844d7a80a746b855eca5b0582ca
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Mesh/qv_pen.fbx
+  - fileID: 250
+    classID: 43
+    packedSize: 1236
+    offset: 152209536
+    sourceAssetGUID: bd83bee821a1a89488f004c9dc04b5b4
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Mesh/qv_eraser.fbx
+  - fileID: 251
+    classID: 43
+    packedSize: 14148
+    offset: 152210776
+    sourceAssetGUID: c9fb5e609c85fdb4eb0ce0b199981fa9
+    buildTimeAssetPath: Assets/Prefab Assets/Mega Fantasy Props Pack/FBX/table.003.fbx
+  - fileID: 252
+    classID: 43
+    packedSize: 212276
+    offset: 152224928
+    sourceAssetGUID: 0631ccb710c1d0944a6d9e416142742c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      1.prefab
+  - fileID: 253
+    classID: 43
+    packedSize: 98252
+    offset: 152437208
+    sourceAssetGUID: 1175c4563a5b466479faa3985e452631
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead.prefab
+  - fileID: 254
+    classID: 43
+    packedSize: 219908
+    offset: 152535464
+    sourceAssetGUID: 1833ba93709e80944b9f2627881f3f4c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C.prefab
+  - fileID: 255
+    classID: 43
+    packedSize: 304892
+    offset: 152755376
+    sourceAssetGUID: 1a7d988da17e44741aabfb0c94a2035b
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B.prefab
+  - fileID: 256
+    classID: 43
+    packedSize: 233012
+    offset: 153060272
+    sourceAssetGUID: 1c76c5499a5fe2f499296444f6385157
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      1.prefab
+  - fileID: 257
+    classID: 43
+    packedSize: 85412
+    offset: 153293288
+    sourceAssetGUID: 21f2d407f2be8054b9893ae2066f850a
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      2.prefab
+  - fileID: 258
+    classID: 43
+    packedSize: 22340
+    offset: 153378704
+    sourceAssetGUID: 2c33c759b6bfb1448a79429a0c761b44
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A.prefab
+  - fileID: 259
+    classID: 43
+    packedSize: 208724
+    offset: 153401048
+    sourceAssetGUID: 561f00bc1248acf46aab111adff46340
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      1.prefab
+  - fileID: 260
+    classID: 43
+    packedSize: 54236
+    offset: 153609776
+    sourceAssetGUID: 5ab980af0be660a4198224f11cc571dc
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      2.prefab
+  - fileID: 261
+    classID: 43
+    packedSize: 268388
+    offset: 153664016
+    sourceAssetGUID: 6157644d53626e242a54bfcf3ef9d45c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_B
+      2.prefab
+  - fileID: 262
+    classID: 43
+    packedSize: 6740
+    offset: 153932408
+    sourceAssetGUID: 723fce56e1388ae4fbe8cde744767a9c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      2.prefab
+  - fileID: 263
+    classID: 43
+    packedSize: 99620
+    offset: 153939152
+    sourceAssetGUID: 7320ce78f51995e418db9cd723a0e363
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A
+      2.prefab
+  - fileID: 264
+    classID: 43
+    packedSize: 138284
+    offset: 154038776
+    sourceAssetGUID: 7339dae416f2f4a4ca569f0e289de0f1
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      1.prefab
+  - fileID: 265
+    classID: 43
+    packedSize: 93188
+    offset: 154177064
+    sourceAssetGUID: 76221aed845c98e4482cc2856cc7257d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A.prefab
+  - fileID: 266
+    classID: 43
+    packedSize: 89084
+    offset: 154270256
+    sourceAssetGUID: 7ad0d2e59d13d2b49bd0fdea441d6996
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C_Dead
+      1.prefab
+  - fileID: 267
+    classID: 43
+    packedSize: 77084
+    offset: 154359344
+    sourceAssetGUID: be3f73bf90d13be4bb9e0c2606502a4f
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_A
+      2.prefab
+  - fileID: 268
+    classID: 43
+    packedSize: 277460
+    offset: 154436432
+    sourceAssetGUID: bf68be3621a129c48b56c6ffde6f3f7f
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B.prefab
+  - fileID: 269
+    classID: 43
+    packedSize: 20228
+    offset: 154713896
+    sourceAssetGUID: c95a6819d062dd9408b96aa9278f78e7
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      2.prefab
+  - fileID: 270
+    classID: 43
+    packedSize: 173204
+    offset: 154734128
+    sourceAssetGUID: cfe0412d7fa12f243b181e3f547a2294
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Crinkly_A.prefab
+  - fileID: 271
+    classID: 43
+    packedSize: 11948
+    offset: 154907336
+    sourceAssetGUID: dc3583028c46e9d46aa34c96b07cac4c
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Bush_A
+      1.prefab
+  - fileID: 272
+    classID: 43
+    packedSize: 61004
+    offset: 154919288
+    sourceAssetGUID: df52958adb4ad56498c57fde8525380d
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A.prefab
+  - fileID: 273
+    classID: 43
+    packedSize: 100820
+    offset: 154980296
+    sourceAssetGUID: e179f1c5b9c1c844ea45c8b5209f9a47
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_C
+      1.prefab
+  - fileID: 274
+    classID: 43
+    packedSize: 74804
+    offset: 155081120
+    sourceAssetGUID: f70b9624f950a1a40a00cf124963d4fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Tall_B
+      2.prefab
+  - fileID: 275
+    classID: 43
+    packedSize: 30908
+    offset: 155155928
+    sourceAssetGUID: faa1b449eeb4157479176dd717ac6035
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/TreeCreator_Small_A
+      1.prefab
+  - fileID: 276
+    classID: 43
+    packedSize: 3916
+    offset: 155186840
+    sourceAssetGUID: c3f3cb37605ff6f4ba51a237a9284260
+    buildTimeAssetPath: Assets/Starter Components/Models/Rocket Gun.fbx
+  - fileID: 277
+    classID: 43
+    packedSize: 20428
+    offset: 155190760
+    sourceAssetGUID: 1abbaf386b79c0249814923c46760fb7
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/fbx/Generic_Props.fbx
+  - fileID: 278
+    classID: 43
+    packedSize: 9084
+    offset: 155211192
+    sourceAssetGUID: 1abbaf386b79c0249814923c46760fb7
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/fbx/Generic_Props.fbx
+  - fileID: 279
+    classID: 43
+    packedSize: 42576
+    offset: 155220280
+    sourceAssetGUID: 23e059b013cbeea46a7769037204b4f7
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Models/ARK_Split.fbx
+  - fileID: 280
+    classID: 43
+    packedSize: 2208
+    offset: 155262856
+    sourceAssetGUID: c3f3cb37605ff6f4ba51a237a9284260
+    buildTimeAssetPath: Assets/Starter Components/Models/Rocket Gun.fbx
+  - fileID: 281
+    classID: 43
+    packedSize: 42984
+    offset: 155265064
+    sourceAssetGUID: 23e059b013cbeea46a7769037204b4f7
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Models/ARK_Split.fbx
+  - fileID: 282
+    classID: 43
+    packedSize: 14212
+    offset: 155308048
+    sourceAssetGUID: 23e059b013cbeea46a7769037204b4f7
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Models/ARK_Split.fbx
+  - fileID: 283
+    classID: 43
+    packedSize: 41776
+    offset: 155322264
+    sourceAssetGUID: 23e059b013cbeea46a7769037204b4f7
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Models/ARK_Split.fbx
+  - fileID: 284
+    classID: 43
+    packedSize: 6968
+    offset: 155364040
+    sourceAssetGUID: c4fe7128bac2e0d46ad18ca85dea7cc4
+    buildTimeAssetPath: Assets/Prefab Assets/Cosmic_Retro_Station_Props_FREE/Models/CR_Tool_Hammer.fbx
+  - fileID: 285
+    classID: 43
+    packedSize: 43044
+    offset: 155371008
+    sourceAssetGUID: 23e059b013cbeea46a7769037204b4f7
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Models/ARK_Split.fbx
+  - fileID: 286
+    classID: 43
+    packedSize: 13028
+    offset: 155414056
+    sourceAssetGUID: 1abbaf386b79c0249814923c46760fb7
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/fbx/Generic_Props.fbx
+  - fileID: 287
+    classID: 43
+    packedSize: 36472
+    offset: 155427088
+    sourceAssetGUID: 1abbaf386b79c0249814923c46760fb7
+    buildTimeAssetPath: Assets/Prefab Assets/Asset/SciFiLike Asset/fbx/Generic_Props.fbx
+  - fileID: 288
+    classID: 48
+    packedSize: 18848
+    offset: 155463560
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 289
+    classID: 48
+    packedSize: 49164
+    offset: 155482408
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 290
+    classID: 48
+    packedSize: 243300
+    offset: 155531576
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 291
+    classID: 48
+    packedSize: 7840
+    offset: 155774880
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 292
+    classID: 48
+    packedSize: 23728
+    offset: 155782720
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 293
+    classID: 48
+    packedSize: 296
+    offset: 155806448
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 294
+    classID: 48
+    packedSize: 60720
+    offset: 155806744
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 295
+    classID: 48
+    packedSize: 68332
+    offset: 155867464
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 296
+    classID: 48
+    packedSize: 57672
+    offset: 155935800
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 297
+    classID: 48
+    packedSize: 250460
+    offset: 155993472
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 298
+    classID: 48
+    packedSize: 102348
+    offset: 156243936
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 299
+    classID: 48
+    packedSize: 268260
+    offset: 156346288
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 300
+    classID: 48
+    packedSize: 4808
+    offset: 156614552
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 301
+    classID: 48
+    packedSize: 5192
+    offset: 156619360
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 302
+    classID: 48
+    packedSize: 6084
+    offset: 156624552
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 303
+    classID: 48
+    packedSize: 6576
+    offset: 156630640
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 304
+    classID: 48
+    packedSize: 7536
+    offset: 156637216
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 305
+    classID: 48
+    packedSize: 6176
+    offset: 156644752
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 306
+    classID: 48
+    packedSize: 7668
+    offset: 156650928
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 307
+    classID: 48
+    packedSize: 46684
+    offset: 156658600
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 308
+    classID: 48
+    packedSize: 27520
+    offset: 156705288
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 309
+    classID: 48
+    packedSize: 5588
+    offset: 156732808
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 310
+    classID: 48
+    packedSize: 5156
+    offset: 156738400
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 311
+    classID: 48
+    packedSize: 296860
+    offset: 156743560
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 312
+    classID: 48
+    packedSize: 286684
+    offset: 157040424
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 313
+    classID: 48
+    packedSize: 140556
+    offset: 157327112
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 314
+    classID: 48
+    packedSize: 11776
+    offset: 157467672
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 315
+    classID: 48
+    packedSize: 4220
+    offset: 157479448
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 316
+    classID: 48
+    packedSize: 19380
+    offset: 157483672
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 317
+    classID: 48
+    packedSize: 4496
+    offset: 157503056
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 318
+    classID: 48
+    packedSize: 4916
+    offset: 157507552
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 319
+    classID: 48
+    packedSize: 10180
+    offset: 157512472
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 320
+    classID: 48
+    packedSize: 5108
+    offset: 157522656
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 321
+    classID: 48
+    packedSize: 7688
+    offset: 157527768
+    sourceAssetGUID: 44c1b7c3827912f45b473dbe106c1ecf
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-SupersampledUnlit.shader
+  - fileID: 322
+    classID: 48
+    packedSize: 9884
+    offset: 157535456
+    sourceAssetGUID: 62d10ee450fd6014e996fd22f73c5baa
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Shader/rounded_trail_for_qv_pen.shader
+  - fileID: 323
+    classID: 48
+    packedSize: 5008
+    offset: 157545344
+    sourceAssetGUID: 693137b858e4dc64c83be531351f45e6
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mirror.shader
+  - fileID: 324
+    classID: 49
+    packedSize: 28
+    offset: 157550352
+    sourceAssetGUID: 5b3d8961b3eb9c748b9157f0f6b0d435
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/version.txt
+  - fileID: 325
+    classID: 83
+    packedSize: 164
+    offset: 157550384
+    sourceAssetGUID: 95b0d3eba85586d4d9eb952e15088b07
+    buildTimeAssetPath: Assets/Starter Components/Models/Looping_Rumble.mp3
+  - fileID: 326
+    classID: 84
+    packedSize: 96
+    offset: 157550552
+    sourceAssetGUID: abbe9332cbff4a143812d98775e04a72
+    buildTimeAssetPath: Packages/com.vrchat.base/Editor/VRCSDK/Dependencies/VRChat/Resources/ThumbnailCapture.renderTexture
+  - fileID: 327
+    classID: 89
+    packedSize: 131444
+    offset: 157550648
+    sourceAssetGUID: 69d8db46289d35848b7146253f335e32
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/ReflectionProbe-0.exr
+  - fileID: 328
+    classID: 115
+    packedSize: 100
+    offset: 149376
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 329
+    classID: 115
+    packedSize: 96
+    offset: 149480
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 330
+    classID: 115
+    packedSize: 116
+    offset: 149576
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 331
+    classID: 115
+    packedSize: 108
+    offset: 149696
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 332
+    classID: 115
+    packedSize: 108
+    offset: 149808
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 333
+    classID: 115
+    packedSize: 132
+    offset: 149920
+    sourceAssetGUID: 01614664b831546d2ae94a42149d80ac
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/UI/InputSystemUIInputModule.cs
+  - fileID: 334
+    classID: 115
+    packedSize: 92
+    offset: 150056
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 335
+    classID: 115
+    packedSize: 112
+    offset: 150152
+    sourceAssetGUID: 39fa3d8997a24136984ca6e2c99902bc
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Actions/InputActionAsset.cs
+  - fileID: 336
+    classID: 115
+    packedSize: 84
+    offset: 150264
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 337
+    classID: 115
+    packedSize: 76
+    offset: 150352
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 338
+    classID: 115
+    packedSize: 100
+    offset: 150432
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 339
+    classID: 115
+    packedSize: 124
+    offset: 150536
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 340
+    classID: 115
+    packedSize: 120
+    offset: 150664
+    sourceAssetGUID: fc1515ab76e54f068e2f2207940fab32
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Actions/InputActionReference.cs
+  - fileID: 341
+    classID: 115
+    packedSize: 84
+    offset: 150784
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 342
+    classID: 115
+    packedSize: 92
+    offset: 150872
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 343
+    classID: 115
+    packedSize: 92
+    offset: 150968
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 344
+    classID: 213
+    packedSize: 460
+    offset: 157682096
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 345
+    classID: 213
+    packedSize: 460
+    offset: 157682560
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 346
+    classID: 213
+    packedSize: 468
+    offset: 157683024
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 347
+    classID: 213
+    packedSize: 460
+    offset: 157683496
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 348
+    classID: 213
+    packedSize: 468
+    offset: 157683960
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 349
+    classID: 213
+    packedSize: 456
+    offset: 157684432
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 350
+    classID: 213
+    packedSize: 472
+    offset: 157684888
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 351
+    classID: 213
+    packedSize: 1492
+    offset: 157685360
+    sourceAssetGUID: cf9fa1cfecb3b294c9a35b8ea1375a1f
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/indicator_text.png
+  - fileID: 352
+    classID: 213
+    packedSize: 4000
+    offset: 157686856
+    sourceAssetGUID: 0f2aecb16f5388645a9ea60dcb06b3ef
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/indicator.png
+  - fileID: 353
+    classID: 213
+    packedSize: 2224
+    offset: 157690856
+    sourceAssetGUID: cf9fa1cfecb3b294c9a35b8ea1375a1f
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/indicator_text.png
+  - fileID: 354
+    classID: 213
+    packedSize: 460
+    offset: 157693080
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 355
+    classID: 213
+    packedSize: 472
+    offset: 157693544
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 356
+    classID: 213
+    packedSize: 460
+    offset: 157694016
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 357
+    classID: 213
+    packedSize: 472
+    offset: 157694480
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 358
+    classID: 213
+    packedSize: 468
+    offset: 157694952
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 359
+    classID: 213
+    packedSize: 460
+    offset: 157695424
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 360
+    classID: 213
+    packedSize: 472
+    offset: 157695888
+    sourceAssetGUID: 6ef560ae19687364c94499b0520575e3
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Texture/qvpen_button.png
+  - fileID: 361
+    classID: 258
+    packedSize: 54556
+    offset: 157696360
+    sourceAssetGUID: 0d70a8f910321364d90a732364191baf
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/LightingData.asset
+  - fileID: 362
+    classID: 363
+    packedSize: 1706128
+    offset: 157750920
+    sourceAssetGUID: 1436cf2eb523def45b49803f6c783fd5
+    buildTimeAssetPath: Assets/Scenes/VRCDefaultWorldScene 2/OcclusionCullingData.asset
+  - fileID: 363
+    classID: 1
+    packedSize: 83
+    offset: 159457048
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 364
+    classID: 1
+    packedSize: 83
+    offset: 159457136
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 365
+    classID: 1
+    packedSize: 87
+    offset: 159457224
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 366
+    classID: 1
+    packedSize: 87
+    offset: 159457312
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 367
+    classID: 1
+    packedSize: 95
+    offset: 159457400
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 368
+    classID: 1
+    packedSize: 87
+    offset: 159457496
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 369
+    classID: 1
+    packedSize: 91
+    offset: 159457584
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 370
+    classID: 1
+    packedSize: 59
+    offset: 159457680
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 371
+    classID: 1
+    packedSize: 87
+    offset: 159457744
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 372
+    classID: 1
+    packedSize: 83
+    offset: 159457832
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 373
+    classID: 1
+    packedSize: 87
+    offset: 159457920
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 374
+    classID: 1
+    packedSize: 83
+    offset: 159458008
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 375
+    classID: 1
+    packedSize: 83
+    offset: 159458096
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 376
+    classID: 1
+    packedSize: 83
+    offset: 159458184
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 377
+    classID: 1
+    packedSize: 83
+    offset: 159458272
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 378
+    classID: 1
+    packedSize: 59
+    offset: 159458360
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 379
+    classID: 1
+    packedSize: 87
+    offset: 159458424
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 380
+    classID: 1
+    packedSize: 83
+    offset: 159458512
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 381
+    classID: 1
+    packedSize: 95
+    offset: 159458600
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 382
+    classID: 1
+    packedSize: 59
+    offset: 159458696
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 383
+    classID: 1
+    packedSize: 87
+    offset: 159458760
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 384
+    classID: 1
+    packedSize: 83
+    offset: 159458848
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 385
+    classID: 1
+    packedSize: 87
+    offset: 159458936
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 386
+    classID: 1
+    packedSize: 43
+    offset: 159459024
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 387
+    classID: 1
+    packedSize: 83
+    offset: 159459072
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 388
+    classID: 1
+    packedSize: 59
+    offset: 159459160
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 389
+    classID: 1
+    packedSize: 83
+    offset: 159459224
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 390
+    classID: 1
+    packedSize: 83
+    offset: 159459312
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 391
+    classID: 1
+    packedSize: 83
+    offset: 159459400
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 392
+    classID: 1
+    packedSize: 83
+    offset: 159459488
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 393
+    classID: 1
+    packedSize: 91
+    offset: 159459576
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 394
+    classID: 1
+    packedSize: 87
+    offset: 159459672
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 395
+    classID: 4
+    packedSize: 68
+    offset: 159459760
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 396
+    classID: 4
+    packedSize: 104
+    offset: 159459832
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 397
+    classID: 4
+    packedSize: 104
+    offset: 159459936
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 398
+    classID: 4
+    packedSize: 68
+    offset: 159460040
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 399
+    classID: 4
+    packedSize: 104
+    offset: 159460112
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 400
+    classID: 4
+    packedSize: 68
+    offset: 159460216
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 401
+    classID: 4
+    packedSize: 68
+    offset: 159460288
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 402
+    classID: 4
+    packedSize: 68
+    offset: 159460360
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 403
+    classID: 4
+    packedSize: 68
+    offset: 159460432
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 404
+    classID: 4
+    packedSize: 68
+    offset: 159460504
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 405
+    classID: 4
+    packedSize: 104
+    offset: 159460576
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 406
+    classID: 4
+    packedSize: 68
+    offset: 159460680
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 407
+    classID: 4
+    packedSize: 68
+    offset: 159460752
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 408
+    classID: 4
+    packedSize: 68
+    offset: 159460824
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 409
+    classID: 4
+    packedSize: 68
+    offset: 159460896
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 410
+    classID: 4
+    packedSize: 68
+    offset: 159460968
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 411
+    classID: 4
+    packedSize: 68
+    offset: 159461040
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 412
+    classID: 4
+    packedSize: 68
+    offset: 159461112
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 413
+    classID: 4
+    packedSize: 68
+    offset: 159461184
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 414
+    classID: 4
+    packedSize: 68
+    offset: 159461256
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 415
+    classID: 4
+    packedSize: 68
+    offset: 159461328
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 416
+    classID: 4
+    packedSize: 68
+    offset: 159461400
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 417
+    classID: 4
+    packedSize: 68
+    offset: 159461472
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 418
+    classID: 4
+    packedSize: 104
+    offset: 159461544
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 419
+    classID: 4
+    packedSize: 104
+    offset: 159461648
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 420
+    classID: 4
+    packedSize: 104
+    offset: 159461752
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 421
+    classID: 4
+    packedSize: 68
+    offset: 159461856
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 422
+    classID: 4
+    packedSize: 68
+    offset: 159461928
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 423
+    classID: 4
+    packedSize: 68
+    offset: 159462000
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 424
+    classID: 4
+    packedSize: 68
+    offset: 159462072
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 425
+    classID: 4
+    packedSize: 68
+    offset: 159462144
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 426
+    classID: 4
+    packedSize: 104
+    offset: 159462216
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 427
+    classID: 23
+    packedSize: 168
+    offset: 159462320
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 428
+    classID: 23
+    packedSize: 168
+    offset: 159462488
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 429
+    classID: 23
+    packedSize: 168
+    offset: 159462656
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 430
+    classID: 23
+    packedSize: 168
+    offset: 159462824
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 431
+    classID: 23
+    packedSize: 168
+    offset: 159462992
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 432
+    classID: 23
+    packedSize: 168
+    offset: 159463160
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 433
+    classID: 23
+    packedSize: 156
+    offset: 159463328
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 434
+    classID: 23
+    packedSize: 156
+    offset: 159463488
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 435
+    classID: 23
+    packedSize: 168
+    offset: 159463648
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 436
+    classID: 23
+    packedSize: 168
+    offset: 159463816
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 437
+    classID: 23
+    packedSize: 168
+    offset: 159463984
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 438
+    classID: 23
+    packedSize: 168
+    offset: 159464152
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 439
+    classID: 23
+    packedSize: 168
+    offset: 159464320
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 440
+    classID: 23
+    packedSize: 168
+    offset: 159464488
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 441
+    classID: 23
+    packedSize: 168
+    offset: 159464656
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 442
+    classID: 23
+    packedSize: 156
+    offset: 159464824
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 443
+    classID: 23
+    packedSize: 168
+    offset: 159464984
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 444
+    classID: 23
+    packedSize: 168
+    offset: 159465152
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 445
+    classID: 23
+    packedSize: 168
+    offset: 159465320
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 446
+    classID: 23
+    packedSize: 168
+    offset: 159465488
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 447
+    classID: 23
+    packedSize: 168
+    offset: 159465656
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 448
+    classID: 23
+    packedSize: 168
+    offset: 159465824
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 449
+    classID: 23
+    packedSize: 156
+    offset: 159465992
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 450
+    classID: 23
+    packedSize: 168
+    offset: 159466152
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 451
+    classID: 33
+    packedSize: 24
+    offset: 159466320
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 452
+    classID: 33
+    packedSize: 24
+    offset: 159466344
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 453
+    classID: 33
+    packedSize: 24
+    offset: 159466368
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 454
+    classID: 33
+    packedSize: 24
+    offset: 159466392
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 455
+    classID: 33
+    packedSize: 24
+    offset: 159466416
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 456
+    classID: 33
+    packedSize: 24
+    offset: 159466440
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 457
+    classID: 33
+    packedSize: 24
+    offset: 159466464
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 458
+    classID: 33
+    packedSize: 24
+    offset: 159466488
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 459
+    classID: 33
+    packedSize: 24
+    offset: 159466512
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 460
+    classID: 33
+    packedSize: 24
+    offset: 159466536
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 461
+    classID: 33
+    packedSize: 24
+    offset: 159466560
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 462
+    classID: 33
+    packedSize: 24
+    offset: 159466584
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 463
+    classID: 33
+    packedSize: 24
+    offset: 159466608
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 464
+    classID: 33
+    packedSize: 24
+    offset: 159466632
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 465
+    classID: 33
+    packedSize: 24
+    offset: 159466656
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 466
+    classID: 33
+    packedSize: 24
+    offset: 159466680
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 467
+    classID: 33
+    packedSize: 24
+    offset: 159466704
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 468
+    classID: 33
+    packedSize: 24
+    offset: 159466728
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 469
+    classID: 33
+    packedSize: 24
+    offset: 159466752
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 470
+    classID: 33
+    packedSize: 24
+    offset: 159466776
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 471
+    classID: 33
+    packedSize: 24
+    offset: 159466800
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 472
+    classID: 33
+    packedSize: 24
+    offset: 159466824
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 473
+    classID: 33
+    packedSize: 24
+    offset: 159466848
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 474
+    classID: 33
+    packedSize: 24
+    offset: 159466872
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 475
+    classID: 136
+    packedSize: 68
+    offset: 159466896
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 476
+    classID: 136
+    packedSize: 68
+    offset: 159466968
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 477
+    classID: 136
+    packedSize: 68
+    offset: 159467040
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 478
+    classID: 136
+    packedSize: 68
+    offset: 159467112
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 479
+    classID: 136
+    packedSize: 68
+    offset: 159467184
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 480
+    classID: 136
+    packedSize: 68
+    offset: 159467256
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 481
+    classID: 136
+    packedSize: 68
+    offset: 159467328
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 482
+    classID: 136
+    packedSize: 68
+    offset: 159467400
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 483
+    classID: 136
+    packedSize: 68
+    offset: 159467472
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 484
+    classID: 136
+    packedSize: 68
+    offset: 159467544
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 485
+    classID: 136
+    packedSize: 68
+    offset: 159467616
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 486
+    classID: 136
+    packedSize: 68
+    offset: 159467688
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 487
+    classID: 136
+    packedSize: 68
+    offset: 159467760
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 488
+    classID: 193
+    packedSize: 24
+    offset: 159467832
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 489
+    classID: 193
+    packedSize: 24
+    offset: 159467856
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 490
+    classID: 193
+    packedSize: 24
+    offset: 159467880
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 491
+    classID: 193
+    packedSize: 24
+    offset: 159467904
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 492
+    classID: 193
+    packedSize: 24
+    offset: 159467928
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 493
+    classID: 193
+    packedSize: 24
+    offset: 159467952
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 494
+    classID: 193
+    packedSize: 24
+    offset: 159467976
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 495
+    classID: 193
+    packedSize: 24
+    offset: 159468000
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 496
+    classID: 193
+    packedSize: 24
+    offset: 159468024
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 497
+    classID: 193
+    packedSize: 24
+    offset: 159468048
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 498
+    classID: 193
+    packedSize: 24
+    offset: 159468072
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 499
+    classID: 193
+    packedSize: 24
+    offset: 159468096
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 500
+    classID: 193
+    packedSize: 24
+    offset: 159468120
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 501
+    classID: 193
+    packedSize: 24
+    offset: 159468144
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 502
+    classID: 193
+    packedSize: 24
+    offset: 159468168
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 503
+    classID: 193
+    packedSize: 24
+    offset: 159468192
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 504
+    classID: 193
+    packedSize: 24
+    offset: 159468216
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 505
+    classID: 193
+    packedSize: 24
+    offset: 159468240
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 506
+    classID: 193
+    packedSize: 24
+    offset: 159468264
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 507
+    classID: 193
+    packedSize: 24
+    offset: 159468288
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 508
+    classID: 193
+    packedSize: 24
+    offset: 159468312
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 509
+    classID: 193
+    packedSize: 24
+    offset: 159468336
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 510
+    classID: 193
+    packedSize: 24
+    offset: 159468360
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 511
+    classID: 193
+    packedSize: 24
+    offset: 159468384
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 512
+    classID: 205
+    packedSize: 116
+    offset: 159468408
+    sourceAssetGUID: b7bab4b42bc5df947a348331ca0997fe
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree F.prefab
+  - fileID: 513
+    classID: 205
+    packedSize: 116
+    offset: 159468528
+    sourceAssetGUID: ab83308a57b02094e9bf0c4981e1bb95
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree G.prefab
+  - fileID: 514
+    classID: 205
+    packedSize: 116
+    offset: 159468648
+    sourceAssetGUID: 8fcb8f79d2596a147a3e8eeef5b7bfab
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree D.prefab
+  - fileID: 515
+    classID: 205
+    packedSize: 116
+    offset: 159468768
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 516
+    classID: 205
+    packedSize: 92
+    offset: 159468888
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 517
+    classID: 205
+    packedSize: 116
+    offset: 159468984
+    sourceAssetGUID: 5c9d1441affe3784b84e23f5dbc214b0
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree E.prefab
+  - fileID: 518
+    classID: 205
+    packedSize: 116
+    offset: 159469104
+    sourceAssetGUID: c21ec23ae825a5b4bad3c6da7168f3d6
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree B.prefab
+  - fileID: 519
+    classID: 205
+    packedSize: 116
+    offset: 159469224
+    sourceAssetGUID: 21a76a017fbadf646b791389264baea2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree A.prefab
+  - fileID: 520
+    classID: 205
+    packedSize: 116
+    offset: 159469344
+    sourceAssetGUID: 04a1700eb9fd7dc4fa8691d3a78ac042
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Tree C.prefab
+  - fileID: 521
+    classID: 205
+    packedSize: 92
+    offset: 159469464
+    sourceAssetGUID: a9a80270679576040aca28991938aba4
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/Bush.prefab
+  - fileID: 522
+    classID: 850595691
+    packedSize: 40
+    offset: 159469560
+    sourceAssetGUID: 6bf4151c8c044914eb73f66071b3e2f3
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/World Data/Space Ship.lighting
+  - fileID: 523
+    classID: 1953259897
+    packedSize: 156
+    offset: 159469600
+    sourceAssetGUID: 03cd1c348f7beac42b260fb6850866ff
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/Textures/NewLayer.terrainlayer
+  - fileID: 524
+    classID: 1953259897
+    packedSize: 160
+    offset: 159469760
+    sourceAssetGUID: a2721c1bd78ec1a4db200024619a93a9
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/NewLayer
+      1.terrainlayer
+  - fileID: 525
+    classID: 1953259897
+    packedSize: 160
+    offset: 159469920
+    sourceAssetGUID: 3c9706483010e9e4589066705521e576
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/NewLayer
+      2.terrainlayer
+  - fileID: 526
+    classID: 1953259897
+    packedSize: 160
+    offset: 159470080
+    sourceAssetGUID: 2200d6fd46c42054aa8f281b6edc5ea3
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/NewLayer
+      3.terrainlayer
+  - fileID: 527
+    classID: 1953259897
+    packedSize: 160
+    offset: 159470240
+    sourceAssetGUID: b68e7a78448c41c47bbe8a6ee3cc90bc
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/NewLayer
+      4.terrainlayer
+  - fileID: 528
+    classID: 1953259897
+    packedSize: 156
+    offset: 159470400
+    sourceAssetGUID: 0cceaa7b29ab86b4782525ee44738cb2
+    buildTimeAssetPath: Assets/Prefab Assets/0_PREFABS/Nature/LOD Trees/NewLayer.terrainlayer
+  - fileID: 529
+    classID: 114
+    packedSize: 96
+    offset: 159470560
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 530
+    classID: 114
+    packedSize: 100
+    offset: 159470656
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 531
+    classID: 114
+    packedSize: 100
+    offset: 159470760
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 532
+    classID: 114
+    packedSize: 92
+    offset: 159470864
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 533
+    classID: 114
+    packedSize: 7980
+    offset: 159470960
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 534
+    classID: 114
+    packedSize: 1800
+    offset: 159478944
+    sourceAssetGUID: 602541d7a4f436743bd850080670a1f3
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/17830d157f00b09408e9c38c2091a851.asset
+  - fileID: 535
+    classID: 114
+    packedSize: 2532
+    offset: 159480744
+    sourceAssetGUID: b1425d9a2f6b48c4e8b6ab3eeb98350d
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/432ce7c38b807e5429e802ea1dc7d775.asset
+  - fileID: 536
+    classID: 114
+    packedSize: 1632
+    offset: 159483280
+    sourceAssetGUID: 4c2260476436a664aa4c8bae5623b8cb
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/4715e20276be3b141a6a216230cab4e9.asset
+  - fileID: 537
+    classID: 114
+    packedSize: 2900
+    offset: 159484912
+    sourceAssetGUID: 312fe5b9799937c458d98050b309ae27
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  - fileID: 538
+    classID: 114
+    packedSize: 2208
+    offset: 159487816
+    sourceAssetGUID: dc800aabdce04e34381b7172bb67def6
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/a41b9e3fd2a94f34d87ce1d5b8e5d02f.asset
+  - fileID: 539
+    classID: 114
+    packedSize: 1720
+    offset: 159490024
+    sourceAssetGUID: 36c07c50411b4d34884cdc7dd9f7c2d1
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 540
+    classID: 114
+    packedSize: 10700
+    offset: 159491744
+    sourceAssetGUID: 8de78d8cac7936144962fb7e7e7960f8
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/0133057ca1dddce45824d0aa942ebc3a.asset
+  - fileID: 541
+    classID: 114
+    packedSize: 41844
+    offset: 159502448
+    sourceAssetGUID: 649aba759d65a2c409203d5f2c6af42f
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/1064dc79ec16c944793e0bfc45718c46.asset
+  - fileID: 542
+    classID: 114
+    packedSize: 4320
+    offset: 159544296
+    sourceAssetGUID: a73d986b5dfa8ae42bf4b491924616a0
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/34717db7eb8e04a40ac14cc45cf29bcb.asset
+  - fileID: 543
+    classID: 114
+    packedSize: 6852
+    offset: 159548616
+    sourceAssetGUID: 293dd59985c1d6d489fba7861df8e327
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/567020c04eb1f4b4ea28e29eded29ee3.asset
+  - fileID: 544
+    classID: 114
+    packedSize: 14564
+    offset: 159555472
+    sourceAssetGUID: dc257a86a01e4cd4e9523ee5e384e835
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/5c053fc3db491b94a84a5902b9f6ef5d.asset
+  - fileID: 545
+    classID: 114
+    packedSize: 2044
+    offset: 159570040
+    sourceAssetGUID: e6e7ecdb65591ec4187b4c1cdb11d7aa
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80c0335f98d9b0f4da456ce13438c83c.asset
+  - fileID: 546
+    classID: 114
+    packedSize: 12284
+    offset: 159572088
+    sourceAssetGUID: 0d36ca44453af4648a413286845ee8ec
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80c53d887f29aa04eb7927d7d981d621.asset
+  - fileID: 547
+    classID: 114
+    packedSize: 15792
+    offset: 159584376
+    sourceAssetGUID: 29925a6a6b005634883008ef9d333613
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/80df79815ac3b494592c5da022afd2cf.asset
+  - fileID: 548
+    classID: 114
+    packedSize: 5804
+    offset: 159600168
+    sourceAssetGUID: 59445b52a0d558b42821cfca92810d22
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/86c5ac1b82cd3294aa62134ba8cc00a0.asset
+  - fileID: 549
+    classID: 114
+    packedSize: 2212
+    offset: 159605976
+    sourceAssetGUID: f8ab0d1b83fcdba4dabdc835b5d01d14
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/8790eacaf133fc349970690de2dfa744.asset
+  - fileID: 550
+    classID: 114
+    packedSize: 3060
+    offset: 159608192
+    sourceAssetGUID: 5f7568995cc281e4cb0f69da05416f2f
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/b1da3d0a1d171a9479f5df36efb95369.asset
+  - fileID: 551
+    classID: 114
+    packedSize: 2924
+    offset: 159611256
+    sourceAssetGUID: b8a52b2291ea4a64ebaf05466e7d196d
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/b813374c1e9cb9f458d11544b12dabe3.asset
+  - fileID: 552
+    classID: 114
+    packedSize: 5788
+    offset: 159614184
+    sourceAssetGUID: 969f4fbbc8fa7b94eb75d889364e4e25
+    buildTimeAssetPath: Assets/Starter Components/Prefabs/QvPen/Runtime/UdonAsset/SerializedUdonPrograms/e24c19eb034a4054b96ad3a9240d8283.asset
+  - fileID: 553
+    classID: 114
+    packedSize: 96
+    offset: 159619976
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 554
+    classID: 114
+    packedSize: 92
+    offset: 159620072
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 555
+    classID: 114
+    packedSize: 100
+    offset: 159620168
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 556
+    classID: 114
+    packedSize: 108
+    offset: 159620272
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 557
+    classID: 114
+    packedSize: 96
+    offset: 159620384
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 558
+    classID: 114
+    packedSize: 112
+    offset: 159620480
+    sourceAssetGUID: ca9f5fa95ffab41fb9a615ab714db018
+    buildTimeAssetPath: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
+  - fileID: 559
+    classID: 156
+    packedSize: 821688
+    offset: 159620592
+    sourceAssetGUID: f87a627d66b2513459911bd930fe4d5d
+    buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/World Data/New Terrain 1.asset
+--- !u!641289076 &-447757608237679717
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 1
+  m_AudioMixerCount: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: build_report_2026-10-29_22-32-05
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 639289099014045113
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 0
+    assetBundleOptions: 32
+    outputPath: C:/Users/Jacob/AppData/Local/Temp/DefaultCompany/PXR 2026
+    crc: 3598439697
+    totalSize: 28741593
+    totalTimeTicks: 243214051
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 2
+    buildResult: 1
+  m_Files:
+  - path: F:/Apps/GitRepos/PXR_2026/PXR 2026/scene-standalonewindows64-vrcdefaultworldscene
+      2-3ce88bbc-741d-4357-a7b5-60826c8c9106.vrcw/BuildPlayer-VRCDefaultWorldScene
+      2
+    role: Scene
+    id: 0
+    totalSize: 1586248
+  - path: F:/Apps/GitRepos/PXR_2026/PXR 2026/scene-standalonewindows64-vrcdefaultworldscene
+      2-3ce88bbc-741d-4357-a7b5-60826c8c9106.vrcw/BuildPlayer-VRCDefaultWorldScene
+      2.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 160442280
+  - path: F:/Apps/GitRepos/PXR_2026/PXR 2026/scene-standalonewindows64-vrcdefaultworldscene
+      2-3ce88bbc-741d-4357-a7b5-60826c8c9106.vrcw/BuildPlayer-VRCDefaultWorldScene
+      2.resource
+    role: StreamingResourceFile
+    id: 2
+    totalSize: 78176
+  - path: F:/Apps/GitRepos/PXR_2026/PXR 2026/scene-standalonewindows64-vrcdefaultworldscene
+      2-3ce88bbc-741d-4357-a7b5-60826c8c9106.vrcw
+    role: AssetBundle
+    id: 3
+    totalSize: 28736604
+  - path: F:/Apps/GitRepos/PXR_2026/PXR 2026/scene-standalonewindows64-vrcdefaultworldscene
+      2-3ce88bbc-741d-4357-a7b5-60826c8c9106.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 4
+    totalSize: 3676
+  - path: F:/Apps/GitRepos/PXR_2026/PXR 2026/PXR 2026/CAB-0a4ec896a5f565a4765af3149c7a04cf
+    role: ResourcesFile
+    id: 5
+    totalSize: 4296
+  - path: F:/Apps/GitRepos/PXR_2026/PXR 2026/PXR 2026
+    role: ManifestAssetBundle
+    id: 6
+    totalSize: 1095
+  - path: F:/Apps/GitRepos/PXR_2026/PXR 2026/PXR 2026.manifest
+    role: AssetBundleTextManifest
+    id: 7
+    totalSize: 218
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 243214051
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 241997
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 15245048
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 14795293
+    depth: 2
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 363323
+    depth: 2
+    messages: []
+  - stepName: Build Scene AssetBundle(s)
+    durationTicks: 197504178
+    depth: 1
+    messages: []
+  - stepName: 'Build bundle: scene-standalonewindows64-vrcdefaultworldscene 2-3ce88bbc-741d-4357-a7b5-60826c8c9106.vrcw'
+    durationTicks: 194754889
+    depth: 2
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 387629
+    depth: 3
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 610914
+    depth: 3
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 181569
+    depth: 3
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Building scenes
+    durationTicks: 19974173
+    depth: 3
+    messages: []
+  - stepName: Building scene Assets/Scenes/VRCDefaultWorldScene 2.unity
+    durationTicks: 19974076
+    depth: 4
+    messages:
+    - type: 3
+      content: Computed code signatures for 92 scripts of type SerializedUdonProgramAsset
+        in 6ms
+  - stepName: Writing asset files
+    durationTicks: 17429361
+    depth: 3
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-VRCDefaultWorldScene 2/BuildPlayer-VRCDefaultWorldScene
+      2.sharedAssets
+    durationTicks: 17383864
+    depth: 4
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 149648293
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 311960
+    depth: 3
+    messages: []
+  m_Appendices:
+  - {fileID: -6344579427395572630}
+  - {fileID: -547123864420595623}
+  - {fileID: -8198917539227302217}
+  - {fileID: 8742953433344899714}
+  - {fileID: -447757608237679717}
+  - {fileID: -7400598277233185100}
+  - {fileID: 7312811191546361372}
+--- !u!1126 &7312811191546361372
+PackedAssets:
+  m_ShortPath: CAB-0a4ec896a5f565a4765af3149c7a04cf
+  m_Overhead: 4032
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4032
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 160
+    offset: 4136
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!382020655 &8742953433344899714
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - VRC.Udon.VM
+  - VRC.SDK3.Dynamics.PhysBone
+  - VRC.Udon.Security
+  - libvrc_fast_crypto
+  - VRCEconomy
+  - DOTween
+  - YamlDotNet
+  - VRCSDK3
+  - nunit.framework
+  - VRC.Primitives
+  - VRCCore-Editor
+  - Serilog.Sinks.File
+  - vrc_fast_crypto
+  - VRC.SDK3.Dynamics.Contact
+  - System.Collections.Immutable
+  - OculusXRPlugin
+  - VRC.Udon.Wrapper
+  - VRC.ImageProcessing
+  - Unity.Burst.Unsafe
+  - SemanticVersioning
+  - vrc_image_loader
+  - librsync.net
+  - OVRPlugin
+  - System.Runtime.CompilerServices.Unsafe
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - VRC.Udon.Common
+  - VRC.Udon.VRCWrapperModules
+  - VRC.Dynamics
+  - VRCSDKBase
+  - VRC.Utility
+  - portmidi
+  - VRC.Udon.ClientBindings
+  - SDKBase-Legacy
+  - Blake2Sharp
+  - VRC.SDK3.Dynamics.Constraint
+  - System.Text.Encoding.CodePages
+  - Serilog
+  - Collections.Pooled
+  - VRC.Primitives.UniTask
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - libvrc_image_loader
+  - VRC.Udon.VRCGraphModules
+  - VRC.Udon.EditorBindings
+  - 0Harmony
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - libvrc_shader_compiler_plugin
+  - Mono.Cecil.Pdb
+  - JetBrains.Rider.PathLocator
+  - vrc_shader_compiler_plugin
+  - VRCSDKBase-Editor
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.VRCTypeResolverModules
+  - VRCEconomy-Editor
+  - ICSharpCode.SharpZipLib
+  - VRC.SDK3.Dynamics.Constraint.Editor
+  - AppleEventIntegration
+  - Mono.Cecil
+  - VRC.Udon.Graph
+  - Unity.Burst.Cecil.Pdb
+  - Mono.Cecil.Rocks
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - VRCSDK3-Editor
+  - Mono.Cecil.Mdb
+  - Serilog.Sinks.Unity3D
+  - Algolia.Search
+  - DOTweenEditor
+  - Unity.Burst.Cecil.Mdb
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - Unity.Burst.Cecil
+  - Unity.Burst.Cecil.Rocks
+  - vpm-core-lib
+  - VRC.Udon.UAssembly
