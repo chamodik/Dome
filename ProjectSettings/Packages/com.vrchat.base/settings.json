@@ -4,6 +4,5 @@
     "samplesHintCreated": false,
     "debugVCCConnection": false,
     "dpidMipmaps": false,
-    "dpidConservative": true,
-    "thumbnailAccuracyWarningDismissed": false
+    "dpidConservative": true
 }
