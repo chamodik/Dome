@@ -1,0 +1,56 @@
+_MainTexUVSrc.tooltip = Selects the coordinate system for mapping the surface texture. "World Position XZ" is useful for making the texture tile seamlessly across separate objects.
+_SurfWaveDistort.tooltip = Controls how much the water waves visually distort and warp the surface color texture. (Also affects emission.)
+_SurfEdgeFade.tooltip = Fades the surface texture out near shores and object edges to eliminate harsh, intersecting lines.
+
+_VertexColorInt.tooltip = Controls how much vertex colors painted on the mesh affect the water color.
+_VertexAlphaInt.tooltip = Controls how much vertex alpha painted on the mesh affects the transparency and foam.
+
+_Metalness.tooltip = Controls how much light scatters through the surface of the water. Regular water is generally not metallic, but water with dissolved minerals could be. 
+_Smoothness.tooltip = Controls how reflective the water surface is. 1.0 is a perfect reflection. 
+_ViewSmoothness.tooltip = Controls how reflective the water surface is at a glancing angle. You can use this to simulate water that appears to have a matte reflection at an angle (i.e. for rough waves). 
+
+_WaveTexUVSrc.tooltip = Selects the coordinate mapping source for the first wave normal map.
+_WaveTex2UVSrc.tooltip = Selects the coordinate mapping source for the second wave normal map.
+_ViewSmoothness.tooltip = The smoothness of the water when looking at it from a flat, glancing angle (helps simulate realistic glare/reflections at a distance).
+
+_RippleIntensity.tooltip = Adjusts the strength of a subtle, procedural wobble (similar to Quake) applied over the UV coordinates.
+
+_CausticsMaxDistance.tooltip = Fades out underwater caustics at a distance to hide obvious repeating patterns.
+_CausticsShadowStrength.tooltip = Adjusts the darkness of caustics shadows cast onto objects beneath the water.
+
+_WaveA.tooltip = Settings for Wave A. XY: Direction. Z: Steepness (how sharp the wave crests are). W: Wavelength (how long the wave is).
+_WaveB.tooltip = Settings for Wave B. XY: Direction. Z: Steepness (how sharp the wave crests are). W: Wavelength (how long the wave is).
+_WaveC.tooltip = Settings for Wave C. XY: Direction. Z: Steepness (how sharp the wave crests are). W: Wavelength (how long the wave is).
+
+_WaveHeightMap.tooltip = Note: The height map is read as a normal map, with X and Y being XY normal displacement and Z being height. 
+
+_UseRefraction.tooltip = Allows the water to bend and distort the light passing through it, making underwater objects look realistically warped. Note that this heavily affects how the water looks, since water cannot read the colour of objects beneath it without this setting. 
+_RefractThickness.tooltip = Scales the physical thickness of the water's volume. Lower values make the water look shallow, while higher values make it look deep.
+_RefractTransmission.tooltip = Controls how clear the water is. Higher values let you see objects underneath more clearly.
+_RefractAbsorptionScale.tooltip = Controls how quickly light fades to the deep water color as depth increases.
+_RefractSurfaceCol.tooltip = Fades the surface texture over the underwater view in deeper areas.
+_RefractUseColor.tooltip = Overrides the physical absorption coefficients (which naturally absorb red light first) with an artistic absorption color.
+_RefractMaxDepth.tooltip = Sets the maximum distance at which water absorption will darken water. Prevents deep water from becoming pitch black. Useful for when an ocean has no bottom. 
+
+_UseMirror.tooltip = Requires VRC Mirror Reflection component to work. When enabled, the water will use the mirror as the source of the surface reflection. 
+_MirrorContainsDepth.tooltip = If this is set, the mirror rendering will use the distance of the surface from the mirror surface. Requires the mirror to render depth within itself. Place a duplicate of the water surface above it with the "Camera Depth to Alpha" shader to use this feature.
+
+_FogLinearDensity.tooltip = Sets the start (X) and end (Y) distances for the underwater linear depth fog in meters.
+
+_FoamFalloff.tooltip = Controls where foam appears. Different values affect different layers of the foam texture based on depth.
+_UseFoamNormals.tooltip = Gives foam a bumpy, 3D look by adding normal maps specifically over the foam areas.
+
+_SSSDist.tooltip = Blurs and distorts light shining through the water waves to simulate light scattering.
+_SSSPow.tooltip = Controls how wide or narrow the backlight glow is when light shines through a wave.
+
+_ProbeTransmission.tooltip = How much ambient light probe lighting bleeds into the shadowed sides of waves.
+_WrappingFactor.tooltip = Softens shadows on waves to mimic light scattering through the water.
+
+_DistantFogOverrideLevel.tooltip = Seamlessly blends the distant water horizon into the sky using a custom cubemap.
+
+_BackfaceNormals.tooltip = Both sides of a water mesh will render as a water surface. By default, backfaces of water are shaded differently. 
+_UseInfinity.tooltip = (DX11 only) Allows the water to ignore the far clipping plane, always rendering it above the skybox. This is useful for large oceans using Distant Fade Fog. Note, however, that this changes how the water intersects with distant objects. 
+
+_ExposureOcclusion.tooltip = Controls how much baked shadows (like lightmaps) block shiny reflections and glare.
+_LightmapSpecular.tooltip = Adds specular reflections and glare to lightmapped (baked) light sources.
+_VRCLVSurfaceBias.tooltip = Offsets volume lighting calculations near the surface to prevent lighting from leaking where it shouldn't.

@@ -1,0 +1,6 @@
+{
+  "name": "com.s-ilent.clear-water",
+  "displayName": "Clear Water",
+  "version": "3.0.0",
+  "description": "Advanced water shader for Unity's built in render pipeline."
+}
