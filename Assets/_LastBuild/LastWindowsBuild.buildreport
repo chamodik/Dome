@@ -1,11 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!641289076 &-7943719616015513968
-AudioBuildInfo:
-  m_IsAudioDisabled: 0
-  m_AudioClipCount: 0
-  m_AudioMixerCount: 0
---- !u!382020655 &-7426093337389644549
+--- !u!382020655 &-2398776446688322418
 PluginBuildInfo:
   m_RuntimePlugins:
   - VRC.Udon.VM
@@ -87,7 +82,260 @@ PluginBuildInfo:
   - Unity.Burst.Cecil.Rocks
   - vpm-core-lib
   - VRC.Udon.UAssembly
---- !u!1126 &-4384802500663300734
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 639298450722044766
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 0
+    assetBundleOptions: 32
+    outputPath: C:/Users/Chamo/AppData/Local/Temp/DefaultCompany/PXR 2026
+    crc: 3566338636
+    totalSize: 97599958
+    totalTimeTicks: 577076698
+    totalErrors: 2
+    totalWarnings: 11
+    buildType: 2
+    buildResult: 1
+  m_Files:
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-751b98c3-32b8-4c1f-a2ba-dd87a4d7e140.vrcw/BuildPlayer-VRCDefaultWorldScene
+      2
+    role: Scene
+    id: 0
+    totalSize: 290800
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-751b98c3-32b8-4c1f-a2ba-dd87a4d7e140.vrcw/BuildPlayer-VRCDefaultWorldScene
+      2.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 323394268
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-751b98c3-32b8-4c1f-a2ba-dd87a4d7e140.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 97594595
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-751b98c3-32b8-4c1f-a2ba-dd87a4d7e140.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 4049
+  - path: C:/UnityPXRProject/Dome/PXR 2026/CAB-0a4ec896a5f565a4765af3149c7a04cf
+    role: ResourcesFile
+    id: 4
+    totalSize: 4296
+  - path: C:/UnityPXRProject/Dome/PXR 2026
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1096
+  - path: C:/UnityPXRProject/Dome/PXR 2026.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 218
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 577076698
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 156958
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 19155585
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 18469139
+    depth: 2
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 590638
+    depth: 2
+    messages: []
+  - stepName: Build Scene AssetBundle(s)
+    durationTicks: 522265080
+    depth: 1
+    messages: []
+  - stepName: 'Build bundle: scene-standalonewindows64-vrcdefaultworldscene 2-751b98c3-32b8-4c1f-a2ba-dd87a4d7e140.vrcw'
+    durationTicks: 520035147
+    depth: 2
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 463304
+    depth: 3
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 729285
+    depth: 3
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 366198
+    depth: 3
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Building scenes
+    durationTicks: 23345722
+    depth: 3
+    messages: []
+  - stepName: Building scene Assets/Scenes/VRCDefaultWorldScene 2.unity
+    durationTicks: 23345458
+    depth: 4
+    messages:
+    - type: 3
+      content: Computed code signatures for 89 scripts of type SerializedUdonProgramAsset
+        in 6ms
+  - stepName: Writing asset files
+    durationTicks: 52748569
+    depth: 3
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-VRCDefaultWorldScene 2/BuildPlayer-VRCDefaultWorldScene
+      2.sharedAssets
+    durationTicks: 52622841
+    depth: 4
+    messages:
+    - type: 2
+      content: The tree Desert_Village_Palm_1 couldn't be instanced because the prefab
+        contains no valid mesh renderer.
+    - type: 2
+      content: The tree Desert_Village_Palm_2 couldn't be instanced because the prefab
+        contains no valid mesh renderer.
+    - type: 2
+      content: The tree Tree_Poplar_Dead_A must use the Nature/Soft Occlusion shader.
+        Otherwise billboarding/lighting will not work correctly.
+    - type: 2
+      content: 'Shader warning in ''Nature/SpeedTree'': Automatically setting target
+        of LOD_FADE_CROSSFADE to 3.0 at line 29'
+    - type: 2
+      content: 'Shader warning in ''Nature/SpeedTree Billboard'': texcoord2 missing
+        from surface shader''s vertex input struct (SpeedTreeBillboardData), disabled
+        dynamic GI and meta pass generation'
+    - type: 2
+      content: 'Shader warning in ''Nature/SpeedTree Billboard'': Automatically setting
+        target of LOD_FADE_CROSSFADE to 3.0 at line 26'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
+        for #pragma exclude_renderers: webgpu at line 278'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
+        for #pragma only_renderers: webgpu at line 293'
+    - type: 0
+      content: 'Shader error in ''Silent/Clear Water 2 Normal'': Non system-generated
+        input signature parameter () cannot appear after a system generated value.
+        at line 121 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: Meta, Vertex
+        program with INSTANCING_ON STEREO_MULTIVIEW_ON
+
+        Platform defines:
+        SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE
+        UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY
+        UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_META
+        UNITY_PBS_USE_BRDF2
+
+        Disabled keywords: EDITOR_VISUALIZATION UNITY_ASTC_NORMALMAP_ENCODING
+        UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS
+        UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING
+        UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER
+        UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION
+        UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL
+        UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING'
+    - type: 0
+      content: 'Shader error in ''Silent/Clear Water 2 Normal'': Non system-generated
+        input signature parameter () cannot appear after a system generated value.
+        at line 214 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: FORWARD, Vertex
+        program with DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH STEREO_MULTIVIEW_ON
+
+        Platform
+        defines: SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS
+        UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING
+        UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS
+        UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF2
+
+        Disabled keywords: DIRLIGHTMAP_COMBINED
+        DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+        UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER3
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
+        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+        UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma exclude_renderers: webgpu at line 102'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma exclude_renderers: webgpu at line 118'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma only_renderers: webgpu at line 150'
+  - stepName: Creating compressed player package
+    durationTicks: 437470505
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 279218
+    depth: 3
+    messages: []
+  m_Appendices:
+  - {fileID: 3556229601352231819}
+  - {fileID: 8566834429177134680}
+  - {fileID: -2398776446688322418}
+  - {fileID: 7058956812151214931}
+  - {fileID: 918614782150803577}
+  - {fileID: 1750989110142790053}
+--- !u!1521398425 &918614782150803577
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!1126 &1750989110142790053
+PackedAssets:
+  m_ShortPath: CAB-0a4ec896a5f565a4765af3149c7a04cf
+  m_Overhead: 4032
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4032
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 160
+    offset: 4136
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!668709126 &3556229601352231819
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-vrcdefaultworldscene 2-751b98c3-32b8-4c1f-a2ba-dd87a4d7e140.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: PXR 2026
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!641289076 &7058956812151214931
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1126 &8566834429177134680
 PackedAssets:
   m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.sharedAssets
   m_Overhead: 184431
@@ -7870,251 +8118,3 @@ PackedAssets:
     offset: 321381480
     sourceAssetGUID: f87a627d66b2513459911bd930fe4d5d
     buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/World Data/New Terrain 1.asset
---- !u!1126 &-1097923170023175885
-PackedAssets:
-  m_ShortPath: CAB-0a4ec896a5f565a4765af3149c7a04cf
-  m_Overhead: 4032
-  m_Contents:
-  - fileID: 1
-    classID: 142
-    packedSize: 104
-    offset: 4032
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: AssetBundle Object
-  - fileID: 2
-    classID: 290
-    packedSize: 160
-    offset: 4136
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!668709126 &-503567505752073099
-BuiltAssetBundleInfoSet:
-  bundleInfos:
-  - bundleName: scene-standalonewindows64-vrcdefaultworldscene 2-c996b429-2b2c-4a4a-ac59-f5a7320cb493.vrcw
-    bundleArchiveFile: 2
-    packagedFileIndices: 0000000001000000
-  - bundleName: PXR 2026
-    bundleArchiveFile: 5
-    packagedFileIndices: 04000000
---- !u!1125 &1
-BuildReport:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LastWindowsBuild
-  m_Summary:
-    buildStartTime:
-      serializedVersion: 2
-      ticks: 639298436909333190
-    buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
-    subtarget: 0
-    options: 0
-    assetBundleOptions: 32
-    outputPath: C:/Users/Chamo/AppData/Local/Temp/DefaultCompany/PXR 2026
-    crc: 2254448191
-    totalSize: 97602559
-    totalTimeTicks: 566464632
-    totalErrors: 2
-    totalWarnings: 11
-    buildType: 2
-    buildResult: 1
-  m_Files:
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-c996b429-2b2c-4a4a-ac59-f5a7320cb493.vrcw/BuildPlayer-VRCDefaultWorldScene
-      2
-    role: Scene
-    id: 0
-    totalSize: 290800
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-c996b429-2b2c-4a4a-ac59-f5a7320cb493.vrcw/BuildPlayer-VRCDefaultWorldScene
-      2.sharedAssets
-    role: SharedAssets
-    id: 1
-    totalSize: 323394268
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-c996b429-2b2c-4a4a-ac59-f5a7320cb493.vrcw
-    role: AssetBundle
-    id: 2
-    totalSize: 97597195
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-c996b429-2b2c-4a4a-ac59-f5a7320cb493.vrcw.manifest
-    role: AssetBundleTextManifest
-    id: 3
-    totalSize: 4049
-  - path: C:/UnityPXRProject/Dome/PXR 2026/CAB-0a4ec896a5f565a4765af3149c7a04cf
-    role: ResourcesFile
-    id: 4
-    totalSize: 4296
-  - path: C:/UnityPXRProject/Dome/PXR 2026
-    role: ManifestAssetBundle
-    id: 5
-    totalSize: 1097
-  - path: C:/UnityPXRProject/Dome/PXR 2026.manifest
-    role: AssetBundleTextManifest
-    id: 6
-    totalSize: 218
-  m_BuildSteps:
-  - stepName: Build Asset Bundles
-    durationTicks: 566464632
-    depth: 0
-    messages: []
-  - stepName: Calculate asset bundles to be built
-    durationTicks: 182027
-    depth: 1
-    messages: []
-  - stepName: Prebuild Cleanup and Recompile
-    durationTicks: 18698958
-    depth: 1
-    messages: []
-  - stepName: Compile scripts
-    durationTicks: 18206112
-    depth: 2
-    messages: []
-  - stepName: Generate and validate platform script types
-    durationTicks: 408455
-    depth: 2
-    messages: []
-  - stepName: Build Scene AssetBundle(s)
-    durationTicks: 512539035
-    depth: 1
-    messages: []
-  - stepName: 'Build bundle: scene-standalonewindows64-vrcdefaultworldscene 2-c996b429-2b2c-4a4a-ac59-f5a7320cb493.vrcw'
-    durationTicks: 510575110
-    depth: 2
-    messages: []
-  - stepName: Verify Build setup
-    durationTicks: 425065
-    depth: 3
-    messages: []
-  - stepName: Prepare assets for target platform
-    durationTicks: 651321
-    depth: 3
-    messages: []
-  - stepName: Prepare splash screen
-    durationTicks: 309359
-    depth: 3
-    messages:
-    - type: 3
-      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
-  - stepName: Building scenes
-    durationTicks: 18319807
-    depth: 3
-    messages: []
-  - stepName: Building scene Assets/Scenes/VRCDefaultWorldScene 2.unity
-    durationTicks: 18319571
-    depth: 4
-    messages:
-    - type: 3
-      content: Computed code signatures for 89 scripts of type SerializedUdonProgramAsset
-        in 5ms
-  - stepName: Writing asset files
-    durationTicks: 47094667
-    depth: 3
-    messages: []
-  - stepName: Packaging assets - archive:/BuildPlayer-VRCDefaultWorldScene 2/BuildPlayer-VRCDefaultWorldScene
-      2.sharedAssets
-    durationTicks: 46962003
-    depth: 4
-    messages:
-    - type: 2
-      content: The tree Desert_Village_Palm_1 couldn't be instanced because the prefab
-        contains no valid mesh renderer.
-    - type: 2
-      content: The tree Desert_Village_Palm_2 couldn't be instanced because the prefab
-        contains no valid mesh renderer.
-    - type: 2
-      content: The tree Tree_Poplar_Dead_A must use the Nature/Soft Occlusion shader.
-        Otherwise billboarding/lighting will not work correctly.
-    - type: 2
-      content: 'Shader warning in ''Nature/SpeedTree'': Automatically setting target
-        of LOD_FADE_CROSSFADE to 3.0 at line 29'
-    - type: 2
-      content: 'Shader warning in ''Nature/SpeedTree Billboard'': texcoord2 missing
-        from surface shader''s vertex input struct (SpeedTreeBillboardData), disabled
-        dynamic GI and meta pass generation'
-    - type: 2
-      content: 'Shader warning in ''Nature/SpeedTree Billboard'': Automatically setting
-        target of LOD_FADE_CROSSFADE to 3.0 at line 26'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
-        for #pragma exclude_renderers: webgpu at line 278'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
-        for #pragma only_renderers: webgpu at line 293'
-    - type: 0
-      content: 'Shader error in ''Silent/Clear Water 2 Normal'': Non system-generated
-        input signature parameter () cannot appear after a system generated value.
-        at line 121 (on gles3)
-
-
-        Compiling Subshader: 0, Pass: Meta, Vertex
-        program with INSTANCING_ON STEREO_MULTIVIEW_ON
-
-        Platform defines:
-        SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE
-        UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY
-        UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_META
-        UNITY_PBS_USE_BRDF2
-
-        Disabled keywords: EDITOR_VISUALIZATION UNITY_ASTC_NORMALMAP_ENCODING
-        UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS
-        UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING
-        UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER
-        UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION
-        UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL
-        UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING'
-    - type: 0
-      content: 'Shader error in ''Silent/Clear Water 2 Normal'': Non system-generated
-        input signature parameter () cannot appear after a system generated value.
-        at line 214 (on gles3)
-
-
-        Compiling Subshader: 0, Pass: FORWARD, Vertex
-        program with DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH STEREO_MULTIVIEW_ON
-
-        Platform
-        defines: SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS
-        UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING
-        UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS
-        UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF2
-
-        Disabled keywords: DIRLIGHTMAP_COMBINED
-        DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
-        UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
-        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER3
-        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
-        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
-        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
-        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-        UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
-        renderer for #pragma exclude_renderers: webgpu at line 102'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
-        renderer for #pragma exclude_renderers: webgpu at line 118'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
-        renderer for #pragma only_renderers: webgpu at line 150'
-  - stepName: Creating compressed player package
-    durationTicks: 438925130
-    depth: 3
-    messages: []
-  - stepName: Postprocess built player
-    durationTicks: 262654
-    depth: 3
-    messages: []
-  m_Appendices:
-  - {fileID: -503567505752073099}
-  - {fileID: -4384802500663300734}
-  - {fileID: -7426093337389644549}
-  - {fileID: -7943719616015513968}
-  - {fileID: 1105186471274113898}
-  - {fileID: -1097923170023175885}
---- !u!1521398425 &1105186471274113898
-VideoBuildInfo:
-  m_VideoClipCount: 0
-  m_IsVideoModuleDisabled: 0
