@@ -92,7 +92,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _IgnoreDepthBuffer: 0
+    - _IgnoreDepthBuffer: 1
     - _IgnoreUVs: 1
     - _IgnoreVertexColour: 0
     - _Metallic: 0
