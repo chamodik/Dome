@@ -92,7 +92,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
-    - _IgnoreDepthBuffer: 0
+    - _IgnoreDepthBuffer: 1
     - _IgnoreUVs: 1
     - _IgnoreVertexColour: 0
     - _Metallic: 0
@@ -107,12 +107,12 @@ Material:
     - _Wave2ScrollSpeed: 0.05
     - _Wave2ScrollX: 0.557
     - _Wave2ScrollY: 0
-    - _Wave2Strength: 0.18
+    - _Wave2Strength: 0.21
     - _WaveReflectionDistortion: 0.25
     - _WaveScrollSpeed: 0.15
     - _WaveScrollX: 0.34
     - _WaveScrollY: -0.413
-    - _WaveStrength: 0.35
+    - _WaveStrength: 0.15
     - _ZWrite: 1
     - _foamMax: 0
     - _foamMin: 1
