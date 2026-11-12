@@ -1,111 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!382020655 &-9182914319647471695
-PluginBuildInfo:
-  m_RuntimePlugins:
-  - VRC.Udon.VM
-  - VRC.SDK3.Dynamics.PhysBone
-  - VRC.Udon.Security
-  - libvrc_fast_crypto
-  - VRCEconomy
-  - DOTween
-  - YamlDotNet
-  - VRCSDK3
-  - nunit.framework
-  - VRC.Primitives
-  - VRCCore-Editor
-  - Serilog.Sinks.File
-  - vrc_fast_crypto
-  - VRC.SDK3.Dynamics.Contact
-  - System.Collections.Immutable
-  - OculusXRPlugin
-  - VRC.Udon.Wrapper
-  - VRC.ImageProcessing
-  - Unity.Burst.Unsafe
-  - SemanticVersioning
-  - vrc_image_loader
-  - librsync.net
-  - VRC.Core.Isolated
-  - OVRPlugin
-  - System.Runtime.CompilerServices.Unsafe
-  - Newtonsoft.Json
-  - Unity.Collections.LowLevel.ILSupport
-  - VRC.Udon.Common
-  - VRC.Udon.VRCWrapperModules
-  - VRC.Dynamics
-  - tanoisegen
-  - VRCSDKBase
-  - VRC.Utility
-  - portmidi
-  - VRC.Udon.ClientBindings
-  - SDKBase-Legacy
-  - Blake2Sharp
-  - VRC.SDK3.Dynamics.Constraint
-  - System.Text.Encoding.CodePages
-  - VRC.Billboard
-  - Serilog
-  - Collections.Pooled
-  - VRC.Primitives.UniTask
-  - AudioPluginOculusSpatializer
-  m_EditorPlugins:
-  - libvrc_image_loader
-  - VRC.Udon.VRCGraphModules
-  - VRC.Udon.EditorBindings
-  - 0Harmony
-  - VRC.SDK3.Dynamics.Contact.Editor
-  - libvrc_shader_compiler_plugin
-  - Mono.Cecil.Pdb
-  - JetBrains.Rider.PathLocator
-  - vrc_shader_compiler_plugin
-  - VRCSDKBase-Editor
-  - Microsoft.CodeAnalysis.CSharp
-  - VRC.Udon.VRCTypeResolverModules
-  - VRCEconomy-Editor
-  - ICSharpCode.SharpZipLib
-  - VRC.SDK3.Dynamics.Constraint.Editor
-  - AppleEventIntegration
-  - Mono.Cecil
-  - VRC.Udon.Graph
-  - Unity.Burst.Cecil.Pdb
-  - Mono.Cecil.Rocks
-  - Microsoft.CodeAnalysis
-  - VRC.Udon.Compiler
-  - System.Reflection.Metadata
-  - VRCSDK3-Editor
-  - Mono.Cecil.Mdb
-  - Serilog.Sinks.Unity3D
-  - Algolia.Search
-  - DOTweenEditor
-  - Unity.Burst.Cecil.Mdb
-  - VRC.SDK3.Dynamics.PhysBone.Editor
-  - Unity.Burst.Cecil
-  - Unity.Burst.Cecil.Rocks
-  - vpm-core-lib
-  - VRC.Udon.UAssembly
---- !u!1521398425 &-8663778556209217399
-VideoBuildInfo:
-  m_VideoClipCount: 0
-  m_IsVideoModuleDisabled: 0
---- !u!1126 &-6389470066273004455
-PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.caw
-  m_Overhead: 28434
-  m_Contents: []
---- !u!668709126 &-5517820886195269105
-BuiltAssetBundleInfoSet:
-  bundleInfos:
-  - bundleName: scene-standalonewindows64-vrcdefaultworldscene 2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw
-    bundleArchiveFile: 11
-    packagedFileIndices: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
-  - bundleName: PXR 2026
-    bundleArchiveFile: 14
-    packagedFileIndices: 0d000000
---- !u!1126 &-3697860428198990990
-PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.vis
-  m_Overhead: 36217
-  m_Contents: []
---- !u!1126 &-3341638428371739140
+--- !u!1126 &-8252714019066433369
 PackedAssets:
   m_ShortPath: CAB-0a4ec896a5f565a4765af3149c7a04cf
   m_Overhead: 4032
@@ -122,12 +17,421 @@ PackedAssets:
     offset: 4136
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1126 &-1976631651308428958
+--- !u!1126 &-6012499779202858608
 PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.iws.sse
-  m_Overhead: 95544
+  m_ShortPath: ba98ace8500dbcbc85f217101d5499f0.pos
+  m_Overhead: 3508
   m_Contents: []
---- !u!1126 &-1769532886887768284
+--- !u!1126 &-5516153948177646209
+PackedAssets:
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.caw
+  m_Overhead: 28434
+  m_Contents: []
+--- !u!668709126 &-4804740375130250994
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-vrcdefaultworldscene 2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw
+    bundleArchiveFile: 11
+    packagedFileIndices: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  - bundleName: PXR 2026
+    bundleArchiveFile: 14
+    packagedFileIndices: 0d000000
+--- !u!1126 &-1362445296054155418
+PackedAssets:
+  m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 607776
+    offset: 0
+    sourceAssetGUID: 03a1ef8334b93423597a5b2379bb888e
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/trees/Tree-Sounds.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 337984
+    offset: 0
+    sourceAssetGUID: 0e656ed03599f44c39cea7e2cdec8e89
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Cricket-Close-1.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1357152
+    offset: 0
+    sourceAssetGUID: 19a4e105ae4f745d792c4f54ebe433a2
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Forrestwav.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1924288
+    offset: 0
+    sourceAssetGUID: 1f5b22f0d32f245bea407dc69587485f
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/water/Water-On-Shore.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 372896
+    offset: 0
+    sourceAssetGUID: 2c0be1d976fd946b0a4c00880f86dfc5
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds3.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1549952
+    offset: 0
+    sourceAssetGUID: 50127721ca76c4d7094d8f15a1ddea29
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Far.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1220480
+    offset: 0
+    sourceAssetGUID: 64cc13f5ce183429ca4a8e0eabfe049e
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Seabird-Owl.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1060640
+    offset: 0
+    sourceAssetGUID: 673bdb95de73d4f4b9f54289e31e0485
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/water/Open-Ocean2.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1618944
+    offset: 0
+    sourceAssetGUID: 7fbbd2081219f47a5addce7328862437
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Owls2.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 462304
+    offset: 0
+    sourceAssetGUID: 9b83f6ddbc7d9437289adcf48f430d85
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/grass/XRtist-Dome.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 646560
+    offset: 0
+    sourceAssetGUID: 9dc14365d47534cdfabac7fea3f7eae5
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/cicadas/cicada-close-1-loop.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 688576
+    offset: 0
+    sourceAssetGUID: a1784ea45eedc455fa1581242dc5537c
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds2.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 192608
+    offset: 0
+    sourceAssetGUID: ac7b7bc198d1d479a90d425d8160805d
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Owl-1.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1670784
+    offset: 0
+    sourceAssetGUID: af7919f9898b74d5d83e3280d43ede9e
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Frogs.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 597856
+    offset: 0
+    sourceAssetGUID: d0bde7162040c4a55a2689304452590f
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds1.wav
+--- !u!1126 &-1298769708004396226
+PackedAssets:
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.rgb
+  m_Overhead: 10864
+  m_Contents: []
+--- !u!1521398425 &-766898325932177098
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 639300262929084029
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 0
+    assetBundleOptions: 32
+    outputPath: C:/Users/Chamo/AppData/Local/Temp/DefaultCompany/PXR 2026
+    crc: 328482415
+    totalSize: 103613730
+    totalTimeTicks: 547717778
+    totalErrors: 3
+    totalWarnings: 13
+    buildType: 2
+    buildResult: 1
+  m_Files:
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/BuildPlayer-VRCDefaultWorldScene
+      2
+    role: Scene
+    id: 0
+    totalSize: 494544
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/BuildPlayer-VRCDefaultWorldScene
+      2.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 308152300
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+      2/ba/ba98ace8500dbcbc85f217101d5499f0.pos
+    role: StreamingResourceFile
+    id: 2
+    totalSize: 3508
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+      2/ba/ba98ace8500dbcbc85f217101d5499f0.rpc.sse
+    role: StreamingResourceFile
+    id: 3
+    totalSize: 219915
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+      2/e9/e919e5d23f3195d3d7276e975d760a26.caw
+    role: StreamingResourceFile
+    id: 4
+    totalSize: 28434
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+      2/e9/e919e5d23f3195d3d7276e975d760a26.ecm
+    role: StreamingResourceFile
+    id: 5
+    totalSize: 10824
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+      2/e9/e919e5d23f3195d3d7276e975d760a26.iws.sse
+    role: StreamingResourceFile
+    id: 6
+    totalSize: 95544
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+      2/e9/e919e5d23f3195d3d7276e975d760a26.rgb
+    role: StreamingResourceFile
+    id: 7
+    totalSize: 10864
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+      2/e9/e919e5d23f3195d3d7276e975d760a26.rsc.sse
+    role: StreamingResourceFile
+    id: 8
+    totalSize: 418152
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+      2/e9/e919e5d23f3195d3d7276e975d760a26.vis
+    role: StreamingResourceFile
+    id: 9
+    totalSize: 36217
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw/BuildPlayer-VRCDefaultWorldScene
+      2.resource
+    role: StreamingResourceFile
+    id: 10
+    totalSize: 14308800
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw
+    role: AssetBundle
+    id: 11
+    totalSize: 103608044
+  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
+      2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 12
+    totalSize: 4373
+  - path: C:/UnityPXRProject/Dome/PXR 2026/CAB-0a4ec896a5f565a4765af3149c7a04cf
+    role: ResourcesFile
+    id: 13
+    totalSize: 4296
+  - path: C:/UnityPXRProject/Dome/PXR 2026
+    role: ManifestAssetBundle
+    id: 14
+    totalSize: 1096
+  - path: C:/UnityPXRProject/Dome/PXR 2026.manifest
+    role: AssetBundleTextManifest
+    id: 15
+    totalSize: 217
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 547717778
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 279015
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 22467341
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 21853491
+    depth: 2
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 459846
+    depth: 2
+    messages: []
+  - stepName: Build Scene AssetBundle(s)
+    durationTicks: 483601295
+    depth: 1
+    messages:
+    - type: 0
+      content: 'An abnormal situation has occurred: the PlayerLoop internal function
+        has been called recursively. Please contact Customer Support with a sample
+        project so that we can reproduce the problem and troubleshoot it.'
+  - stepName: 'Build bundle: scene-standalonewindows64-vrcdefaultworldscene 2-dd23142b-291e-42d0-a05d-d93d06f5f2ed.vrcw'
+    durationTicks: 480532164
+    depth: 2
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 572318
+    depth: 3
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1756271
+    depth: 3
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 626025
+    depth: 3
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Building scenes
+    durationTicks: 21282667
+    depth: 3
+    messages: []
+  - stepName: Building scene Assets/Scenes/VRCDefaultWorldScene 2.unity
+    durationTicks: 21282424
+    depth: 4
+    messages:
+    - type: 2
+      content: Unable to find style 'Toolbar' in skin 'GameSkin' <called outside
+        OnGUI>
+    - type: 2
+      content: Unable to find style 'Toolbar' in skin 'GameSkin' <called outside
+        OnGUI>
+    - type: 3
+      content: Computed code signatures for 89 scripts of type SerializedUdonProgramAsset
+        in 5ms
+  - stepName: Writing asset files
+    durationTicks: 51517489
+    depth: 3
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-VRCDefaultWorldScene 2/BuildPlayer-VRCDefaultWorldScene
+      2.sharedAssets
+    durationTicks: 51217882
+    depth: 4
+    messages:
+    - type: 2
+      content: The tree Desert_Village_Palm_1 couldn't be instanced because the prefab
+        contains no valid mesh renderer.
+    - type: 2
+      content: The tree Desert_Village_Palm_2 couldn't be instanced because the prefab
+        contains no valid mesh renderer.
+    - type: 2
+      content: The tree Tree_Poplar_Dead_A must use the Nature/Soft Occlusion shader.
+        Otherwise billboarding/lighting will not work correctly.
+    - type: 2
+      content: 'Shader warning in ''Nature/SpeedTree'': Automatically setting target
+        of LOD_FADE_CROSSFADE to 3.0 at line 29'
+    - type: 2
+      content: 'Shader warning in ''Nature/SpeedTree Billboard'': texcoord2 missing
+        from surface shader''s vertex input struct (SpeedTreeBillboardData), disabled
+        dynamic GI and meta pass generation'
+    - type: 2
+      content: 'Shader warning in ''Nature/SpeedTree Billboard'': Automatically setting
+        target of LOD_FADE_CROSSFADE to 3.0 at line 26'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
+        for #pragma exclude_renderers: webgpu at line 278'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
+        for #pragma only_renderers: webgpu at line 293'
+    - type: 0
+      content: 'Shader error in ''Silent/Clear Water 2 Normal'': Non system-generated
+        input signature parameter () cannot appear after a system generated value.
+        at line 121 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: Meta, Vertex
+        program with INSTANCING_ON STEREO_MULTIVIEW_ON
+
+        Platform defines:
+        SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE
+        UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY
+        UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_META
+        UNITY_PBS_USE_BRDF2
+
+        Disabled keywords: EDITOR_VISUALIZATION UNITY_ASTC_NORMALMAP_ENCODING
+        UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS
+        UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING
+        UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER
+        UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION
+        UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL
+        UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING'
+    - type: 0
+      content: 'Shader error in ''Silent/Clear Water 2 Normal'': Non system-generated
+        input signature parameter () cannot appear after a system generated value.
+        at line 214 (on gles3)
+
+
+        Compiling Subshader: 0, Pass: FORWARD, Vertex
+        program with DIRECTIONAL INSTANCING_ON STEREO_MULTIVIEW_ON
+
+        Platform
+        defines: SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS
+        UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING
+        UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS
+        UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF2
+
+        Disabled keywords: DIRLIGHTMAP_COMBINED
+        DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+        LIGHTPROBE_SH UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
+        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
+        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
+        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
+        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
+        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+        UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma exclude_renderers: webgpu at line 102'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma exclude_renderers: webgpu at line 118'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma only_renderers: webgpu at line 150'
+  - stepName: Creating compressed player package
+    durationTicks: 399605766
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 310157
+    depth: 3
+    messages: []
+  m_Appendices:
+  - {fileID: -4804740375130250994}
+  - {fileID: 607434204621932450}
+  - {fileID: -6012499779202858608}
+  - {fileID: 4997962144640397883}
+  - {fileID: -5516153948177646209}
+  - {fileID: 1413633786416823987}
+  - {fileID: 2085264014431051478}
+  - {fileID: -1298769708004396226}
+  - {fileID: 7960224296460595631}
+  - {fileID: 5344198750032654603}
+  - {fileID: -1362445296054155418}
+  - {fileID: 3734283548407140399}
+  - {fileID: 830155022270112910}
+  - {fileID: -766898325932177098}
+  - {fileID: -8252714019066433369}
+--- !u!1126 &607434204621932450
 PackedAssets:
   m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.sharedAssets
   m_Overhead: 200613
@@ -10231,409 +10535,115 @@ PackedAssets:
     offset: 307262696
     sourceAssetGUID: f87a627d66b2513459911bd930fe4d5d
     buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/World Data/New Terrain 1.asset
---- !u!641289076 &-1536728948080027040
+--- !u!641289076 &830155022270112910
 AudioBuildInfo:
   m_IsAudioDisabled: 0
   m_AudioClipCount: 15
   m_AudioMixerCount: 1
---- !u!1125 &1
-BuildReport:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LastWindowsBuild
-  m_Summary:
-    buildStartTime:
-      serializedVersion: 2
-      ticks: 639300190099448450
-    buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
-    subtarget: 0
-    options: 0
-    assetBundleOptions: 32
-    outputPath: C:/Users/Chamo/AppData/Local/Temp/DefaultCompany/PXR 2026
-    crc: 2179592122
-    totalSize: 103613000
-    totalTimeTicks: 627598867
-    totalErrors: 2
-    totalWarnings: 11
-    buildType: 2
-    buildResult: 1
-  m_Files:
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/BuildPlayer-VRCDefaultWorldScene
-      2
-    role: Scene
-    id: 0
-    totalSize: 494544
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/BuildPlayer-VRCDefaultWorldScene
-      2.sharedAssets
-    role: SharedAssets
-    id: 1
-    totalSize: 308152300
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
-      2/ba/ba98ace8500dbcbc85f217101d5499f0.pos
-    role: StreamingResourceFile
-    id: 2
-    totalSize: 3508
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
-      2/ba/ba98ace8500dbcbc85f217101d5499f0.rpc.sse
-    role: StreamingResourceFile
-    id: 3
-    totalSize: 219915
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
-      2/e9/e919e5d23f3195d3d7276e975d760a26.caw
-    role: StreamingResourceFile
-    id: 4
-    totalSize: 28434
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
-      2/e9/e919e5d23f3195d3d7276e975d760a26.ecm
-    role: StreamingResourceFile
-    id: 5
-    totalSize: 10824
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
-      2/e9/e919e5d23f3195d3d7276e975d760a26.iws.sse
-    role: StreamingResourceFile
-    id: 6
-    totalSize: 95544
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
-      2/e9/e919e5d23f3195d3d7276e975d760a26.rgb
-    role: StreamingResourceFile
-    id: 7
-    totalSize: 10864
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
-      2/e9/e919e5d23f3195d3d7276e975d760a26.rsc.sse
-    role: StreamingResourceFile
-    id: 8
-    totalSize: 418152
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
-      2/e9/e919e5d23f3195d3d7276e975d760a26.vis
-    role: StreamingResourceFile
-    id: 9
-    totalSize: 36217
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw/BuildPlayer-VRCDefaultWorldScene
-      2.resource
-    role: StreamingResourceFile
-    id: 10
-    totalSize: 14308800
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw
-    role: AssetBundle
-    id: 11
-    totalSize: 103607313
-  - path: C:/UnityPXRProject/Dome/scene-standalonewindows64-vrcdefaultworldscene
-      2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw.manifest
-    role: AssetBundleTextManifest
-    id: 12
-    totalSize: 4374
-  - path: C:/UnityPXRProject/Dome/PXR 2026/CAB-0a4ec896a5f565a4765af3149c7a04cf
-    role: ResourcesFile
-    id: 13
-    totalSize: 4296
-  - path: C:/UnityPXRProject/Dome/PXR 2026
-    role: ManifestAssetBundle
-    id: 14
-    totalSize: 1095
-  - path: C:/UnityPXRProject/Dome/PXR 2026.manifest
-    role: AssetBundleTextManifest
-    id: 15
-    totalSize: 218
-  m_BuildSteps:
-  - stepName: Build Asset Bundles
-    durationTicks: 627598867
-    depth: 0
-    messages: []
-  - stepName: Calculate asset bundles to be built
-    durationTicks: 224433
-    depth: 1
-    messages: []
-  - stepName: Prebuild Cleanup and Recompile
-    durationTicks: 18728808
-    depth: 1
-    messages: []
-  - stepName: Compile scripts
-    durationTicks: 17949602
-    depth: 2
-    messages: []
-  - stepName: Generate and validate platform script types
-    durationTicks: 655093
-    depth: 2
-    messages: []
-  - stepName: Build Scene AssetBundle(s)
-    durationTicks: 569449440
-    depth: 1
-    messages: []
-  - stepName: 'Build bundle: scene-standalonewindows64-vrcdefaultworldscene 2-2af7014c-46f6-40eb-8adf-65c6d6588195.vrcw'
-    durationTicks: 567158414
-    depth: 2
-    messages: []
-  - stepName: Verify Build setup
-    durationTicks: 677085
-    depth: 3
-    messages: []
-  - stepName: Prepare assets for target platform
-    durationTicks: 2035442
-    depth: 3
-    messages: []
-  - stepName: Prepare splash screen
-    durationTicks: 754800
-    depth: 3
-    messages:
-    - type: 3
-      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
-  - stepName: Building scenes
-    durationTicks: 22611071
-    depth: 3
-    messages: []
-  - stepName: Building scene Assets/Scenes/VRCDefaultWorldScene 2.unity
-    durationTicks: 22610837
-    depth: 4
-    messages:
-    - type: 3
-      content: Computed code signatures for 89 scripts of type SerializedUdonProgramAsset
-        in 6ms
-  - stepName: Writing asset files
-    durationTicks: 47287378
-    depth: 3
-    messages: []
-  - stepName: Packaging assets - archive:/BuildPlayer-VRCDefaultWorldScene 2/BuildPlayer-VRCDefaultWorldScene
-      2.sharedAssets
-    durationTicks: 47042899
-    depth: 4
-    messages:
-    - type: 2
-      content: The tree Desert_Village_Palm_1 couldn't be instanced because the prefab
-        contains no valid mesh renderer.
-    - type: 2
-      content: The tree Desert_Village_Palm_2 couldn't be instanced because the prefab
-        contains no valid mesh renderer.
-    - type: 2
-      content: The tree Tree_Poplar_Dead_A must use the Nature/Soft Occlusion shader.
-        Otherwise billboarding/lighting will not work correctly.
-    - type: 2
-      content: 'Shader warning in ''Nature/SpeedTree'': Automatically setting target
-        of LOD_FADE_CROSSFADE to 3.0 at line 29'
-    - type: 2
-      content: 'Shader warning in ''Nature/SpeedTree Billboard'': texcoord2 missing
-        from surface shader''s vertex input struct (SpeedTreeBillboardData), disabled
-        dynamic GI and meta pass generation'
-    - type: 2
-      content: 'Shader warning in ''Nature/SpeedTree Billboard'': Automatically setting
-        target of LOD_FADE_CROSSFADE to 3.0 at line 26'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
-        for #pragma exclude_renderers: webgpu at line 278'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
-        for #pragma only_renderers: webgpu at line 293'
-    - type: 0
-      content: 'Shader error in ''Silent/Clear Water 2 Normal'': Non system-generated
-        input signature parameter () cannot appear after a system generated value.
-        at line 121 (on gles3)
-
-
-        Compiling Subshader: 0, Pass: Meta, Vertex
-        program with INSTANCING_ON STEREO_MULTIVIEW_ON
-
-        Platform defines:
-        SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE
-        UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_CUBEMAP_ARRAY
-        UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_META
-        UNITY_PBS_USE_BRDF2
-
-        Disabled keywords: EDITOR_VISUALIZATION UNITY_ASTC_NORMALMAP_ENCODING
-        UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS
-        UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING
-        UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER
-        UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION
-        UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL
-        UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING'
-    - type: 0
-      content: 'Shader error in ''Silent/Clear Water 2 Normal'': Non system-generated
-        input signature parameter () cannot appear after a system generated value.
-        at line 214 (on gles3)
-
-
-        Compiling Subshader: 0, Pass: FORWARD, Vertex
-        program with DIRECTIONAL INSTANCING_ON STEREO_MULTIVIEW_ON
-
-        Platform
-        defines: SHADER_API_GLES30 SHADER_API_MOBILE UNITY_ENABLE_REFLECTION_BUFFERS
-        UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING
-        UNITY_NO_CUBEMAP_ARRAY UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS
-        UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF2
-
-        Disabled keywords: DIRLIGHTMAP_COMBINED
-        DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
-        LIGHTPROBE_SH UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP
-        UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2
-        UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME
-        UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1
-        UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING
-        UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-        UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
-        renderer for #pragma exclude_renderers: webgpu at line 102'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
-        renderer for #pragma exclude_renderers: webgpu at line 118'
-    - type: 2
-      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
-        renderer for #pragma only_renderers: webgpu at line 150'
-  - stepName: Creating compressed player package
-    durationTicks: 488328690
-    depth: 3
-    messages: []
-  - stepName: Postprocess built player
-    durationTicks: 279414
-    depth: 3
-    messages: []
-  m_Appendices:
-  - {fileID: -5517820886195269105}
-  - {fileID: -1769532886887768284}
-  - {fileID: 5598517939939212025}
-  - {fileID: 5508394234009038744}
-  - {fileID: -6389470066273004455}
-  - {fileID: 9121141388773170574}
-  - {fileID: -1976631651308428958}
-  - {fileID: 1284326014974272072}
-  - {fileID: 4496353005248216655}
-  - {fileID: -3697860428198990990}
-  - {fileID: 8513187192777640205}
-  - {fileID: -9182914319647471695}
-  - {fileID: -1536728948080027040}
-  - {fileID: -8663778556209217399}
-  - {fileID: -3341638428371739140}
---- !u!1126 &1284326014974272072
+--- !u!1126 &1413633786416823987
 PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.rgb
-  m_Overhead: 10864
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.ecm
+  m_Overhead: 10824
   m_Contents: []
---- !u!1126 &4496353005248216655
+--- !u!1126 &2085264014431051478
 PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.rsc.sse
-  m_Overhead: 418152
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.iws.sse
+  m_Overhead: 95544
   m_Contents: []
---- !u!1126 &5508394234009038744
+--- !u!382020655 &3734283548407140399
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - VRC.Udon.VM
+  - VRC.SDK3.Dynamics.PhysBone
+  - VRC.Udon.Security
+  - libvrc_fast_crypto
+  - VRCEconomy
+  - DOTween
+  - YamlDotNet
+  - VRCSDK3
+  - nunit.framework
+  - VRC.Primitives
+  - VRCCore-Editor
+  - Serilog.Sinks.File
+  - vrc_fast_crypto
+  - VRC.SDK3.Dynamics.Contact
+  - System.Collections.Immutable
+  - OculusXRPlugin
+  - VRC.Udon.Wrapper
+  - VRC.ImageProcessing
+  - Unity.Burst.Unsafe
+  - SemanticVersioning
+  - vrc_image_loader
+  - librsync.net
+  - VRC.Core.Isolated
+  - OVRPlugin
+  - System.Runtime.CompilerServices.Unsafe
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - VRC.Udon.Common
+  - VRC.Udon.VRCWrapperModules
+  - VRC.Dynamics
+  - tanoisegen
+  - VRCSDKBase
+  - VRC.Utility
+  - portmidi
+  - VRC.Udon.ClientBindings
+  - SDKBase-Legacy
+  - Blake2Sharp
+  - VRC.SDK3.Dynamics.Constraint
+  - System.Text.Encoding.CodePages
+  - VRC.Billboard
+  - Serilog
+  - Collections.Pooled
+  - VRC.Primitives.UniTask
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - libvrc_image_loader
+  - VRC.Udon.VRCGraphModules
+  - VRC.Udon.EditorBindings
+  - 0Harmony
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - libvrc_shader_compiler_plugin
+  - Mono.Cecil.Pdb
+  - JetBrains.Rider.PathLocator
+  - vrc_shader_compiler_plugin
+  - VRCSDKBase-Editor
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.VRCTypeResolverModules
+  - VRCEconomy-Editor
+  - ICSharpCode.SharpZipLib
+  - VRC.SDK3.Dynamics.Constraint.Editor
+  - AppleEventIntegration
+  - Mono.Cecil
+  - VRC.Udon.Graph
+  - Unity.Burst.Cecil.Pdb
+  - Mono.Cecil.Rocks
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - VRCSDK3-Editor
+  - Mono.Cecil.Mdb
+  - Serilog.Sinks.Unity3D
+  - Algolia.Search
+  - DOTweenEditor
+  - Unity.Burst.Cecil.Mdb
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - Unity.Burst.Cecil
+  - Unity.Burst.Cecil.Rocks
+  - vpm-core-lib
+  - VRC.Udon.UAssembly
+--- !u!1126 &4997962144640397883
 PackedAssets:
   m_ShortPath: ba98ace8500dbcbc85f217101d5499f0.rpc.sse
   m_Overhead: 219915
   m_Contents: []
---- !u!1126 &5598517939939212025
+--- !u!1126 &5344198750032654603
 PackedAssets:
-  m_ShortPath: ba98ace8500dbcbc85f217101d5499f0.pos
-  m_Overhead: 3508
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.vis
+  m_Overhead: 36217
   m_Contents: []
---- !u!1126 &8513187192777640205
+--- !u!1126 &7960224296460595631
 PackedAssets:
-  m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.resource
-  m_Overhead: 0
-  m_Contents:
-  - fileID: 0
-    classID: 83
-    packedSize: 607776
-    offset: 0
-    sourceAssetGUID: 03a1ef8334b93423597a5b2379bb888e
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/trees/Tree-Sounds.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 337984
-    offset: 0
-    sourceAssetGUID: 0e656ed03599f44c39cea7e2cdec8e89
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Cricket-Close-1.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1357152
-    offset: 0
-    sourceAssetGUID: 19a4e105ae4f745d792c4f54ebe433a2
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Forrestwav.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1924288
-    offset: 0
-    sourceAssetGUID: 1f5b22f0d32f245bea407dc69587485f
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/water/Water-On-Shore.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 372896
-    offset: 0
-    sourceAssetGUID: 2c0be1d976fd946b0a4c00880f86dfc5
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds3.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1549952
-    offset: 0
-    sourceAssetGUID: 50127721ca76c4d7094d8f15a1ddea29
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Far.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1220480
-    offset: 0
-    sourceAssetGUID: 64cc13f5ce183429ca4a8e0eabfe049e
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Seabird-Owl.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1060640
-    offset: 0
-    sourceAssetGUID: 673bdb95de73d4f4b9f54289e31e0485
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/water/Open-Ocean2.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1618944
-    offset: 0
-    sourceAssetGUID: 7fbbd2081219f47a5addce7328862437
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Owls2.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 462304
-    offset: 0
-    sourceAssetGUID: 9b83f6ddbc7d9437289adcf48f430d85
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/grass/XRtist-Dome.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 646560
-    offset: 0
-    sourceAssetGUID: 9dc14365d47534cdfabac7fea3f7eae5
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/cicadas/cicada-close-1-loop.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 688576
-    offset: 0
-    sourceAssetGUID: a1784ea45eedc455fa1581242dc5537c
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds2.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 192608
-    offset: 0
-    sourceAssetGUID: ac7b7bc198d1d479a90d425d8160805d
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Owl-1.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1670784
-    offset: 0
-    sourceAssetGUID: af7919f9898b74d5d83e3280d43ede9e
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Frogs.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 597856
-    offset: 0
-    sourceAssetGUID: d0bde7162040c4a55a2689304452590f
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds1.wav
---- !u!1126 &9121141388773170574
-PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.ecm
-  m_Overhead: 10824
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.rsc.sse
+  m_Overhead: 418152
   m_Contents: []
