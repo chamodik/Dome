@@ -121,5 +121,5 @@ Material:
     - _DepthColour: {r: 0.22707576, g: 0.39568633, b: 0.5147058, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColour: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint: {r: 0.24787384, g: 0.5709753, b: 0.9496855, a: 1}
+    - _Tint: {r: 0.28235295, g: 0.6901961, b: 1, a: 1}
   m_BuildTextureStacks: []
