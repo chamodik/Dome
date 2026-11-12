@@ -1,25 +1,123 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1126 &-8859652152212539872
+--- !u!1126 &-6035115224828947003
 PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.caw
-  m_Overhead: 28434
+  m_ShortPath: ba98ace8500dbcbc85f217101d5499f0.pos
+  m_Overhead: 3508
   m_Contents: []
---- !u!1126 &-2641450313276153300
+--- !u!1521398425 &-5258775595877388156
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!1126 &-1208633532540357104
 PackedAssets:
   m_ShortPath: e919e5d23f3195d3d7276e975d760a26.rsc.neo
   m_Overhead: 418136
   m_Contents: []
---- !u!1126 &-2502306091224913874
+--- !u!1126 &-1060377290613486783
 PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.iws.neo
-  m_Overhead: 95544
-  m_Contents: []
---- !u!1126 &-330731292262160691
-PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.ecm
-  m_Overhead: 10824
-  m_Contents: []
+  m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 607776
+    offset: 0
+    sourceAssetGUID: 03a1ef8334b93423597a5b2379bb888e
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/trees/Tree-Sounds.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 337984
+    offset: 0
+    sourceAssetGUID: 0e656ed03599f44c39cea7e2cdec8e89
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Cricket-Close-1.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1357152
+    offset: 0
+    sourceAssetGUID: 19a4e105ae4f745d792c4f54ebe433a2
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Forrestwav.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1924288
+    offset: 0
+    sourceAssetGUID: 1f5b22f0d32f245bea407dc69587485f
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/water/Water-On-Shore.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 372896
+    offset: 0
+    sourceAssetGUID: 2c0be1d976fd946b0a4c00880f86dfc5
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds3.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1549952
+    offset: 0
+    sourceAssetGUID: 50127721ca76c4d7094d8f15a1ddea29
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Far.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1220480
+    offset: 0
+    sourceAssetGUID: 64cc13f5ce183429ca4a8e0eabfe049e
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Seabird-Owl.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1060640
+    offset: 0
+    sourceAssetGUID: 673bdb95de73d4f4b9f54289e31e0485
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/water/Open-Ocean2.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1618944
+    offset: 0
+    sourceAssetGUID: 7fbbd2081219f47a5addce7328862437
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Owls2.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 462304
+    offset: 0
+    sourceAssetGUID: 9b83f6ddbc7d9437289adcf48f430d85
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/grass/XRtist-Dome.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 646560
+    offset: 0
+    sourceAssetGUID: 9dc14365d47534cdfabac7fea3f7eae5
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/cicadas/cicada-close-1-loop.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 688576
+    offset: 0
+    sourceAssetGUID: a1784ea45eedc455fa1581242dc5537c
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds2.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 192608
+    offset: 0
+    sourceAssetGUID: ac7b7bc198d1d479a90d425d8160805d
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Owl-1.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 1670784
+    offset: 0
+    sourceAssetGUID: af7919f9898b74d5d83e3280d43ede9e
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Frogs.wav
+  - fileID: 0
+    classID: 83
+    packedSize: 597856
+    offset: 0
+    sourceAssetGUID: d0bde7162040c4a55a2689304452590f
+    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds1.wav
+--- !u!668709126 &-949461397816427345
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw
+    bundleArchiveFile: 11
+    packagedFileIndices: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  - bundleName: PXR 2026
+    bundleArchiveFile: 14
+    packagedFileIndices: 0d000000
 --- !u!1125 &1
 BuildReport:
   m_ObjectHideFlags: 0
@@ -30,7 +128,7 @@ BuildReport:
   m_Summary:
     buildStartTime:
       serializedVersion: 2
-      ticks: 639300189016647091
+      ticks: 639300261603104960
     buildGUID: 00000000000000000000000000000000
     platformName: Android
     platformGroupName: Android
@@ -38,77 +136,77 @@ BuildReport:
     options: 0
     assetBundleOptions: 32
     outputPath: C:/Users/Chamo/AppData/Local/Temp/DefaultCompany/PXR 2026
-    crc: 3903982015
-    totalSize: 102818680
-    totalTimeTicks: 262189758
+    crc: 541026092
+    totalSize: 102770737
+    totalTimeTicks: 355373375
     totalErrors: 3
     totalWarnings: 14
     buildType: 2
     buildResult: 1
   m_Files:
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/BuildPlayer-VRCDefaultWorldScene
       2
     role: Scene
     id: 0
     totalSize: 494544
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/BuildPlayer-VRCDefaultWorldScene
       2.sharedAssets
     role: SharedAssets
     id: 1
     totalSize: 181773588
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
       2/ba/ba98ace8500dbcbc85f217101d5499f0.pos
     role: StreamingResourceFile
     id: 2
     totalSize: 3508
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
       2/ba/ba98ace8500dbcbc85f217101d5499f0.rpc.neo
     role: StreamingResourceFile
     id: 3
     totalSize: 219915
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
       2/e9/e919e5d23f3195d3d7276e975d760a26.caw
     role: StreamingResourceFile
     id: 4
     totalSize: 28434
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
       2/e9/e919e5d23f3195d3d7276e975d760a26.ecm
     role: StreamingResourceFile
     id: 5
     totalSize: 10824
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
       2/e9/e919e5d23f3195d3d7276e975d760a26.iws.neo
     role: StreamingResourceFile
     id: 6
     totalSize: 95544
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
       2/e9/e919e5d23f3195d3d7276e975d760a26.rgb
     role: StreamingResourceFile
     id: 7
     totalSize: 10864
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
       2/e9/e919e5d23f3195d3d7276e975d760a26.rsc.neo
     role: StreamingResourceFile
     id: 8
     totalSize: 418136
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/GI/BuildPlayer-VRCDefaultWorldScene
       2/e9/e919e5d23f3195d3d7276e975d760a26.vis
     role: StreamingResourceFile
     id: 9
     totalSize: 36217
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw/BuildPlayer-VRCDefaultWorldScene
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw/BuildPlayer-VRCDefaultWorldScene
       2.resource
     role: StreamingResourceFile
     id: 10
     totalSize: 14308800
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw
     role: AssetBundle
     id: 11
-    totalSize: 102813013
-  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw.manifest
+    totalSize: 102765073
+  - path: C:/UnityPXRProject/Dome/scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw.manifest
     role: AssetBundleTextManifest
     id: 12
-    totalSize: 4374
+    totalSize: 4373
   - path: C:/UnityPXRProject/Dome/PXR 2026/CAB-0a4ec896a5f565a4765af3149c7a04cf
     role: ResourcesFile
     id: 13
@@ -116,50 +214,50 @@ BuildReport:
   - path: C:/UnityPXRProject/Dome/PXR 2026
     role: ManifestAssetBundle
     id: 14
-    totalSize: 1087
+    totalSize: 1086
   - path: C:/UnityPXRProject/Dome/PXR 2026.manifest
     role: AssetBundleTextManifest
     id: 15
-    totalSize: 206
+    totalSize: 205
   m_BuildSteps:
   - stepName: Build Asset Bundles
-    durationTicks: 262189758
+    durationTicks: 355373375
     depth: 0
     messages: []
   - stepName: Calculate asset bundles to be built
-    durationTicks: 183651
+    durationTicks: 8867722
     depth: 1
     messages: []
   - stepName: Prebuild Cleanup and Recompile
-    durationTicks: 5183352
+    durationTicks: 22564134
     depth: 1
     messages: []
   - stepName: Compile scripts
-    durationTicks: 4684228
+    durationTicks: 21884268
     depth: 2
     messages: []
   - stepName: Generate and validate platform script types
-    durationTicks: 404279
+    durationTicks: 547225
     depth: 2
     messages: []
   - stepName: Build Scene AssetBundle(s)
-    durationTicks: 244788127
+    durationTicks: 283284438
     depth: 1
     messages:
     - type: 0
       content: 'An abnormal situation has occurred: the PlayerLoop internal function
         has been called recursively. Please contact Customer Support with a sample
         project so that we can reproduce the problem and troubleshoot it.'
-  - stepName: 'Build bundle: scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw'
-    durationTicks: 242601636
+  - stepName: 'Build bundle: scene-android-vrcdefaultworldscene 2-0a415493-7cd8-47a2-ab16-4fec5be0302e.vrcw'
+    durationTicks: 279799099
     depth: 2
     messages: []
   - stepName: Verify Build setup
-    durationTicks: 521366
+    durationTicks: 1388871
     depth: 3
     messages: []
   - stepName: Prepare assets for target platform
-    durationTicks: 1851618
+    durationTicks: 1765488
     depth: 3
     messages:
     - type: 2
@@ -167,17 +265,17 @@ BuildReport:
         performance severely. You can change the mobile quality settings in 'Project
         Settings -> Quality Settings'.
   - stepName: Prepare splash screen
-    durationTicks: 4751
+    durationTicks: 3268966
     depth: 3
     messages:
     - type: 3
       content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
   - stepName: Building scenes
-    durationTicks: 13423415
+    durationTicks: 30265625
     depth: 3
     messages: []
   - stepName: Building scene Assets/Scenes/VRCDefaultWorldScene 2.unity
-    durationTicks: 13423268
+    durationTicks: 30265008
     depth: 4
     messages:
     - type: 2
@@ -188,14 +286,14 @@ BuildReport:
         OnGUI>
     - type: 3
       content: Computed code signatures for 89 scripts of type SerializedUdonProgramAsset
-        in 3ms
+        in 5ms
   - stepName: Writing asset files
-    durationTicks: 15797432
+    durationTicks: 27195211
     depth: 3
     messages: []
   - stepName: Packaging assets - archive:/BuildPlayer-VRCDefaultWorldScene 2/BuildPlayer-VRCDefaultWorldScene
       2.sharedAssets
-    durationTicks: 15682156
+    durationTicks: 27007435
     depth: 4
     messages:
     - type: 2
@@ -279,54 +377,67 @@ BuildReport:
       content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
         renderer for #pragma only_renderers: webgpu at line 150'
   - stepName: Creating compressed player package
-    durationTicks: 200469749
+    durationTicks: 201410672
     depth: 3
     messages: []
   - stepName: Postprocess built player
-    durationTicks: 212727
+    durationTicks: 335327
     depth: 3
     messages: []
   m_Appendices:
-  - {fileID: 1828195833759171267}
-  - {fileID: 4013653172719543053}
-  - {fileID: 1471679504360996644}
-  - {fileID: 4599477442818179874}
-  - {fileID: -8859652152212539872}
-  - {fileID: -330731292262160691}
-  - {fileID: -2502306091224913874}
-  - {fileID: 234013778820504658}
-  - {fileID: -2641450313276153300}
-  - {fileID: 5365961216576447796}
-  - {fileID: 4097444806416159427}
-  - {fileID: 6037166828645807147}
-  - {fileID: 230439423618565668}
-  - {fileID: 9194411341134205952}
-  - {fileID: 6986925021894460073}
---- !u!641289076 &230439423618565668
-AudioBuildInfo:
-  m_IsAudioDisabled: 0
-  m_AudioClipCount: 15
-  m_AudioMixerCount: 1
---- !u!1126 &234013778820504658
+  - {fileID: -949461397816427345}
+  - {fileID: 4646707458556079277}
+  - {fileID: -6035115224828947003}
+  - {fileID: 1133659209601518107}
+  - {fileID: 3490184063393693729}
+  - {fileID: 7664687740486288401}
+  - {fileID: 5802271248193306504}
+  - {fileID: 1460570046549241953}
+  - {fileID: -1208633532540357104}
+  - {fileID: 2988068796409456908}
+  - {fileID: -1060377290613486783}
+  - {fileID: 5896692221446801522}
+  - {fileID: 5047839548918383235}
+  - {fileID: -5258775595877388156}
+  - {fileID: 346305449001610904}
+--- !u!1126 &346305449001610904
+PackedAssets:
+  m_ShortPath: CAB-0a4ec896a5f565a4765af3149c7a04cf
+  m_Overhead: 4032
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4032
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 148
+    offset: 4136
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1126 &1133659209601518107
+PackedAssets:
+  m_ShortPath: ba98ace8500dbcbc85f217101d5499f0.rpc.neo
+  m_Overhead: 219915
+  m_Contents: []
+--- !u!1126 &1460570046549241953
 PackedAssets:
   m_ShortPath: e919e5d23f3195d3d7276e975d760a26.rgb
   m_Overhead: 10864
   m_Contents: []
---- !u!1126 &1471679504360996644
+--- !u!1126 &2988068796409456908
 PackedAssets:
-  m_ShortPath: ba98ace8500dbcbc85f217101d5499f0.pos
-  m_Overhead: 3508
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.vis
+  m_Overhead: 36217
   m_Contents: []
---- !u!668709126 &1828195833759171267
-BuiltAssetBundleInfoSet:
-  bundleInfos:
-  - bundleName: scene-android-vrcdefaultworldscene 2-a6f7db0e-2eb7-415f-b57f-3dab3b769763.vrcw
-    bundleArchiveFile: 11
-    packagedFileIndices: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
-  - bundleName: PXR 2026
-    bundleArchiveFile: 14
-    packagedFileIndices: 0d000000
---- !u!1126 &4013653172719543053
+--- !u!1126 &3490184063393693729
+PackedAssets:
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.caw
+  m_Overhead: 28434
+  m_Contents: []
+--- !u!1126 &4646707458556079277
 PackedAssets:
   m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.sharedAssets
   m_Overhead: 200633
@@ -10430,112 +10541,17 @@ PackedAssets:
     offset: 180883984
     sourceAssetGUID: f87a627d66b2513459911bd930fe4d5d
     buildTimeAssetPath: Assets/Prefab Assets/0_BASEWORLD/World Data/New Terrain 1.asset
---- !u!1126 &4097444806416159427
+--- !u!641289076 &5047839548918383235
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 15
+  m_AudioMixerCount: 1
+--- !u!1126 &5802271248193306504
 PackedAssets:
-  m_ShortPath: BuildPlayer-VRCDefaultWorldScene 2.resource
-  m_Overhead: 0
-  m_Contents:
-  - fileID: 0
-    classID: 83
-    packedSize: 607776
-    offset: 0
-    sourceAssetGUID: 03a1ef8334b93423597a5b2379bb888e
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/trees/Tree-Sounds.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 337984
-    offset: 0
-    sourceAssetGUID: 0e656ed03599f44c39cea7e2cdec8e89
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Cricket-Close-1.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1357152
-    offset: 0
-    sourceAssetGUID: 19a4e105ae4f745d792c4f54ebe433a2
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Forrestwav.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1924288
-    offset: 0
-    sourceAssetGUID: 1f5b22f0d32f245bea407dc69587485f
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/water/Water-On-Shore.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 372896
-    offset: 0
-    sourceAssetGUID: 2c0be1d976fd946b0a4c00880f86dfc5
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds3.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1549952
-    offset: 0
-    sourceAssetGUID: 50127721ca76c4d7094d8f15a1ddea29
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Far.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1220480
-    offset: 0
-    sourceAssetGUID: 64cc13f5ce183429ca4a8e0eabfe049e
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Seabird-Owl.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1060640
-    offset: 0
-    sourceAssetGUID: 673bdb95de73d4f4b9f54289e31e0485
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/water/Open-Ocean2.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1618944
-    offset: 0
-    sourceAssetGUID: 7fbbd2081219f47a5addce7328862437
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Owls2.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 462304
-    offset: 0
-    sourceAssetGUID: 9b83f6ddbc7d9437289adcf48f430d85
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/grass/XRtist-Dome.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 646560
-    offset: 0
-    sourceAssetGUID: 9dc14365d47534cdfabac7fea3f7eae5
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/cicadas/cicada-close-1-loop.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 688576
-    offset: 0
-    sourceAssetGUID: a1784ea45eedc455fa1581242dc5537c
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds2.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 192608
-    offset: 0
-    sourceAssetGUID: ac7b7bc198d1d479a90d425d8160805d
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/nightbirds/Owl-1.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 1670784
-    offset: 0
-    sourceAssetGUID: af7919f9898b74d5d83e3280d43ede9e
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/crickets/Crickets-Frogs.wav
-  - fileID: 0
-    classID: 83
-    packedSize: 597856
-    offset: 0
-    sourceAssetGUID: d0bde7162040c4a55a2689304452590f
-    buildTimeAssetPath: Assets/Assets-Audio/Fields-Loop/daybirds/Birds1.wav
---- !u!1126 &4599477442818179874
-PackedAssets:
-  m_ShortPath: ba98ace8500dbcbc85f217101d5499f0.rpc.neo
-  m_Overhead: 219915
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.iws.neo
+  m_Overhead: 95544
   m_Contents: []
---- !u!1126 &5365961216576447796
-PackedAssets:
-  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.vis
-  m_Overhead: 36217
-  m_Contents: []
---- !u!382020655 &6037166828645807147
+--- !u!382020655 &5896692221446801522
 PluginBuildInfo:
   m_RuntimePlugins:
   - VRC.Udon.VM
@@ -10621,24 +10637,8 @@ PluginBuildInfo:
   - Unity.Burst.Cecil.Rocks
   - vpm-core-lib
   - VRC.Udon.UAssembly
---- !u!1126 &6986925021894460073
+--- !u!1126 &7664687740486288401
 PackedAssets:
-  m_ShortPath: CAB-0a4ec896a5f565a4765af3149c7a04cf
-  m_Overhead: 4032
-  m_Contents:
-  - fileID: 1
-    classID: 142
-    packedSize: 104
-    offset: 4032
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: AssetBundle Object
-  - fileID: 2
-    classID: 290
-    packedSize: 148
-    offset: 4136
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1521398425 &9194411341134205952
-VideoBuildInfo:
-  m_VideoClipCount: 0
-  m_IsVideoModuleDisabled: 0
+  m_ShortPath: e919e5d23f3195d3d7276e975d760a26.ecm
+  m_Overhead: 10824
+  m_Contents: []
