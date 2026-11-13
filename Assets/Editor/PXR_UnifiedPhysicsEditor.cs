@@ -3,30 +3,45 @@
 
 using UnityEngine;
 using UnityEditor;
+<<<<<<< Updated upstream
 using UdonSharp;
 using UdonSharpEditor;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+=======
+using UdonSharpEditor;
+>>>>>>> Stashed changes
 
 [CustomEditor(typeof(PXR_UnifiedPhysics))]
 public class PXR_UnifiedPhysicsEditor : Editor
 {
+<<<<<<< Updated upstream
     private bool showChain = false;
     private bool showRadial = false;
     private bool showBeam = false;
     private bool showSpawn = false;
+=======
+    private bool showRadial;
+    private bool showBeam;
+    private bool showSpawn;
+>>>>>>> Stashed changes
     private bool showDetection;
 
     public override void OnInspectorGUI()
     {
+<<<<<<< Updated upstream
         if (UdonSharpGUI.DrawDefaultUdonSharpBehaviourHeader(
             target))
+=======
+        if (UdonSharpGUI.DrawDefaultUdonSharpBehaviourHeader(target))
+>>>>>>> Stashed changes
             return;
 
         serializedObject.Update();
 
         Info(
+<<<<<<< Updated upstream
             "PXR Unified Physics contains force " +
             "effects, Rigidbody spawning, and " +
             "chain events."
@@ -85,6 +100,19 @@ public class PXR_UnifiedPhysicsEditor : Editor
         if (Begin(ref showRadial, "RadialForce()"))
         {
             PXR_InspectorGuidance.PhysicsRequirements("RadialForce");
+=======
+            "PXR Unified Physics provides radial forces, " +
+            "beam forces, and Rigidbody spawning. " +
+            "Use PXR_UnifiedInputs for event delays and scope."
+        );
+
+        if (Begin(ref showRadial, "RadialForce()"))
+        {
+            PXR_InspectorGuidance.PhysicsRequirements(
+                "RadialForce"
+            );
+
+>>>>>>> Stashed changes
             DrawMinimumFloat(
                 "radialRange",
                 "Range",
@@ -119,8 +147,13 @@ public class PXR_UnifiedPhysicsEditor : Editor
                 if (Find("persistRadialState").boolValue)
                 {
                     Info(
+<<<<<<< Updated upstream
                         "The emitter owner synchronizes " +
                         "the active state. Use All Players " +
+=======
+                        "The emitter owner synchronizes the " +
+                        "active state. Select All Players " +
+>>>>>>> Stashed changes
                         "scope in UnifiedInputs."
                     );
                 }
@@ -132,6 +165,7 @@ public class PXR_UnifiedPhysicsEditor : Editor
                 );
             }
         }
+<<<<<<< Updated upstream
         End(showRadial);
 
         EditorGUILayout.Space(4);
@@ -143,6 +177,18 @@ public class PXR_UnifiedPhysicsEditor : Editor
         if (Begin(ref showBeam, "BeamForce()"))
         {
             PXR_InspectorGuidance.PhysicsRequirements("BeamForce");
+=======
+
+        End(showRadial);
+        EditorGUILayout.Space(4);
+
+        if (Begin(ref showBeam, "BeamForce()"))
+        {
+            PXR_InspectorGuidance.PhysicsRequirements(
+                "BeamForce"
+            );
+
+>>>>>>> Stashed changes
             DrawMinimumFloat(
                 "beamRange",
                 "Range",
@@ -188,8 +234,13 @@ public class PXR_UnifiedPhysicsEditor : Editor
                 if (Find("persistBeamState").boolValue)
                 {
                     Info(
+<<<<<<< Updated upstream
                         "The emitter owner synchronizes " +
                         "the active state. Use All Players " +
+=======
+                        "The emitter owner synchronizes the " +
+                        "active state. Select All Players " +
+>>>>>>> Stashed changes
                         "scope in UnifiedInputs."
                     );
                 }
@@ -212,12 +263,17 @@ public class PXR_UnifiedPhysicsEditor : Editor
                 .vector3Value.sqrMagnitude < 0.000001f)
             {
                 Warning(
+<<<<<<< Updated upstream
                     "Zero direction defaults " +
                     "to local +Z at runtime."
+=======
+                    "Zero direction defaults to local +Z."
+>>>>>>> Stashed changes
                 );
             }
 
             Warning(
+<<<<<<< Updated upstream
                 "The beam uses an oriented box " +
                 "and does not stop at walls."
             );
@@ -233,6 +289,22 @@ public class PXR_UnifiedPhysicsEditor : Editor
         if (Begin(ref showSpawn, "SpawnObject()"))
         {
             PXR_InspectorGuidance.PhysicsRequirements("SpawnObject");
+=======
+                "The beam uses an oriented box and " +
+                "does not stop at walls."
+            );
+        }
+
+        End(showBeam);
+        EditorGUILayout.Space(4);
+
+        if (Begin(ref showSpawn, "SpawnObject()"))
+        {
+            PXR_InspectorGuidance.PhysicsRequirements(
+                "SpawnObject"
+            );
+
+>>>>>>> Stashed changes
             PXR_InspectorGuidance.PropertyField(
                 Find("spawnPrefab"),
                 new GUIContent("Spawn Prefab (Local)")
@@ -252,6 +324,7 @@ public class PXR_UnifiedPhysicsEditor : Editor
                 )
             );
 
+<<<<<<< Updated upstream
             if (Find("velocity").vector3Value ==
                 Vector3.zero)
             {
@@ -259,13 +332,25 @@ public class PXR_UnifiedPhysicsEditor : Editor
                     "Zero velocity: the Rigidbody " +
                     "starts with no linear movement. " +
                     "Gravity may still move it."
+=======
+            if (Find("velocity").vector3Value == Vector3.zero)
+            {
+                Info(
+                    "Zero velocity: Rigidbody starts without " +
+                    "linear movement. Gravity may still act."
+>>>>>>> Stashed changes
                 );
             } else
             {
                 Info(
+<<<<<<< Updated upstream
                     "The velocity vector is converted " +
                     "to world space and assigned to " +
                     "the spawned Rigidbody."
+=======
+                    "Velocity is transformed into world space " +
+                    "and assigned to the Rigidbody."
+>>>>>>> Stashed changes
                 );
             }
 
@@ -279,6 +364,7 @@ public class PXR_UnifiedPhysicsEditor : Editor
             DrawDespawnControls();
 
             Info(
+<<<<<<< Updated upstream
                 "UnifiedInputs determines spawn mode:\n" +
                 "Synced OFF: instantiate local prefab.\n" +
                 "Synced ON: request one pooled object."
@@ -287,6 +373,21 @@ public class PXR_UnifiedPhysicsEditor : Editor
             GameObject prefab =
                 Find("spawnPrefab")
                 .objectReferenceValue as GameObject;
+=======
+                "UnifiedInputs selects the spawn route:\n" +
+                "Synced OFF: instantiate the local prefab.\n" +
+                "Synced ON: request one pooled object."
+            );
+
+            WarnIfPoolTransfersOnCollision(
+                Find("spawnPoolManager")
+                    .objectReferenceValue as PXR_PoolManager
+            );
+
+            GameObject prefab =
+                Find("spawnPrefab")
+                    .objectReferenceValue as GameObject;
+>>>>>>> Stashed changes
 
             if (prefab != null)
             {
@@ -308,6 +409,7 @@ public class PXR_UnifiedPhysicsEditor : Editor
                 }
             }
         }
+<<<<<<< Updated upstream
         End(showSpawn);
 
         EditorGUILayout.Space(4);
@@ -321,13 +423,29 @@ public class PXR_UnifiedPhysicsEditor : Editor
             "Shared Physics Detection"))
         {
             PXR_InspectorGuidance.PhysicsRequirements("Detection");
+=======
+
+        End(showSpawn);
+        EditorGUILayout.Space(4);
+
+        if (Begin(ref showDetection, "Shared Physics Detection"))
+        {
+            PXR_InspectorGuidance.PhysicsRequirements(
+                "Detection"
+            );
+
+>>>>>>> Stashed changes
             PXR_InspectorGuidance.PropertyField(
                 Find("affectedLayers"),
                 new GUIContent("Affected Layers")
             );
 
+<<<<<<< Updated upstream
             SerializedProperty capacity =
                 Find("maxColliders");
+=======
+            SerializedProperty capacity = Find("maxColliders");
+>>>>>>> Stashed changes
 
             PXR_InspectorGuidance.PropertyField(
                 capacity,
@@ -335,13 +453,18 @@ public class PXR_UnifiedPhysicsEditor : Editor
             );
 
             capacity.intValue = Mathf.Clamp(
+<<<<<<< Updated upstream
                 capacity.intValue,
                 8,
                 256
+=======
+                capacity.intValue, 8, 256
+>>>>>>> Stashed changes
             );
 
             if (Find("affectedLayers").intValue == 0)
             {
+<<<<<<< Updated upstream
                 Warning(
                     "No affected layers selected."
                 );
@@ -352,11 +475,23 @@ public class PXR_UnifiedPhysicsEditor : Editor
                 "beam queries, but not SpawnObject."
             );
         }
+=======
+                Warning("No affected layers selected.");
+            }
+
+            Info(
+                "These settings affect radial and beam " +
+                "queries, but not SpawnObject."
+            );
+        }
+
+>>>>>>> Stashed changes
         End(showDetection);
 
         serializedObject.ApplyModifiedProperties();
     }
 
+<<<<<<< Updated upstream
     // =====================================
     // DESPAWN CONTROLS
     // =====================================
@@ -368,6 +503,19 @@ public class PXR_UnifiedPhysicsEditor : Editor
 
         policy.intValue = EditorGUILayout.Popup(
             new GUIContent("Despawn Mode", PXR_InspectorGuidance.Tooltip("PXR_UnifiedPhysics", "despawnMode")),
+=======
+    private void DrawDespawnControls()
+    {
+        SerializedProperty policy = Find("despawnMode");
+
+        policy.intValue = EditorGUILayout.Popup(
+            new GUIContent(
+                "Despawn Mode",
+                PXR_InspectorGuidance.Tooltip(
+                    "PXR_UnifiedPhysics", "despawnMode"
+                )
+            ),
+>>>>>>> Stashed changes
             Mathf.Clamp(policy.intValue, 0, 2),
             new string[]
             {
@@ -386,8 +534,14 @@ public class PXR_UnifiedPhysicsEditor : Editor
             );
 
             Info(
+<<<<<<< Updated upstream
                 "The first collision schedules " +
                 "return after the grace period."
+=======
+                "The first collision schedules return " +
+                "after the grace period. Pooled objects only; " +
+                "local spawns are not affected."
+>>>>>>> Stashed changes
             );
         } else if (policy.intValue == 2)
         {
@@ -396,15 +550,29 @@ public class PXR_UnifiedPhysicsEditor : Editor
                 "Despawn After (seconds)",
                 0.05f
             );
+<<<<<<< Updated upstream
         } else
         {
             Info(
                 "No automatic return. Pooled objects " +
                 "consume pool capacity until returned."
+=======
+
+            Info(
+                "Pooled objects return to the pool; local spawns " +
+                "(Synced OFF) are destroyed after this time."
+            );
+        } else
+        {
+            Info(
+                "No automatic return. Pooled objects consume " +
+                "pool capacity until returned."
+>>>>>>> Stashed changes
             );
         }
     }
 
+<<<<<<< Updated upstream
     // =====================================
     // CHAIN METHOD SELECTOR
     // =====================================
@@ -534,6 +702,8 @@ public class PXR_UnifiedPhysicsEditor : Editor
     // INSPECTOR UTILITIES
     // =====================================
 
+=======
+>>>>>>> Stashed changes
     private SerializedProperty Find(string name)
     {
         return serializedObject.FindProperty(name);
@@ -544,8 +714,12 @@ public class PXR_UnifiedPhysicsEditor : Editor
         string label,
         float minimum)
     {
+<<<<<<< Updated upstream
         SerializedProperty property =
             Find(propertyName);
+=======
+        SerializedProperty property = Find(propertyName);
+>>>>>>> Stashed changes
 
         PXR_InspectorGuidance.PropertyField(
             property,
@@ -556,6 +730,7 @@ public class PXR_UnifiedPhysicsEditor : Editor
             Mathf.Max(minimum, property.floatValue);
     }
 
+<<<<<<< Updated upstream
     private static bool Begin(
         ref bool expanded,
         string label)
@@ -568,6 +743,14 @@ public class PXR_UnifiedPhysicsEditor : Editor
             expanded,
             label,
             true
+=======
+    private static bool Begin(ref bool expanded, string label)
+    {
+        EditorGUILayout.BeginVertical(EditorStyles.helpBox);
+
+        expanded = EditorGUILayout.Foldout(
+            expanded, label, true
+>>>>>>> Stashed changes
         );
 
         if (expanded)
@@ -587,21 +770,30 @@ public class PXR_UnifiedPhysicsEditor : Editor
     private static void Heading(string value)
     {
         EditorGUILayout.LabelField(
+<<<<<<< Updated upstream
             value,
             EditorStyles.boldLabel
+=======
+            value, EditorStyles.boldLabel
+>>>>>>> Stashed changes
         );
     }
 
     private static void Info(string value)
     {
+<<<<<<< Updated upstream
         EditorGUILayout.HelpBox(
             value,
             MessageType.Info
         );
+=======
+        EditorGUILayout.HelpBox(value, MessageType.Info);
+>>>>>>> Stashed changes
     }
 
     private static void Warning(string value)
     {
+<<<<<<< Updated upstream
         EditorGUILayout.HelpBox(
             value,
             MessageType.Warning
@@ -609,4 +801,53 @@ public class PXR_UnifiedPhysicsEditor : Editor
     }
 }
 
+=======
+        EditorGUILayout.HelpBox(value, MessageType.Warning);
+    }
+
+    // A collision ownership transfer moves a pooled object away from the
+    // pool owner, which then has to reclaim it before returning it or
+    // registering it as a key. Grabbable objects (VRCPickup) are skipped
+    // because players legitimately take ownership of them.
+    private static void WarnIfPoolTransfersOnCollision(PXR_PoolManager pool)
+    {
+        if (pool == null || pool.objectPool == null)
+            return;
+
+        GameObject[] objects = pool.objectPool.Pool;
+
+        if (objects == null)
+            return;
+
+        foreach (GameObject obj in objects)
+        {
+            if (obj == null ||
+                obj.GetComponent<VRC.SDK3.Components.VRCPickup>() != null)
+                continue;
+
+            VRC.SDK3.Components.VRCObjectSync sync =
+                obj.GetComponent<VRC.SDK3.Components.VRCObjectSync>();
+
+            if (sync == null)
+                continue;
+
+            SerializedProperty transfer =
+                new SerializedObject(sync)
+                    .FindProperty("AllowCollisionOwnershipTransfer");
+
+            if (transfer != null && transfer.boolValue)
+            {
+                Warning(
+                    "Pooled object '" + obj.name + "' allows collision " +
+                    "ownership transfer. A collision can take it away " +
+                    "from the pool owner and delay its return or key " +
+                    "registration. Turn off Allow Collision Ownership " +
+                    "Transfer on its VRCObjectSync."
+                );
+                return;
+            }
+        }
+    }
+}
+>>>>>>> Stashed changes
 #endif

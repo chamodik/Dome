@@ -81,6 +81,19 @@ public class PXR_UnifiedCreature : UdonSharpBehaviour
     [UdonSynced]
     private bool syncedWalking = false;
 
+<<<<<<< Updated upstream
+=======
+    // Whether the owner's sequence is running. A new owner
+    // resumes this state instead of falling back to
+    // playOnStart. syncedRunStateValid is false until the
+    // first owner has set it.
+    [UdonSynced]
+    private bool syncedRunning = false;
+
+    [UdonSynced]
+    private bool syncedRunStateValid = false;
+
+>>>>>>> Stashed changes
     // =====================================
     // OWNER-LOCAL SEQUENCE STATE
     // =====================================
@@ -164,7 +177,16 @@ public class PXR_UnifiedCreature : UdonSharpBehaviour
                 currentStep = 0;
             }
 
+<<<<<<< Updated upstream
             running = playOnStart;
+=======
+            SetRunning(
+                syncedRunStateValid
+                    ? syncedRunning
+                    : playOnStart
+            );
+
+>>>>>>> Stashed changes
             stepStarted = false;
             skipCurrentStep = false;
 
@@ -504,9 +526,28 @@ public class PXR_UnifiedCreature : UdonSharpBehaviour
         skipCurrentStep = false;
     }
 
+<<<<<<< Updated upstream
     private void FinishSequence()
     {
         running = false;
+=======
+    // Owner only: sets the local and synchronized run state.
+    // Continuous sync propagates it to other clients.
+    private void SetRunning(bool value)
+    {
+        running = value;
+
+        if (!Networking.IsOwner(gameObject))
+            return;
+
+        syncedRunning = value;
+        syncedRunStateValid = true;
+    }
+
+    private void FinishSequence()
+    {
+        SetRunning(false);
+>>>>>>> Stashed changes
         stepStarted = false;
 
         if (navAgent.isOnNavMesh)
@@ -586,7 +627,11 @@ public class PXR_UnifiedCreature : UdonSharpBehaviour
         if (!Networking.IsOwner(gameObject))
             return;
 
+<<<<<<< Updated upstream
         running = true;
+=======
+        SetRunning(true);
+>>>>>>> Stashed changes
         currentStep = 0;
         stepStarted = false;
         skipCurrentStep = false;

@@ -328,8 +328,10 @@ MonoBehaviour:
   synced: 1
   useDelay: 0
   delaySeconds: 0
+  eventDelaysMigrated: 0
   destroyKeyAfterUse: 0
   requiredKeys: 1
+  repeatable: 0
   checkKeyTag: 0
   requiredKeyTag: 
   pooledKeyPool: {fileID: 0}
@@ -339,6 +341,7 @@ MonoBehaviour:
   primaryEventNames:
   - ToggleObject
   primaryEventScopes: 00000000
+  primaryEventDelays: []
   primaryTeleportTargets:
   - {fileID: 0}
   primaryVideoTargets:
@@ -346,6 +349,7 @@ MonoBehaviour:
   dropEventTargets: []
   dropEventNames: []
   dropEventScopes: 
+  dropEventDelays: []
   dropTeleportTargets: []
   dropVideoTargets: []
   eventTarget: {fileID: 0}
@@ -370,6 +374,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
@@ -458,10 +463,6 @@ MonoBehaviour:
   componentToggle: 1
   componentEnabled: 1
   persistComponentState: 0
-  enableChainEvent: 0
-  chainEventTarget: {fileID: 0}
-  chainEventName: 
-  chainEventDelay: 0
   targetObject: {fileID: 0}
   enableObjectTarget: {fileID: 0}
   disableObjectTarget: {fileID: 0}
@@ -483,6 +484,7 @@ MonoBehaviour:
   interactText: Use
   interactTextGO: {fileID: 0}
   proximity: 2
+  OutlineRenderers: []
   SynchronizePosition: 0
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0

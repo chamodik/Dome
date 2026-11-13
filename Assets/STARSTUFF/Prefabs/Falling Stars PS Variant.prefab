@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7567230730492009622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_Name
+      value: Falling Stars PS Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.94488144
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 61.076103
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -77.22518
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7829634
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.61005753
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.11044821
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.05098483
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 104.856995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -154.411
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -167.632
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: lengthInSec
+      value: 16.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: ShapeModule.type
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 2.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 25.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 4.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800002, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800004, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800004, guid: 68e0204a317117742a3e68704e0339fd, type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 68e0204a317117742a3e68704e0339fd, type: 3}

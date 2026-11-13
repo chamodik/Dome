@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 #if UNITY_EDITOR
 
 using UnityEngine;
@@ -11,7 +15,10 @@ using System.Collections.Generic;
 [CustomEditor(typeof(PXR_UnifiedInputs))]
 public class PXR_UnifiedInputsEditor : Editor
 {
+<<<<<<< Updated upstream
     // All foldouts default to closed.
+=======
+>>>>>>> Stashed changes
     private bool showPrimary = false;
     private bool showDrop = false;
 
@@ -26,6 +33,10 @@ public class PXR_UnifiedInputsEditor : Editor
             return;
 
         serializedObject.Update();
+<<<<<<< Updated upstream
+=======
+        MigrateLegacyDelays();
+>>>>>>> Stashed changes
 
         SerializedProperty inputType = Find("interactionType");
         SerializedProperty dropBehavior = Find("dropBehavior");
@@ -38,7 +49,14 @@ public class PXR_UnifiedInputsEditor : Editor
         PXR_InputType type =
             (PXR_InputType)inputType.intValue;
 
+<<<<<<< Updated upstream
         PXR_InspectorGuidance.InputRequirements(type, ((PXR_UnifiedInputs)target).gameObject);
+=======
+        PXR_InspectorGuidance.InputRequirements(
+            type,
+            ((PXR_UnifiedInputs)target).gameObject
+        );
+>>>>>>> Stashed changes
 
         if (type == PXR_InputType.Pickup)
         {
@@ -61,6 +79,7 @@ public class PXR_UnifiedInputsEditor : Editor
         );
 
         EditorGUILayout.HelpBox(
+<<<<<<< Updated upstream
             "Ordinary events use the selected Local/All " +
             "Players scope. SpawnObject uses the input's " +
             "Synced setting to choose local instantiation " +
@@ -93,6 +112,24 @@ public class PXR_UnifiedInputsEditor : Editor
         {
             DrawKeySettings();
         }
+=======
+            "Ordinary events use their Local/All Players scope. " +
+            "SpawnObject uses Synced to select local instantiation " +
+            "or pooled spawning. Teleport and synchronized AVPro " +
+            "retain their dedicated routing.",
+            MessageType.Info
+        );
+
+        EditorGUILayout.HelpBox(
+            "Timing is configured separately for each event. " +
+            "Every delay begins when the input is triggered, " +
+            "not when the preceding event finishes.",
+            MessageType.Info
+        );
+
+        if (type == PXR_InputType.Key)
+            DrawKeySettings();
+>>>>>>> Stashed changes
 
         EditorGUILayout.Space();
 
@@ -102,6 +139,10 @@ public class PXR_UnifiedInputsEditor : Editor
             "primaryEventTargets",
             "primaryEventNames",
             "primaryEventScopes",
+<<<<<<< Updated upstream
+=======
+            "primaryEventDelays",
+>>>>>>> Stashed changes
             "primaryTeleportTargets",
             "primaryVideoTargets",
             "eventTarget",
@@ -118,6 +159,10 @@ public class PXR_UnifiedInputsEditor : Editor
                 "dropEventTargets",
                 "dropEventNames",
                 "dropEventScopes",
+<<<<<<< Updated upstream
+=======
+                "dropEventDelays",
+>>>>>>> Stashed changes
                 "dropTeleportTargets",
                 "dropVideoTargets",
                 "secondEventTarget",
@@ -131,16 +176,29 @@ public class PXR_UnifiedInputsEditor : Editor
     private void DrawKeySettings()
     {
         EditorGUILayout.Space();
+<<<<<<< Updated upstream
         EditorGUILayout.LabelField(
             "Key Lock", EditorStyles.boldLabel);
 
         PXR_InspectorGuidance.PropertyField(
             Find("destroyKeyAfterUse"));
+=======
+
+        EditorGUILayout.LabelField(
+            "Key Lock",
+            EditorStyles.boldLabel
+        );
+
+        PXR_InspectorGuidance.PropertyField(
+            Find("destroyKeyAfterUse")
+        );
+>>>>>>> Stashed changes
 
         SerializedProperty required = Find("requiredKeys");
         PXR_InspectorGuidance.PropertyField(required);
         required.intValue = Mathf.Max(1, required.intValue);
 
+<<<<<<< Updated upstream
         PXR_InspectorGuidance.PropertyField(Find("checkKeyTag"));
         if (Find("checkKeyTag").boolValue)
             PXR_InspectorGuidance.PropertyField(Find("requiredKeyTag"));
@@ -151,18 +209,72 @@ public class PXR_UnifiedInputsEditor : Editor
         PXR_InspectorGuidance.PropertyField(
             Find("keyLockState"),
             new GUIContent("Key Lock State"));
+=======
+        PXR_InspectorGuidance.PropertyField(
+            Find("repeatable"),
+            new GUIContent(
+                "Repeatable",
+                "After the required number of accepted keys, " +
+                "run the outputs and reset the count to zero. " +
+                "Ordinary keys must leave and re-enter; each new " +
+                "pooled projectile generation may count."
+            )
+        );
+
+        if (Find("repeatable").boolValue)
+        {
+            EditorGUILayout.HelpBox(
+                "The lock resets after completing a cycle. " +
+                "New pooled spawn generations can count again. " +
+                "An ordinary key must exit the lock and re-enter.",
+                MessageType.Info
+            );
+        }
+
+        PXR_InspectorGuidance.PropertyField(
+            Find("checkKeyTag")
+        );
+
+        if (Find("checkKeyTag").boolValue)
+        {
+            PXR_InspectorGuidance.PropertyField(
+                Find("requiredKeyTag")
+            );
+        }
+
+        PXR_InspectorGuidance.PropertyField(
+            Find("pooledKeyPool"),
+            new GUIContent("Pooled Key Manager")
+        );
+
+        PXR_InspectorGuidance.PropertyField(
+            Find("keyLockState"),
+            new GUIContent("Key Lock State")
+        );
+>>>>>>> Stashed changes
 
         PXR_KeyLockState state =
             Find("keyLockState").objectReferenceValue
                 as PXR_KeyLockState;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         PXR_UnifiedInputs input = (PXR_UnifiedInputs)target;
 
         if (state == null)
         {
             EditorGUILayout.HelpBox(
+<<<<<<< Updated upstream
                 "Assign a PXR_KeyLockState (Manual) to this " +
                 "lock. Ordinary pickups do not need one.",
                 MessageType.Error);
+=======
+                "Assign PXR_KeyLockState (Manual) to this lock. " +
+                "Ordinary pickup objects do not need one.",
+                MessageType.Error
+            );
+>>>>>>> Stashed changes
         } else
         {
             if (state.input != input)
@@ -170,18 +282,67 @@ public class PXR_UnifiedInputsEditor : Editor
                 EditorGUILayout.HelpBox(
                     "Set Key Lock State > Input to this " +
                     "PXR_UnifiedInputs component.",
+<<<<<<< Updated upstream
                     MessageType.Warning);
             }
             if (state.GetComponent<VRC.SDK3.Components.VRCObjectSync>() != null)
+=======
+                    MessageType.Warning
+                );
+            }
+
+            if (state.GetComponent<
+                VRC.SDK3.Components.VRCObjectSync>() != null)
+>>>>>>> Stashed changes
             {
                 EditorGUILayout.HelpBox(
                     "Move the Manual lock state onto a " +
                     "GameObject without VRCObjectSync.",
+<<<<<<< Updated upstream
                     MessageType.Error);
             }
             EditorGUI.BeginDisabledGroup(true);
             EditorGUILayout.IntField(new GUIContent("Key Count", PXR_InspectorGuidance.Tooltip("PXR_KeyLockState", "keyCount")), state.keyCount);
             EditorGUILayout.Toggle(new GUIContent("Keys Complete", PXR_InspectorGuidance.Tooltip("PXR_KeyLockState", "keysComplete")), state.keysComplete);
+=======
+                    MessageType.Error
+                );
+            }
+
+            if (AnyLocalRows(
+                "primaryEventTargets",
+                "primaryEventNames",
+                "primaryEventScopes"))
+            {
+                EditorGUILayout.HelpBox(
+                    "Key locks run their events on the lock owner's " +
+                    "client. Local Only events run for the lock owner, " +
+                    "not for the player who used the key.",
+                    MessageType.Info
+                );
+            }
+
+            EditorGUI.BeginDisabledGroup(true);
+
+            EditorGUILayout.IntField(
+                new GUIContent(
+                    "Key Count",
+                    PXR_InspectorGuidance.Tooltip(
+                        "PXR_KeyLockState", "keyCount")
+                ),
+                state.keyCount
+            );
+
+            EditorGUILayout.Toggle(
+                new GUIContent(
+                    "Keys Complete",
+                    PXR_InspectorGuidance.Tooltip(
+                        "PXR_KeyLockState", "keysComplete")
+                ),
+                state.keysComplete
+            );
+
+>>>>>>> Stashed changes
             EditorGUI.EndDisabledGroup();
         }
 
@@ -189,13 +350,23 @@ public class PXR_UnifiedInputsEditor : Editor
             Find("pooledKeyPool").objectReferenceValue
                 as PXR_PoolManager;
 
+<<<<<<< Updated upstream
         if (manager != null && state != null &&
+=======
+        if (manager != null &&
+            state != null &&
+>>>>>>> Stashed changes
             manager.FindLockIndex(state) < 0)
         {
             EditorGUILayout.HelpBox(
                 "Register the PXR_KeyLockState in " +
                 "Pool Manager > Key Locks.",
+<<<<<<< Updated upstream
                 MessageType.Warning);
+=======
+                MessageType.Warning
+            );
+>>>>>>> Stashed changes
         }
     }
 
@@ -205,6 +376,10 @@ public class PXR_UnifiedInputsEditor : Editor
         string targetPath,
         string namePath,
         string scopePath,
+<<<<<<< Updated upstream
+=======
+        string delayPath,
+>>>>>>> Stashed changes
         string teleportPath,
         string videoPath,
         string legacyTargetPath,
@@ -213,11 +388,16 @@ public class PXR_UnifiedInputsEditor : Editor
         SerializedProperty targets = Find(targetPath);
         SerializedProperty names = Find(namePath);
         SerializedProperty scopes = Find(scopePath);
+<<<<<<< Updated upstream
+=======
+        SerializedProperty delays = Find(delayPath);
+>>>>>>> Stashed changes
         SerializedProperty teleports = Find(teleportPath);
         SerializedProperty videos = Find(videoPath);
 
         int count = targets.arraySize;
 
+<<<<<<< Updated upstream
         names.arraySize = count;
         scopes.arraySize = count;
         teleports.arraySize = count;
@@ -226,6 +406,16 @@ public class PXR_UnifiedInputsEditor : Editor
         EditorGUILayout.BeginVertical(
             EditorStyles.helpBox
         );
+=======
+        // The parallel arrays must always remain aligned.
+        names.arraySize = count;
+        scopes.arraySize = count;
+        delays.arraySize = count;
+        teleports.arraySize = count;
+        videos.arraySize = count;
+
+        EditorGUILayout.BeginVertical(EditorStyles.helpBox);
+>>>>>>> Stashed changes
 
         expanded = EditorGUILayout.Foldout(
             expanded,
@@ -251,6 +441,10 @@ public class PXR_UnifiedInputsEditor : Editor
                     targets.arraySize = 1;
                     names.arraySize = 1;
                     scopes.arraySize = 1;
+<<<<<<< Updated upstream
+=======
+                    delays.arraySize = 1;
+>>>>>>> Stashed changes
                     teleports.arraySize = 1;
                     videos.arraySize = 1;
 
@@ -259,12 +453,29 @@ public class PXR_UnifiedInputsEditor : Editor
                         legacyTarget.objectReferenceValue;
 
                     names.GetArrayElementAtIndex(0)
+<<<<<<< Updated upstream
                         .stringValue =
                         legacyName.stringValue;
+=======
+                        .stringValue = legacyName.stringValue;
+>>>>>>> Stashed changes
 
                     scopes.GetArrayElementAtIndex(0)
                         .intValue = 0;
 
+<<<<<<< Updated upstream
+=======
+                    delays.GetArrayElementAtIndex(0)
+                        .floatValue = LegacyDelayValue();
+
+                    SetSpecialReferences(
+                        targets.GetArrayElementAtIndex(0),
+                        names.GetArrayElementAtIndex(0),
+                        teleports.GetArrayElementAtIndex(0),
+                        videos.GetArrayElementAtIndex(0)
+                    );
+
+>>>>>>> Stashed changes
                     legacyTarget.objectReferenceValue = null;
                     legacyName.stringValue = "";
 
@@ -306,11 +517,19 @@ public class PXR_UnifiedInputsEditor : Editor
 
                 PXR_UnifiedOutputs output =
                     targetProp.objectReferenceValue
+<<<<<<< Updated upstream
                     as PXR_UnifiedOutputs;
 
                 PXR_UnifiedPhysics physics =
                     targetProp.objectReferenceValue
                     as PXR_UnifiedPhysics;
+=======
+                        as PXR_UnifiedOutputs;
+
+                PXR_UnifiedPhysics physics =
+                    targetProp.objectReferenceValue
+                        as PXR_UnifiedPhysics;
+>>>>>>> Stashed changes
 
                 bool spawn =
                     nameProp.stringValue == "SpawnObject" &&
@@ -333,7 +552,15 @@ public class PXR_UnifiedInputsEditor : Editor
                 );
 
                 scope.intValue = EditorGUILayout.Popup(
+<<<<<<< Updated upstream
                     new GUIContent("Execution Scope", "Choose whether this output runs locally, for all players, or uses the input's Synced setting."),
+=======
+                    new GUIContent(
+                        "Execution Scope",
+                        "Choose Local Only, All Players, " +
+                        "or the input's default Synced setting."
+                    ),
+>>>>>>> Stashed changes
                     Mathf.Clamp(scope.intValue, 0, 2),
                     new string[]
                     {
@@ -345,11 +572,49 @@ public class PXR_UnifiedInputsEditor : Editor
 
                 EditorGUI.EndDisabledGroup();
 
+<<<<<<< Updated upstream
                 if (spawn)
                 {
                     EditorGUILayout.HelpBox(
                         "SpawnObject uses the input's " +
                         "Synced checkbox, not the per-event scope.",
+=======
+                if (!spawn && !teleport && !syncedVideo &&
+                    !ResolvesToAllPlayers(scope.intValue) &&
+                    UsesOwnerPersistence(
+                        targetProp.objectReferenceValue,
+                        nameProp.stringValue))
+                {
+                    EditorGUILayout.HelpBox(
+                        "This target saves its state for late joiners, " +
+                        "so only its owner can change it. Set Execution " +
+                        "Scope to All Players, or other players' " +
+                        "activations will be ignored.",
+                        MessageType.Warning
+                    );
+                }
+
+                SerializedProperty eventDelay =
+                    delays.GetArrayElementAtIndex(i);
+
+                eventDelay.floatValue = Mathf.Max(
+                    0f,
+                    EditorGUILayout.FloatField(
+                        new GUIContent(
+                            "Delay (seconds)",
+                            "Seconds from the input trigger until " +
+                            "this event executes. Zero is immediate."
+                        ),
+                        eventDelay.floatValue
+                    )
+                );
+
+                if (spawn)
+                {
+                    EditorGUILayout.HelpBox(
+                        "SpawnObject uses the input's Synced " +
+                        "setting, not this event's scope.",
+>>>>>>> Stashed changes
                         MessageType.Info
                     );
 
@@ -358,11 +623,18 @@ public class PXR_UnifiedInputsEditor : Editor
                             ? output.spawnPoolManager
                             : physics.spawnPoolManager;
 
+<<<<<<< Updated upstream
                     if (Find("synced").boolValue &&
                         pool == null)
                     {
                         EditorGUILayout.HelpBox(
                             "Synced spawning needs a Pool Manager " +
+=======
+                    if (Find("synced").boolValue && pool == null)
+                    {
+                        EditorGUILayout.HelpBox(
+                            "Synced spawning requires a Pool Manager " +
+>>>>>>> Stashed changes
                             "on the target output behavior.",
                             MessageType.Warning
                         );
@@ -372,7 +644,11 @@ public class PXR_UnifiedInputsEditor : Editor
                 if (teleport)
                 {
                     EditorGUILayout.HelpBox(
+<<<<<<< Updated upstream
                         "TeleportPlayer uses its own " +
+=======
+                        "TeleportPlayer uses dedicated player " +
+>>>>>>> Stashed changes
                         "targeting and network routing.",
                         MessageType.Info
                     );
@@ -381,8 +657,13 @@ public class PXR_UnifiedInputsEditor : Editor
                 if (syncedVideo)
                 {
                     EditorGUILayout.HelpBox(
+<<<<<<< Updated upstream
                         "Synchronized AVPro uses the " +
                         "video owner's network route.",
+=======
+                        "Synchronized AVPro uses the video " +
+                        "owner's network route.",
+>>>>>>> Stashed changes
                         MessageType.Info
                     );
                 }
@@ -404,16 +685,27 @@ public class PXR_UnifiedInputsEditor : Editor
 
                 if (up || down)
                 {
+<<<<<<< Updated upstream
                     int destination = up ? i - 1 : i + 1;
 
+=======
+>>>>>>> Stashed changes
                     MoveEntry(
                         targets,
                         names,
                         scopes,
+<<<<<<< Updated upstream
                         teleports,
                         videos,
                         i,
                         destination
+=======
+                        delays,
+                        teleports,
+                        videos,
+                        i,
+                        up ? i - 1 : i + 1
+>>>>>>> Stashed changes
                     );
 
                     break;
@@ -425,6 +717,10 @@ public class PXR_UnifiedInputsEditor : Editor
                         targets,
                         names,
                         scopes,
+<<<<<<< Updated upstream
+=======
+                        delays,
+>>>>>>> Stashed changes
                         teleports,
                         videos,
                         i
@@ -441,6 +737,10 @@ public class PXR_UnifiedInputsEditor : Editor
                 targets.arraySize = index + 1;
                 names.arraySize = index + 1;
                 scopes.arraySize = index + 1;
+<<<<<<< Updated upstream
+=======
+                delays.arraySize = index + 1;
+>>>>>>> Stashed changes
                 teleports.arraySize = index + 1;
                 videos.arraySize = index + 1;
 
@@ -453,6 +753,12 @@ public class PXR_UnifiedInputsEditor : Editor
                 scopes.GetArrayElementAtIndex(index)
                     .intValue = 0;
 
+<<<<<<< Updated upstream
+=======
+                delays.GetArrayElementAtIndex(index)
+                    .floatValue = 0f;
+
+>>>>>>> Stashed changes
                 teleports.GetArrayElementAtIndex(index)
                     .objectReferenceValue = null;
 
@@ -463,9 +769,13 @@ public class PXR_UnifiedInputsEditor : Editor
             EditorGUI.indentLevel--;
         }
 
+<<<<<<< Updated upstream
         // Keep special references consistent
         // even when the foldout is collapsed.
 
+=======
+        // Update routing references even with foldouts collapsed.
+>>>>>>> Stashed changes
         for (int i = 0; i < targets.arraySize; i++)
         {
             SetSpecialReferences(
@@ -479,9 +789,72 @@ public class PXR_UnifiedInputsEditor : Editor
         EditorGUILayout.EndVertical();
     }
 
+<<<<<<< Updated upstream
     // ========================================
     // TARGET-DECLARED WHITELIST DISCOVERY
     // ========================================
+=======
+    // Copy the old global delay to existing events once.
+    // Legacy settings remain serialized but hidden.
+    private void MigrateLegacyDelays()
+    {
+        SerializedProperty migrated =
+            Find("eventDelaysMigrated");
+
+        if (migrated == null || migrated.boolValue)
+            return;
+
+        float oldDelay = LegacyDelayValue();
+
+        MigrateList(
+            "primaryEventTargets",
+            "primaryEventDelays",
+            oldDelay
+        );
+
+        MigrateList(
+            "dropEventTargets",
+            "dropEventDelays",
+            oldDelay
+        );
+
+        migrated.boolValue = true;
+    }
+
+    private float LegacyDelayValue()
+    {
+        SerializedProperty enabled = Find("useDelay");
+        SerializedProperty delay = Find("delaySeconds");
+
+        if (enabled == null ||
+            !enabled.boolValue ||
+            delay == null)
+            return 0f;
+
+        return Mathf.Max(0f, delay.floatValue);
+    }
+
+    private void MigrateList(
+        string targetsPath,
+        string delaysPath,
+        float oldDelay)
+    {
+        SerializedProperty targets = Find(targetsPath);
+        SerializedProperty delays = Find(delaysPath);
+
+        if (targets == null || delays == null)
+            return;
+
+        int previousSize = delays.arraySize;
+        delays.arraySize = targets.arraySize;
+
+        for (int i = previousSize; i < delays.arraySize; i++)
+        {
+            delays.GetArrayElementAtIndex(i)
+                .floatValue = oldDelay;
+        }
+    }
+>>>>>>> Stashed changes
 
     private static void DrawMethodSelector(
         SerializedProperty targetProp,
@@ -495,6 +868,7 @@ public class PXR_UnifiedInputsEditor : Editor
         );
 
         if (EditorGUI.EndChangeCheck())
+<<<<<<< Updated upstream
         {
             nameProp.stringValue = "";
         }
@@ -552,6 +926,21 @@ public class PXR_UnifiedInputsEditor : Editor
         string[] labels =
             new string[available.Count + 1];
 
+=======
+            nameProp.stringValue = "";
+
+        UdonSharpBehaviour receiver =
+            targetProp.objectReferenceValue
+                as UdonSharpBehaviour;
+
+        if (receiver == null)
+            return;
+
+        List<string> available =
+            GetCallableMethods(receiver.GetType());
+
+        string[] labels = new string[available.Count + 1];
+>>>>>>> Stashed changes
         labels[0] = "<Select Function>";
 
         int selectedIndex = 0;
@@ -561,15 +950,27 @@ public class PXR_UnifiedInputsEditor : Editor
             labels[i + 1] = available[i] + "()";
 
             if (nameProp.stringValue == available[i])
+<<<<<<< Updated upstream
             {
                 selectedIndex = i + 1;
             }
+=======
+                selectedIndex = i + 1;
+>>>>>>> Stashed changes
         }
 
         EditorGUI.BeginChangeCheck();
 
         int choice = EditorGUILayout.Popup(
+<<<<<<< Updated upstream
             new GUIContent("Event Name", "Select a public, parameterless method explicitly exposed by the target using PXR_InputCallable."),
+=======
+            new GUIContent(
+                "Event Name",
+                "Select a public, parameterless method marked " +
+                "with PXR_InputCallable on the target component."
+            ),
+>>>>>>> Stashed changes
             selectedIndex,
             labels
         );
@@ -585,34 +986,208 @@ public class PXR_UnifiedInputsEditor : Editor
         if (available.Count == 0)
         {
             EditorGUILayout.HelpBox(
+<<<<<<< Updated upstream
                 "This script does not declare any " +
                 "[PXR_InputCallable] public, " +
                 "parameterless void methods.",
+=======
+                "This script has no public, parameterless " +
+                "void methods marked [PXR_InputCallable].",
+>>>>>>> Stashed changes
                 MessageType.Info
             );
         }
 
+<<<<<<< Updated upstream
         // Preserve existing serialized event names.
         // Do not silently erase them if a method
         // is renamed or its exposure is removed.
 
+=======
+>>>>>>> Stashed changes
         if (!string.IsNullOrEmpty(nameProp.stringValue) &&
             !available.Contains(nameProp.stringValue))
         {
             EditorGUILayout.HelpBox(
+<<<<<<< Updated upstream
                 "The saved function '" +
                 nameProp.stringValue +
                 "' is not currently whitelisted " +
                 "on this target. The saved event " +
                 "reference has been preserved.",
+=======
+                "Saved function '" + nameProp.stringValue +
+                "' is not currently whitelisted on this " +
+                "target. The saved reference is preserved.",
+>>>>>>> Stashed changes
                 MessageType.Warning
             );
         }
     }
 
+<<<<<<< Updated upstream
     // ========================================
     // SPECIAL ROUTING REFERENCES
     // ========================================
+=======
+    // Reflection results per script type. Rebuilt automatically
+    // after every script recompile (domain reload clears statics).
+    private static readonly Dictionary<Type, List<string>> callableCache =
+        new Dictionary<Type, List<string>>();
+
+    private static List<string> GetCallableMethods(Type type)
+    {
+        List<string> cached;
+
+        if (callableCache.TryGetValue(type, out cached))
+            return cached;
+
+        MethodInfo[] methods = type.GetMethods(
+            BindingFlags.Public |
+            BindingFlags.Instance |
+            BindingFlags.DeclaredOnly
+        );
+
+        List<string> available = new List<string>();
+
+        foreach (MethodInfo method in methods)
+        {
+            if (method.IsStatic ||
+                method.IsSpecialName ||
+                method.ReturnType != typeof(void) ||
+                method.GetParameters().Length != 0 ||
+                method.Name.StartsWith("_"))
+            {
+                continue;
+            }
+
+            if (!method.IsDefined(
+                typeof(PXR_InputCallableAttribute),
+                false))
+            {
+                continue;
+            }
+
+            if (!available.Contains(method.Name))
+                available.Add(method.Name);
+        }
+
+        available.Sort(StringComparer.Ordinal);
+        callableCache[type] = available;
+
+        return available;
+    }
+
+    // Mirrors the runtime scope resolution in PXR_UnifiedInputs.
+    private bool ResolvesToAllPlayers(int scope)
+    {
+        if (scope == (int)PXR_EventScope.LocalOnly)
+            return false;
+
+        if (scope == (int)PXR_EventScope.AllPlayers)
+            return true;
+
+        return Find("synced").boolValue;
+    }
+
+    // True when the selected function only acts on the
+    // target owner's client because its state is persisted.
+    private static bool UsesOwnerPersistence(
+        UnityEngine.Object target,
+        string method)
+    {
+        PXR_UnifiedOutputs output = target as PXR_UnifiedOutputs;
+
+        if (output != null)
+        {
+            if (method == "ToggleObject")
+                return output.persistObjectState;
+
+            if (method == "ToggleComponent")
+                return output.persistComponentState;
+
+            if (method == "PlayAnimation")
+                return output.persistAnimatorState &&
+                    output.animationParameterType !=
+                        PXR_AnimationParameterType.Trigger;
+
+            return false;
+        }
+
+        PXR_UnifiedPhysics physics = target as PXR_UnifiedPhysics;
+
+        if (physics == null)
+            return false;
+
+        bool radial =
+            physics.radialContinuous && physics.persistRadialState;
+
+        bool beam =
+            physics.beamContinuous && physics.persistBeamState;
+
+        if (method == "RadialForce" ||
+            method == "StartRadialForce" ||
+            method == "StopRadialForce")
+            return radial;
+
+        if (method == "BeamForce" ||
+            method == "StartBeamForce" ||
+            method == "StopBeamForce")
+            return beam;
+
+        if (method == "StopAllForces")
+            return radial || beam;
+
+        return false;
+    }
+
+    // True when any ordinary row of the list runs locally.
+    private bool AnyLocalRows(
+        string targetPath,
+        string namePath,
+        string scopePath)
+    {
+        SerializedProperty targets = Find(targetPath);
+        SerializedProperty names = Find(namePath);
+        SerializedProperty scopes = Find(scopePath);
+
+        if (targets == null || names == null || scopes == null)
+            return false;
+
+        int count = Mathf.Min(targets.arraySize, names.arraySize);
+
+        for (int i = 0; i < count; i++)
+        {
+            UnityEngine.Object target =
+                targets.GetArrayElementAtIndex(i).objectReferenceValue;
+
+            string method =
+                names.GetArrayElementAtIndex(i).stringValue;
+
+            if (target == null || string.IsNullOrEmpty(method))
+                continue;
+
+            if (method == "SpawnObject" || method == "TeleportPlayer")
+                continue;
+
+            PXR_UnifiedOutputs output = target as PXR_UnifiedOutputs;
+
+            if (output != null &&
+                method == "PlayAVProVideo" &&
+                output.avProUseSyncedPrefab)
+                continue;
+
+            int scope = i < scopes.arraySize
+                ? scopes.GetArrayElementAtIndex(i).intValue
+                : 0;
+
+            if (!ResolvesToAllPlayers(scope))
+                return true;
+        }
+
+        return false;
+    }
+>>>>>>> Stashed changes
 
     private static void SetSpecialReferences(
         SerializedProperty targetProp,
@@ -622,7 +1197,11 @@ public class PXR_UnifiedInputsEditor : Editor
     {
         PXR_UnifiedOutputs output =
             targetProp.objectReferenceValue
+<<<<<<< Updated upstream
             as PXR_UnifiedOutputs;
+=======
+                as PXR_UnifiedOutputs;
+>>>>>>> Stashed changes
 
         teleportProp.objectReferenceValue =
             output != null &&
@@ -637,14 +1216,21 @@ public class PXR_UnifiedInputsEditor : Editor
                 : null;
     }
 
+<<<<<<< Updated upstream
     // ========================================
     // ARRAY HELPERS
     // ========================================
 
+=======
+>>>>>>> Stashed changes
     private static void MoveEntry(
         SerializedProperty targets,
         SerializedProperty names,
         SerializedProperty scopes,
+<<<<<<< Updated upstream
+=======
+        SerializedProperty delays,
+>>>>>>> Stashed changes
         SerializedProperty teleports,
         SerializedProperty videos,
         int from,
@@ -653,6 +1239,10 @@ public class PXR_UnifiedInputsEditor : Editor
         targets.MoveArrayElement(from, to);
         names.MoveArrayElement(from, to);
         scopes.MoveArrayElement(from, to);
+<<<<<<< Updated upstream
+=======
+        delays.MoveArrayElement(from, to);
+>>>>>>> Stashed changes
         teleports.MoveArrayElement(from, to);
         videos.MoveArrayElement(from, to);
     }
@@ -661,6 +1251,10 @@ public class PXR_UnifiedInputsEditor : Editor
         SerializedProperty targets,
         SerializedProperty names,
         SerializedProperty scopes,
+<<<<<<< Updated upstream
+=======
+        SerializedProperty delays,
+>>>>>>> Stashed changes
         SerializedProperty teleports,
         SerializedProperty videos,
         int index)
@@ -673,6 +1267,10 @@ public class PXR_UnifiedInputsEditor : Editor
                 targets,
                 names,
                 scopes,
+<<<<<<< Updated upstream
+=======
+                delays,
+>>>>>>> Stashed changes
                 teleports,
                 videos,
                 i + 1,
@@ -683,10 +1281,18 @@ public class PXR_UnifiedInputsEditor : Editor
         targets.arraySize = count - 1;
         names.arraySize = count - 1;
         scopes.arraySize = count - 1;
+<<<<<<< Updated upstream
         teleports.arraySize = count - 1;
         videos.arraySize = count - 1;
     }
 
 }
 
+=======
+        delays.arraySize = count - 1;
+        teleports.arraySize = count - 1;
+        videos.arraySize = count - 1;
+    }
+}
+>>>>>>> Stashed changes
 #endif

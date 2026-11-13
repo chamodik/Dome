@@ -36,6 +36,15 @@ public class PXR_PooledObject : UdonSharpBehaviour
 
     private Vector3 movementVelocity;
 
+<<<<<<< Updated upstream
+=======
+    // Set by PXR_PoolManager before each Arm(). When false and this
+    // object is not a key, impacts cannot affect the pool, so they
+    // are skipped instead of forwarded. Not serialized or shown.
+    [System.NonSerialized]
+    public bool reportCollisionImpacts = true;
+
+>>>>>>> Stashed changes
     private void Start()
     {
         CacheComponents();
@@ -158,25 +167,47 @@ public class PXR_PooledObject : UdonSharpBehaviour
     // NON-PHYSICS MOVEMENT
     // ========================================
 
+<<<<<<< Updated upstream
     private void Update()
     {
         if (!CanRun() ||
+=======
+    // Cheap local checks run before CanRun(), which makes
+    // two Networking.IsOwner calls. Physics-mode objects and
+    // idle objects therefore return after a single bool test.
+
+    private void Update()
+    {
+        if (!armed ||
+>>>>>>> Stashed changes
             physicsMovement ||
             movementVelocity.sqrMagnitude <= 0f)
             return;
 
         // No Rigidbody: move the Transform.
 
+<<<<<<< Updated upstream
         if (!Utilities.IsValid(body))
         {
             transform.position +=
                 movementVelocity * Time.deltaTime;
         }
+=======
+        if (Utilities.IsValid(body) || !CanRun())
+            return;
+
+        transform.position +=
+            movementVelocity * Time.deltaTime;
+>>>>>>> Stashed changes
     }
 
     private void FixedUpdate()
     {
+<<<<<<< Updated upstream
         if (!CanRun() ||
+=======
+        if (!armed ||
+>>>>>>> Stashed changes
             physicsMovement ||
             movementVelocity.sqrMagnitude <= 0f)
             return;
@@ -184,6 +215,7 @@ public class PXR_PooledObject : UdonSharpBehaviour
         // Kinematic movement:
         // MovePosition allows trigger detection.
 
+<<<<<<< Updated upstream
         if (Utilities.IsValid(body) &&
             body.isKinematic)
         {
@@ -193,6 +225,18 @@ public class PXR_PooledObject : UdonSharpBehaviour
                 Time.fixedDeltaTime
             );
         }
+=======
+        if (!Utilities.IsValid(body) ||
+            !body.isKinematic ||
+            !CanRun())
+            return;
+
+        body.MovePosition(
+            body.position +
+            movementVelocity *
+            Time.fixedDeltaTime
+        );
+>>>>>>> Stashed changes
     }
 
     // ========================================
@@ -317,6 +361,17 @@ public class PXR_PooledObject : UdonSharpBehaviour
 
     public void ReportImpact(GameObject other)
     {
+<<<<<<< Updated upstream
+=======
+        // Fast exit for bouncing objects whose impacts the
+        // manager would ignore anyway. Diagnostics keep the
+        // full path so debug output is unchanged.
+        if (!debugLogs &&
+            (!armed ||
+             (!reportCollisionImpacts && !actsAsKey)))
+            return;
+
+>>>>>>> Stashed changes
         if (!CanRun())
         {
             if (debugLogs)

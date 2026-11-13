@@ -44,7 +44,11 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
+<<<<<<< Updated upstream
       Data: 23
+=======
+      Data: 25
+>>>>>>> Stashed changes
     - Name: 
       Entry: 7
       Data: 
@@ -885,13 +889,21 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
+<<<<<<< Updated upstream
       Data: authorityConfigured
+=======
+      Data: syncedRunning
+>>>>>>> Stashed changes
     - Name: $v
       Entry: 7
       Data: 53|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
+<<<<<<< Updated upstream
       Data: authorityConfigured
+=======
+      Data: syncedRunning
+>>>>>>> Stashed changes
     - Name: <UserType>k__BackingField
       Entry: 9
       Data: 14
@@ -902,8 +914,13 @@ MonoBehaviour:
       Entry: 7
       Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
     - Name: 
+<<<<<<< Updated upstream
       Entry: 6
       Data: 
+=======
+      Entry: 3
+      Data: 1
+>>>>>>> Stashed changes
     - Name: 
       Entry: 8
       Data: 
@@ -915,7 +932,17 @@ MonoBehaviour:
       Data: 54|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
     - Name: 
       Entry: 12
+<<<<<<< Updated upstream
       Data: 0
+=======
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 55|UdonSharp.UdonSyncedAttribute, UdonSharp.Runtime
+    - Name: 
+      Entry: 8
+      Data: 
+>>>>>>> Stashed changes
     - Name: 
       Entry: 13
       Data: 
@@ -933,6 +960,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
+<<<<<<< Updated upstream
       Data: wasOwner
     - Name: $v
       Entry: 7
@@ -940,6 +968,15 @@ MonoBehaviour:
     - Name: <Name>k__BackingField
       Entry: 1
       Data: wasOwner
+=======
+      Data: syncedRunStateValid
+    - Name: $v
+      Entry: 7
+      Data: 56|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: syncedRunStateValid
+>>>>>>> Stashed changes
     - Name: <UserType>k__BackingField
       Entry: 9
       Data: 14
@@ -950,8 +987,13 @@ MonoBehaviour:
       Entry: 7
       Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
     - Name: 
+<<<<<<< Updated upstream
       Entry: 6
       Data: 
+=======
+      Entry: 3
+      Data: 1
+>>>>>>> Stashed changes
     - Name: 
       Entry: 8
       Data: 
@@ -960,10 +1002,23 @@ MonoBehaviour:
       Data: false
     - Name: _fieldAttributes
       Entry: 7
+<<<<<<< Updated upstream
       Data: 56|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 0
+=======
+      Data: 57|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 58|UdonSharp.UdonSyncedAttribute, UdonSharp.Runtime
+    - Name: 
+      Entry: 8
+      Data: 
+>>>>>>> Stashed changes
     - Name: 
       Entry: 13
       Data: 
@@ -981,6 +1036,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
+<<<<<<< Updated upstream
       Data: running
     - Name: $v
       Entry: 7
@@ -1030,12 +1086,19 @@ MonoBehaviour:
     - Name: $k
       Entry: 1
       Data: stepStarted
+=======
+      Data: authorityConfigured
+>>>>>>> Stashed changes
     - Name: $v
       Entry: 7
       Data: 59|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
+<<<<<<< Updated upstream
       Data: stepStarted
+=======
+      Data: authorityConfigured
+>>>>>>> Stashed changes
     - Name: <UserType>k__BackingField
       Entry: 9
       Data: 14
@@ -1077,13 +1140,21 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
+<<<<<<< Updated upstream
       Data: skipCurrentStep
+=======
+      Data: wasOwner
+>>>>>>> Stashed changes
     - Name: $v
       Entry: 7
       Data: 61|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
+<<<<<<< Updated upstream
       Data: skipCurrentStep
+=======
+      Data: wasOwner
+>>>>>>> Stashed changes
     - Name: <UserType>k__BackingField
       Entry: 9
       Data: 14
@@ -1125,12 +1196,17 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
+<<<<<<< Updated upstream
       Data: currentStep
+=======
+      Data: running
+>>>>>>> Stashed changes
     - Name: $v
       Entry: 7
       Data: 63|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
+<<<<<<< Updated upstream
       Data: currentStep
     - Name: <UserType>k__BackingField
       Entry: 9
@@ -1138,6 +1214,15 @@ MonoBehaviour:
     - Name: <SystemType>k__BackingField
       Entry: 9
       Data: 47
+=======
+      Data: running
+    - Name: <UserType>k__BackingField
+      Entry: 9
+      Data: 14
+    - Name: <SystemType>k__BackingField
+      Entry: 9
+      Data: 14
+>>>>>>> Stashed changes
     - Name: <SyncMode>k__BackingField
       Entry: 7
       Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
@@ -1173,12 +1258,17 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
+<<<<<<< Updated upstream
       Data: standEndTime
+=======
+      Data: stepStarted
+>>>>>>> Stashed changes
     - Name: $v
       Entry: 7
       Data: 65|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
+<<<<<<< Updated upstream
       Data: standEndTime
     - Name: <UserType>k__BackingField
       Entry: 9
@@ -1186,6 +1276,15 @@ MonoBehaviour:
     - Name: <SystemType>k__BackingField
       Entry: 9
       Data: 35
+=======
+      Data: stepStarted
+    - Name: <UserType>k__BackingField
+      Entry: 9
+      Data: 14
+    - Name: <SystemType>k__BackingField
+      Entry: 9
+      Data: 14
+>>>>>>> Stashed changes
     - Name: <SyncMode>k__BackingField
       Entry: 7
       Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
@@ -1221,12 +1320,17 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
+<<<<<<< Updated upstream
       Data: moveStartTime
+=======
+      Data: skipCurrentStep
+>>>>>>> Stashed changes
     - Name: $v
       Entry: 7
       Data: 67|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
+<<<<<<< Updated upstream
       Data: moveStartTime
     - Name: <UserType>k__BackingField
       Entry: 9
@@ -1234,6 +1338,15 @@ MonoBehaviour:
     - Name: <SystemType>k__BackingField
       Entry: 9
       Data: 35
+=======
+      Data: skipCurrentStep
+    - Name: <UserType>k__BackingField
+      Entry: 9
+      Data: 14
+    - Name: <SystemType>k__BackingField
+      Entry: 9
+      Data: 14
+>>>>>>> Stashed changes
     - Name: <SyncMode>k__BackingField
       Entry: 7
       Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
@@ -1269,12 +1382,17 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
+<<<<<<< Updated upstream
       Data: nextNavMeshWarning
+=======
+      Data: currentStep
+>>>>>>> Stashed changes
     - Name: $v
       Entry: 7
       Data: 69|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
+<<<<<<< Updated upstream
       Data: nextNavMeshWarning
     - Name: <UserType>k__BackingField
       Entry: 9
@@ -1282,6 +1400,15 @@ MonoBehaviour:
     - Name: <SystemType>k__BackingField
       Entry: 9
       Data: 35
+=======
+      Data: currentStep
+    - Name: <UserType>k__BackingField
+      Entry: 9
+      Data: 47
+    - Name: <SystemType>k__BackingField
+      Entry: 9
+      Data: 47
+>>>>>>> Stashed changes
     - Name: <SyncMode>k__BackingField
       Entry: 7
       Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
@@ -1313,6 +1440,153 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+<<<<<<< Updated upstream
+=======
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: standEndTime
+    - Name: $v
+      Entry: 7
+      Data: 71|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: standEndTime
+    - Name: <UserType>k__BackingField
+      Entry: 9
+      Data: 35
+    - Name: <SystemType>k__BackingField
+      Entry: 9
+      Data: 35
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
+      Entry: 7
+      Data: 72|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: moveStartTime
+    - Name: $v
+      Entry: 7
+      Data: 73|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: moveStartTime
+    - Name: <UserType>k__BackingField
+      Entry: 9
+      Data: 35
+    - Name: <SystemType>k__BackingField
+      Entry: 9
+      Data: 35
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
+      Entry: 7
+      Data: 74|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: nextNavMeshWarning
+    - Name: $v
+      Entry: 7
+      Data: 75|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: nextNavMeshWarning
+    - Name: <UserType>k__BackingField
+      Entry: 9
+      Data: 35
+    - Name: <SystemType>k__BackingField
+      Entry: 9
+      Data: 35
+    - Name: <SyncMode>k__BackingField
+      Entry: 7
+      Data: System.Nullable`1[[UdonSharp.UdonSyncMode, UdonSharp.Runtime]], mscorlib
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <IsSerialized>k__BackingField
+      Entry: 5
+      Data: false
+    - Name: _fieldAttributes
+      Entry: 7
+      Data: 76|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+>>>>>>> Stashed changes
       Entry: 13
       Data: 
     - Name: 

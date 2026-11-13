@@ -2,6 +2,10 @@
 using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
+<<<<<<< Updated upstream
+=======
+using VRC.Udon.Common.Enums;
+>>>>>>> Stashed changes
 
 [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
 public class PXR_AdminLock : UdonSharpBehaviour
@@ -48,6 +52,17 @@ public class PXR_AdminLock : UdonSharpBehaviour
 
     private bool restricted;
 
+<<<<<<< Updated upstream
+=======
+    // Restrictions are re-applied every few frames instead of
+    // every frame. Cached components are re-checked, but no
+    // component searches are repeated.
+    private const int ENFORCE_INTERVAL_FRAMES = 10;
+
+    private bool enforceLoopRunning;
+    private int lastEnforceFrame = -1000;
+
+>>>>>>> Stashed changes
     // =====================================
     // INITIALIZATION
     // =====================================
@@ -80,6 +95,10 @@ public class PXR_AdminLock : UdonSharpBehaviour
 
         CacheProtectedComponents();
         ApplyRestrictions();
+<<<<<<< Updated upstream
+=======
+        StartEnforceLoop();
+>>>>>>> Stashed changes
     }
 
     // =====================================
@@ -348,11 +367,22 @@ public class PXR_AdminLock : UdonSharpBehaviour
     // ENFORCE VISIBILITY
     // =====================================
 
+<<<<<<< Updated upstream
     private void LateUpdate()
+=======
+    // Prevent another behavior or animation from
+    // leaving a cached visual component enabled.
+    //
+    // Runs in the LateUpdate phase, like the old
+    // LateUpdate(), but only every few frames.
+
+    private void StartEnforceLoop()
+>>>>>>> Stashed changes
     {
         if (!restricted)
             return;
 
+<<<<<<< Updated upstream
         // Prevent another behavior or animation
         // from accidentally leaving a cached
         // visual component enabled.
@@ -362,5 +392,54 @@ public class PXR_AdminLock : UdonSharpBehaviour
         // are checked.
 
         ApplyRestrictions();
+=======
+        // A loop is already alive and ticking.
+        if (enforceLoopRunning &&
+            Time.frameCount - lastEnforceFrame <=
+                ENFORCE_INTERVAL_FRAMES + 2)
+            return;
+
+        enforceLoopRunning = true;
+
+        SendCustomEventDelayedFrames(
+            nameof(_EnforceRestrictions),
+            ENFORCE_INTERVAL_FRAMES,
+            EventTiming.LateUpdate
+        );
+    }
+
+    private void OnEnable()
+    {
+        // Re-apply immediately when re-enabled, then resume
+        // the periodic loop (Start handles the first run).
+        if (!restricted)
+            return;
+
+        ApplyRestrictions();
+        StartEnforceLoop();
+    }
+
+    public void _EnforceRestrictions()
+    {
+        // A duplicate loop scheduled for the same frame stops here.
+        if (Time.frameCount == lastEnforceFrame)
+            return;
+
+        lastEnforceFrame = Time.frameCount;
+
+        if (!restricted || !gameObject.activeInHierarchy)
+        {
+            enforceLoopRunning = false;
+            return;
+        }
+
+        ApplyRestrictions();
+
+        SendCustomEventDelayedFrames(
+            nameof(_EnforceRestrictions),
+            ENFORCE_INTERVAL_FRAMES,
+            EventTiming.LateUpdate
+        );
+>>>>>>> Stashed changes
     }
 }

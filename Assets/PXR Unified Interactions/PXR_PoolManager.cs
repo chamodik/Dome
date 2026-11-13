@@ -107,6 +107,19 @@ public class PXR_PoolManager : UdonSharpBehaviour
     private bool initialized;
     private bool ownerInitialized;
 
+<<<<<<< Updated upstream
+=======
+    // Number of slots not in STATE_FREE. Update skips the
+    // per-slot loop entirely while this is zero.
+    private int busySlotCount;
+
+    // Network event rate limits (events per second, 1-100).
+    // VRChat's default is 5/s; extra events queue locally,
+    // which shows up as growing delay under rapid fire.
+    private const int SPAWN_EVENT_RATE = 30;
+    private const int KEY_EVENT_RATE = 20;
+
+>>>>>>> Stashed changes
     // =========================================
     // INITIALIZATION
     // =========================================
@@ -333,7 +346,11 @@ public class PXR_PoolManager : UdonSharpBehaviour
     // OWNER SPAWN REQUEST
     // =========================================
 
+<<<<<<< Updated upstream
     [NetworkCallable]
+=======
+    [NetworkCallable(SPAWN_EVENT_RATE)]
+>>>>>>> Stashed changes
     public void OwnerSpawnRequest(
         bool physics,
         Vector3 position,
@@ -389,6 +406,12 @@ public class PXR_PoolManager : UdonSharpBehaviour
             return;
         }
 
+<<<<<<< Updated upstream
+=======
+        if (states[slot] == STATE_FREE)
+            busySlotCount++;
+
+>>>>>>> Stashed changes
         // New generation for every reuse.
         generations[slot] =
             generations[slot] == int.MaxValue
@@ -421,6 +444,15 @@ public class PXR_PoolManager : UdonSharpBehaviour
         // spawn request, not the pool's owner.
         VRCPlayerApi requester =
             NetworkCalling.CallingPlayer;
+<<<<<<< Updated upstream
+=======
+
+        // Outside a network call (e.g. the owner requesting a
+        // spawn from itself), the caller is the local player.
+        if (!Utilities.IsValid(requester))
+            requester = Networking.LocalPlayer;
+
+>>>>>>> Stashed changes
         spawnUserIds[slot] =
             Utilities.IsValid(requester)
                 ? requester.playerId : -1;
@@ -519,6 +551,13 @@ public class PXR_PoolManager : UdonSharpBehaviour
             }
         }
 
+<<<<<<< Updated upstream
+=======
+        // Impacts only matter for collision despawn or keys.
+        pooledObjects[slot].reportCollisionImpacts =
+            policies[slot] == (int)PXR_DespawnMode.OnCollision;
+
+>>>>>>> Stashed changes
         pooledObjects[slot].Arm(
             this,
             slot,
@@ -688,7 +727,11 @@ public class PXR_PoolManager : UdonSharpBehaviour
     // KEY ACKNOWLEDGMENT
     // =========================================
 
+<<<<<<< Updated upstream
     [NetworkCallable]
+=======
+    [NetworkCallable(KEY_EVENT_RATE)]
+>>>>>>> Stashed changes
     public void OwnerKeyAcknowledged(
         int slot,
         int generation,
@@ -720,6 +763,14 @@ public class PXR_PoolManager : UdonSharpBehaviour
         VRCPlayerApi sender =
             NetworkCalling.CallingPlayer;
 
+<<<<<<< Updated upstream
+=======
+        // Outside a network call (pool owner and lock owner are
+        // the same player), the caller is the local player.
+        if (!Utilities.IsValid(sender))
+            sender = Networking.LocalPlayer;
+
+>>>>>>> Stashed changes
         VRCPlayerApi lockOwner =
             Networking.GetOwner(
                 keyLock.gameObject
@@ -769,6 +820,13 @@ public class PXR_PoolManager : UdonSharpBehaviour
 
         EnsureOwnerReady();
 
+<<<<<<< Updated upstream
+=======
+        // Nothing spawning, active or returning.
+        if (busySlotCount <= 0)
+            return;
+
+>>>>>>> Stashed changes
         float now = Now();
 
         for (int i = 0; i < objects.Length; i++)
@@ -959,6 +1017,12 @@ public class PXR_PoolManager : UdonSharpBehaviour
 
     private void ClearSlot(int slot)
     {
+<<<<<<< Updated upstream
+=======
+        if (states[slot] != STATE_FREE)
+            busySlotCount = Mathf.Max(0, busySlotCount - 1);
+
+>>>>>>> Stashed changes
         states[slot] = STATE_FREE;
 
         policies[slot] = 0;
