@@ -5415,11 +5415,7 @@ PrefabInstance:
     - target: {fileID: 1094421957795580606, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< Updated upstream
-      value: -2.92
-=======
       value: 4
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1094421957795580606, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
@@ -5429,11 +5425,7 @@ PrefabInstance:
     - target: {fileID: 1094421957795580606, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: m_LocalPosition.z
-<<<<<<< Updated upstream
-      value: -105.5
-=======
       value: -28.3
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1094421957795580606, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
@@ -5515,11 +5507,7 @@ PrefabInstance:
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.size
-<<<<<<< Updated upstream
-      value: 58
-=======
       value: 50
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
@@ -5529,11 +5517,7 @@ PrefabInstance:
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.size
-<<<<<<< Updated upstream
       value: 108
-=======
-      value: 104
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
@@ -6174,7 +6158,6 @@ PrefabInstance:
         type: 3}
       propertyPath: DynamicMaterials.Array.data[0]
       value: 
-<<<<<<< Updated upstream
       objectReference: {fileID: 2100000, guid: 3176b41ee577fa3419c925e3c01f3dc1, type: 2}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
@@ -6337,12 +6320,6 @@ PrefabInstance:
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[29]
-=======
-      objectReference: {fileID: 2100000, guid: 3b5aa7069686a0f448973d864d715001, type: 2}
-    - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
-        type: 3}
-      propertyPath: DynamicMaterials.Array.data[1]
->>>>>>> Stashed changes
       value: 
       objectReference: {fileID: 2100000, guid: 5fb98ab3e5fdf434f932568dee57d171, type: 2}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
@@ -6509,616 +6486,343 @@ PrefabInstance:
         type: 3}
       propertyPath: DynamicMaterials.Array.data[32]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: -876546973899608171, guid: 5f17fb481f4d07d469e9836eab7a540f,
-        type: 3}
-=======
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[33]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: -876546973899608171, guid: 4c8b13a682bc46e4f9ab9054ba667365,
-=======
       objectReference: {fileID: -876546973899608171, guid: 5f17fb481f4d07d469e9836eab7a540f,
->>>>>>> Stashed changes
         type: 3}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[34]
       value: 
-<<<<<<< Updated upstream
       objectReference: {fileID: 2100000, guid: 9a68fded35d435c4e842c5139eadd896, type: 2}
-=======
-      objectReference: {fileID: 2180264, guid: cfe0412d7fa12f243b181e3f547a2294, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[35]
       value: 
-<<<<<<< Updated upstream
       objectReference: {fileID: 2100000, guid: 21a4e17d80bd4b44fb7b711edba05f1e, type: 2}
-=======
-      objectReference: {fileID: 2179674, guid: cfe0412d7fa12f243b181e3f547a2294, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[36]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 860a66ca4259b384f9ec01b687f71c3c, type: 2}
-=======
       objectReference: {fileID: 2180264, guid: 561f00bc1248acf46aab111adff46340, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[37]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
-=======
       objectReference: {fileID: 2179674, guid: 561f00bc1248acf46aab111adff46340, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[38]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: cfe0412d7fa12f243b181e3f547a2294, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 7320ce78f51995e418db9cd723a0e363, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[39]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: cfe0412d7fa12f243b181e3f547a2294, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 7320ce78f51995e418db9cd723a0e363, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[40]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 561f00bc1248acf46aab111adff46340, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 2c33c759b6bfb1448a79429a0c761b44, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[41]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 561f00bc1248acf46aab111adff46340, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 2c33c759b6bfb1448a79429a0c761b44, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[42]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 7320ce78f51995e418db9cd723a0e363, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: dc3583028c46e9d46aa34c96b07cac4c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[43]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 7320ce78f51995e418db9cd723a0e363, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: dc3583028c46e9d46aa34c96b07cac4c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[44]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 2c33c759b6bfb1448a79429a0c761b44, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 723fce56e1388ae4fbe8cde744767a9c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[45]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 2c33c759b6bfb1448a79429a0c761b44, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 1a7d988da17e44741aabfb0c94a2035b, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[46]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: dc3583028c46e9d46aa34c96b07cac4c, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 1a7d988da17e44741aabfb0c94a2035b, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[47]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: dc3583028c46e9d46aa34c96b07cac4c, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 1c76c5499a5fe2f499296444f6385157, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[48]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 723fce56e1388ae4fbe8cde744767a9c, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 1c76c5499a5fe2f499296444f6385157, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[49]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 1a7d988da17e44741aabfb0c94a2035b, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 6157644d53626e242a54bfcf3ef9d45c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[50]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 1a7d988da17e44741aabfb0c94a2035b, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 6157644d53626e242a54bfcf3ef9d45c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[51]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 1c76c5499a5fe2f499296444f6385157, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: df52958adb4ad56498c57fde8525380d, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[52]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 1c76c5499a5fe2f499296444f6385157, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: df52958adb4ad56498c57fde8525380d, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[53]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 6157644d53626e242a54bfcf3ef9d45c, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: faa1b449eeb4157479176dd717ac6035, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[54]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 6157644d53626e242a54bfcf3ef9d45c, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: faa1b449eeb4157479176dd717ac6035, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[55]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: df52958adb4ad56498c57fde8525380d, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: c95a6819d062dd9408b96aa9278f78e7, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[56]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: df52958adb4ad56498c57fde8525380d, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: c95a6819d062dd9408b96aa9278f78e7, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[57]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: faa1b449eeb4157479176dd717ac6035, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 76221aed845c98e4482cc2856cc7257d, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[58]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: faa1b449eeb4157479176dd717ac6035, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 76221aed845c98e4482cc2856cc7257d, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[59]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: c95a6819d062dd9408b96aa9278f78e7, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 7339dae416f2f4a4ca569f0e289de0f1, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[60]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: c95a6819d062dd9408b96aa9278f78e7, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 7339dae416f2f4a4ca569f0e289de0f1, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[61]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 76221aed845c98e4482cc2856cc7257d, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: be3f73bf90d13be4bb9e0c2606502a4f, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[62]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 76221aed845c98e4482cc2856cc7257d, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: be3f73bf90d13be4bb9e0c2606502a4f, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[63]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 7339dae416f2f4a4ca569f0e289de0f1, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: bf68be3621a129c48b56c6ffde6f3f7f, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[64]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 7339dae416f2f4a4ca569f0e289de0f1, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: bf68be3621a129c48b56c6ffde6f3f7f, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[65]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: be3f73bf90d13be4bb9e0c2606502a4f, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 0631ccb710c1d0944a6d9e416142742c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[66]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: be3f73bf90d13be4bb9e0c2606502a4f, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 0631ccb710c1d0944a6d9e416142742c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[67]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: bf68be3621a129c48b56c6ffde6f3f7f, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: f70b9624f950a1a40a00cf124963d4fe, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[68]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: bf68be3621a129c48b56c6ffde6f3f7f, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: f70b9624f950a1a40a00cf124963d4fe, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[69]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 0631ccb710c1d0944a6d9e416142742c, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 1833ba93709e80944b9f2627881f3f4c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[70]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 0631ccb710c1d0944a6d9e416142742c, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 1833ba93709e80944b9f2627881f3f4c, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[71]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: f70b9624f950a1a40a00cf124963d4fe, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: e179f1c5b9c1c844ea45c8b5209f9a47, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[72]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: f70b9624f950a1a40a00cf124963d4fe, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: e179f1c5b9c1c844ea45c8b5209f9a47, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[73]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 1833ba93709e80944b9f2627881f3f4c, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 21f2d407f2be8054b9893ae2066f850a, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[74]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 1833ba93709e80944b9f2627881f3f4c, type: 3}
-=======
       objectReference: {fileID: 2179674, guid: 21f2d407f2be8054b9893ae2066f850a, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[75]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: e179f1c5b9c1c844ea45c8b5209f9a47, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 1175c4563a5b466479faa3985e452631, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[76]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: e179f1c5b9c1c844ea45c8b5209f9a47, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 7ad0d2e59d13d2b49bd0fdea441d6996, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[77]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 21f2d407f2be8054b9893ae2066f850a, type: 3}
-=======
       objectReference: {fileID: 2180264, guid: 5ab980af0be660a4198224f11cc571dc, type: 3}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[78]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2179674, guid: 21f2d407f2be8054b9893ae2066f850a, type: 3}
-=======
       objectReference: {fileID: 2100000, guid: ee0734e6008f396418d3f554a811649d, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[79]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 1175c4563a5b466479faa3985e452631, type: 3}
-=======
       objectReference: {fileID: 2100000, guid: 88f067c4e4e21e3449805b9f54a85258, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[80]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 7ad0d2e59d13d2b49bd0fdea441d6996, type: 3}
-=======
       objectReference: {fileID: 2100000, guid: b3380417daec2034d93bd26cf14050e6, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[81]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2180264, guid: 5ab980af0be660a4198224f11cc571dc, type: 3}
-=======
       objectReference: {fileID: 2100000, guid: 248b7cf269a683c4fa35eae347e84bfd, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[82]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: ee0734e6008f396418d3f554a811649d, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: eb49341bc73e73744a69d5618d5935bd, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[83]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 88f067c4e4e21e3449805b9f54a85258, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: c924344f433cc7a428830de05a981fde, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[84]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: b3380417daec2034d93bd26cf14050e6, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 71aab5c4da545394d98ddfc9835e12db, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[85]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 248b7cf269a683c4fa35eae347e84bfd, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 5fac63113818f62469196bbb4d59cf7f, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[86]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: eb49341bc73e73744a69d5618d5935bd, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 205bc242ff2fee443a22e249009d9c41, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[87]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: c924344f433cc7a428830de05a981fde, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 619565ea3e5275b40b150c832fc06191, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[88]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 71aab5c4da545394d98ddfc9835e12db, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: fa36871593e539b49b6b2a691b8237d2, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[89]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 5fac63113818f62469196bbb4d59cf7f, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 9837bc8d745123a41b80f8b8f1fd6b86, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[90]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 205bc242ff2fee443a22e249009d9c41, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 5efcc5a40dd64b14eb818cf6750a395c, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[91]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 619565ea3e5275b40b150c832fc06191, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 9413168c9f855e34dbc2ac601af593fe, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[92]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: fa36871593e539b49b6b2a691b8237d2, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: ec7ae897721ac3547aa48bf2961d00c6, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[93]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 9837bc8d745123a41b80f8b8f1fd6b86, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 1423617100caad14882abf111602ec4d, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[94]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 5efcc5a40dd64b14eb818cf6750a395c, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: fa0793e3c33682d42ab47e6a5c969be0, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[95]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 9413168c9f855e34dbc2ac601af593fe, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 366d0f093ed88894bbc06ba947fa8d34, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[96]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: ec7ae897721ac3547aa48bf2961d00c6, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 43ce1333640909546895d8ccb1b70cc1, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[97]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 1423617100caad14882abf111602ec4d, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: aa387c8d5aebdc64392b021db5d2471a, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[98]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: fa0793e3c33682d42ab47e6a5c969be0, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: c6d8319ab8e4fb64494c4a9e3b97dc9d, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[99]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 366d0f093ed88894bbc06ba947fa8d34, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 579b1bdc4edeb064e9430e0520bb1a48, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: layerCollisionArr.Array.data[3]
@@ -7128,20 +6832,12 @@ PrefabInstance:
         type: 3}
       propertyPath: DynamicMaterials.Array.data[100]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: 43ce1333640909546895d8ccb1b70cc1, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 348479891f8fb7541a5bcff4186dcfb0, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[101]
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2100000, guid: aa387c8d5aebdc64392b021db5d2471a, type: 2}
-=======
       objectReference: {fileID: 2100000, guid: 5efb96c2e1892fd4db5e59e62a7b8d28, type: 2}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: DynamicMaterials.Array.data[102]
@@ -7671,56 +7367,32 @@ PrefabInstance:
         type: 3}
       propertyPath: NetworkIDs.Array.data[29].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 1088823790}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[30].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 289585357}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[31].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 5142899776528124204}
-=======
       objectReference: {fileID: 897209161}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[32].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 1374924050919874597}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[33].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 4328723464829188705}
-=======
       objectReference: {fileID: 5142899776528124204}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[34].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 4328723464829188705}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[35].gameObject
@@ -7730,92 +7402,52 @@ PrefabInstance:
         type: 3}
       propertyPath: NetworkIDs.Array.data[36].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 8823168923195036933}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[37].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 8823168923195036933}
-=======
       objectReference: {fileID: 2872365794621198213}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[38].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 4810178020069801855}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[39].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 2872365794621198213}
-=======
       objectReference: {fileID: 6401149453469931392}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[40].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 796685944492190963}
-=======
       objectReference: {fileID: 4782802843869022287}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[41].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 4810178020069801855}
-=======
       objectReference: {fileID: 796685944492190963}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[42].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 4276696745648527386}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[43].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 6401149453469931392}
-=======
       objectReference: {fileID: 3843585477733698044}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[44].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 386782052913465223}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[45].gameObject
       value: 
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-=======
       objectReference: {fileID: 4408357885028124303}
->>>>>>> Stashed changes
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[46].gameObject
@@ -8584,14 +8216,11 @@ PrefabInstance:
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[42].SerializedTypeNames.Array.data[1]
-<<<<<<< Updated upstream
-=======
       value: VRC.SDK3.Components.VRCPickup
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[42].SerializedTypeNames.Array.data[2]
->>>>>>> Stashed changes
       value: VRC.SDK3.Components.VRCPickup
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
@@ -8603,13 +8232,6 @@ PrefabInstance:
         type: 3}
       propertyPath: NetworkIDs.Array.data[43].SerializedTypeNames.Array.data[1]
       value: VRC.SDK3.Components.VRCPickup
-<<<<<<< Updated upstream
-      objectReference: {fileID: 0}
-    - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
-        type: 3}
-      propertyPath: NetworkIDs.Array.data[44].SerializedTypeNames.Array.data[0]
-      value: VRC.SDK3.Components.VRCObjectSync
-=======
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
@@ -8625,7 +8247,6 @@ PrefabInstance:
         type: 3}
       propertyPath: NetworkIDs.Array.data[44].SerializedTypeNames.Array.data[1]
       value: VRC.SDK3.Components.VRCPickup
->>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
@@ -8640,14 +8261,11 @@ PrefabInstance:
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[45].SerializedTypeNames.Array.data[1]
-<<<<<<< Updated upstream
-=======
       value: VRC.SDK3.Components.VRCObjectSync
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[45].SerializedTypeNames.Array.data[2]
->>>>>>> Stashed changes
       value: VRC.SDK3.Components.VRCPickup
       objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
@@ -24044,8 +23662,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 415400, guid: f7d599f3601fafa4f975c2c01bb99fa9,
     type: 3}
   m_PrefabInstance: {fileID: 14015064}
-<<<<<<< Updated upstream
-=======
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2135718009
 GameObject:
@@ -24086,7 +23702,6 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
->>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135718009}
   m_Material: {fileID: 0}
@@ -24350,97 +23965,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5270622662389967445}
   m_LocalEulerAnglesHint: {x: -8.309, y: 0, z: 0}
-<<<<<<< Updated upstream
---- !u!23 &216529531532365418
-MeshRenderer:
-=======
 --- !u!4 &287609000113777662
 Transform:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 3931308353004437013}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &225636150563747716
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2396476681256973248}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   m_GameObject: {fileID: 8262740944263909839}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -24450,7 +23980,6 @@ MeshRenderer:
   m_Children: []
   m_Father: {fileID: 2019432438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes
 --- !u!23 &292323834378090756
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24493,21 +24022,14 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< Updated upstream
---- !u!33 &337192760592821920
-MeshFilter:
-=======
 --- !u!4 &315062228831862878
 Transform:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 2396476681256973248}
   m_Mesh: {fileID: 587368526446329797, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
-=======
   m_GameObject: {fileID: 1086638275543358180}
   serializedVersion: 2
   m_LocalRotation: {x: 0.03158571, y: -0.47797626, z: 0.014671801, w: -0.8776821}
@@ -24564,7 +24086,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!1 &386782052913465223
 GameObject:
   m_ObjectHideFlags: 0
@@ -24587,115 +24108,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
---- !u!23 &459746333865552290
-MeshRenderer:
-=======
 --- !u!33 &488635018540202403
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 8304177897298235698}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &471691745613571771
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8289914056528346061}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &498301318687847218
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3377992686529536116}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 6041662304460812028}
   m_Mesh: {fileID: 7464995243427523542, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
->>>>>>> Stashed changes
 --- !u!23 &501965982039660880
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24931,21 +24351,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< Updated upstream
---- !u!33 &1014735152916224002
-=======
 --- !u!33 &998178303629395582
->>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 2628292416716587612}
-  m_Mesh: {fileID: -7981919987869145870, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
---- !u!4 &1085235729155748283
-=======
   m_GameObject: {fileID: 3970955300456595176}
   m_Mesh: {fileID: -2736774864909159419, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!1 &1040000133662863535
@@ -24967,23 +24378,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1071794666514932427
->>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 1880294168928776312}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 3970955300456595176}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -25032,7 +24431,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!23 &1090501290740939856
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25075,28 +24473,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< Updated upstream
---- !u!4 &1129748241662835070
-Transform:
-=======
 --- !u!1 &1207347550982170826
 GameObject:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 7378596025002208407}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6669558839210589615}
@@ -25109,7 +24491,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> Stashed changes
 --- !u!4 &1227641765288488383
 Transform:
   m_ObjectHideFlags: 0
@@ -25133,55 +24514,12 @@ Transform:
   - {fileID: 1115373523}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
---- !u!23 &1296211972351203879
-MeshRenderer:
-=======
 --- !u!4 &1373309998888982094
 Transform:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 7378596025002208407}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   m_GameObject: {fileID: 2379542716267616555}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -25191,7 +24529,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2019432438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes
 --- !u!1 &1374924050919874597
 GameObject:
   m_ObjectHideFlags: 0
@@ -25214,58 +24551,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
---- !u!1 &1449578390129534008
-GameObject:
-=======
 --- !u!33 &1449965897426549371
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2351636063551084851}
-  - component: {fileID: 7742995456995430827}
-  - component: {fileID: 8293418461618835587}
-  m_Layer: 0
-  m_Name: spinner_low
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1728745473398194470
-GameObject:
-=======
   m_GameObject: {fileID: 2379542716267616555}
   m_Mesh: {fileID: -8008822244519012472, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!23 &1506436479356603315
 MeshRenderer:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2553671918101141827}
-  - component: {fileID: 4819429908940871289}
-  - component: {fileID: 6843207217432638752}
-  m_Layer: 0
-  m_Name: beam_6_low
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1777513856046813813
-Transform:
-=======
   m_GameObject: {fileID: 4934286419385383465}
   m_Enabled: 1
   m_CastShadows: 1
@@ -25304,22 +24603,10 @@ Transform:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &1583316974750406261
 MeshRenderer:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 6117202421724546832}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 6943535798831099270}
   m_Enabled: 1
   m_CastShadows: 1
@@ -25364,7 +24651,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207347550982170826}
   m_Mesh: {fileID: 5746476956990695312, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
->>>>>>> Stashed changes
 --- !u!23 &1778589663669403871
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25501,29 +24787,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< Updated upstream
---- !u!33 &2018562069767294055
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8337743480140551506}
-  m_Mesh: {fileID: 6059672568013185852, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
---- !u!23 &2210330513133559345
-=======
 --- !u!23 &1932611275846703866
->>>>>>> Stashed changes
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 7991977787745679401}
-=======
   m_GameObject: {fileID: 6041662304460812028}
->>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -25537,11 +24807,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< Updated upstream
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-=======
   - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25579,40 +24845,15 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6401149453469931392}
   m_Mesh: {fileID: -6248673433752309154, guid: 1f5918b129c8dc14ca1724da82c4df3c, type: 3}
-<<<<<<< Updated upstream
---- !u!4 &2351636063551084851
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449578390129534008}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2381710226550525372
-=======
 --- !u!33 &2338824265692599133
->>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 5353413946284089205}
-  m_Mesh: {fileID: 8622293395352310631, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
---- !u!1 &2396476681256973248
-=======
   m_GameObject: {fileID: 6790815362390368162}
   m_Mesh: {fileID: -1619713762859834946, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!1 &2379542716267616555
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25620,42 +24861,16 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
-  - component: {fileID: 1802549559964467033}
-  - component: {fileID: 337192760592821920}
-  - component: {fileID: 225636150563747716}
-  m_Layer: 0
-  m_Name: beam_5_low
-=======
   - component: {fileID: 1373309998888982094}
   - component: {fileID: 1449965897426549371}
   - component: {fileID: 4104587080017410060}
   m_Layer: 0
   m_Name: coupling_small_low
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
---- !u!4 &2441369140252515833
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 26999988203034099}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> Stashed changes
 --- !u!33 &2443456698778287392
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25664,26 +24879,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4782802843869022287}
   m_Mesh: {fileID: 7394918852425815884, guid: 1f5918b129c8dc14ca1724da82c4df3c, type: 3}
-<<<<<<< Updated upstream
---- !u!4 &2553671918101141827
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728745473398194470}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2628292416716587612
-=======
 --- !u!1 &2469097394548654925
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25691,39 +24887,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
-  - component: {fileID: 7498935232144265102}
-  - component: {fileID: 1014735152916224002}
-  - component: {fileID: 5898841829749553583}
-  m_Layer: 0
-  m_Name: rope_middle_low
-=======
   - component: {fileID: 5442700240053900964}
   - component: {fileID: 7055798497843189507}
   - component: {fileID: 6185947978930189821}
   m_Layer: 0
   m_Name: cylinder_2_low
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
---- !u!33 &2724339519579650265
-MeshFilter:
-=======
 --- !u!23 &2564415940148515899
 MeshRenderer:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 7378596025002208407}
-  m_Mesh: {fileID: -6656606674456519887, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
-=======
   m_GameObject: {fileID: 8932427477763581120}
   m_Enabled: 1
   m_CastShadows: 1
@@ -25802,7 +24981,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!1 &2872365794621198213
 GameObject:
   m_ObjectHideFlags: 0
@@ -25929,23 +25107,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 56.99374, y: 13.408775, z: 53.75739}
   m_Center: {x: 13.775637, y: 0.000013196948, z: 10.367723}
-<<<<<<< Updated upstream
---- !u!33 &2929327971300128162
-MeshFilter:
-=======
 --- !u!1 &3024533052645046609
 GameObject:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 3377992686529536116}
-  m_Mesh: {fileID: -6155828813675122059, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
---- !u!33 &3011120829571168923
-MeshFilter:
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 950539266061695903}
@@ -25960,15 +25127,10 @@ MeshFilter:
   m_IsActive: 1
 --- !u!4 &3121927048947869752
 Transform:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 4599209264408333082}
-  m_Mesh: {fileID: -7719843599331878032, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
-=======
   m_GameObject: {fileID: 1040000133662863535}
   serializedVersion: 2
   m_LocalRotation: {x: -0.6180883, y: -0.25148097, z: 0.28361803, w: 0.6886835}
@@ -25993,7 +25155,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2019432438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes
 --- !u!4 &3323444154464433999
 Transform:
   m_ObjectHideFlags: 0
@@ -26017,31 +25178,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796685944492190963}
   m_Mesh: {fileID: -5515011364931717787, guid: 1f5918b129c8dc14ca1724da82c4df3c, type: 3}
-<<<<<<< Updated upstream
---- !u!1 &3377992686529536116
-GameObject:
-=======
 --- !u!33 &3409596940757433969
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 498301318687847218}
-  - component: {fileID: 2929327971300128162}
-  - component: {fileID: 517095539020802423}
-  m_Layer: 0
-  m_Name: coupling_big_low
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
   m_GameObject: {fileID: 5780397471133273058}
   m_Mesh: {fileID: -6874735809468866849, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!23 &3439106119488067287
@@ -26101,7 +25243,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2019432438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes
 --- !u!23 &3450442291737228611
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26475,11 +25616,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
-<<<<<<< Updated upstream
---- !u!1 &3931308353004437013
-=======
 --- !u!1 &3970955300456595176
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26487,26 +25624,16 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
-  - component: {fileID: 5176955798630908964}
-  - component: {fileID: 8753756963700766096}
-  - component: {fileID: 216529531532365418}
-  m_Layer: 0
-  m_Name: rope_small_low
-=======
   - component: {fileID: 1071794666514932427}
   - component: {fileID: 998178303629395582}
   - component: {fileID: 4775134849489946232}
   m_Layer: 0
   m_Name: beam_4_low
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
-=======
 --- !u!1 &3976194598934696983
 GameObject:
   m_ObjectHideFlags: 0
@@ -26567,7 +25694,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!23 &3992344890431996623
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26610,30 +25736,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< Updated upstream
---- !u!4 &4190135211335669809
-Transform:
-=======
 --- !u!1 &4003817197937670792
 GameObject:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 8289914056528346061}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4265646062157587013
-Transform:
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3447239324297573340}
@@ -26648,22 +25756,10 @@ Transform:
   m_IsActive: 1
 --- !u!23 &4104587080017410060
 MeshRenderer:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 7991977787745679401}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 2379542716267616555}
   m_Enabled: 1
   m_CastShadows: 1
@@ -26758,7 +25854,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3024533052645046609}
   m_Mesh: {fileID: -8033545299299137026, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
->>>>>>> Stashed changes
 --- !u!1 &4276696745648527386
 GameObject:
   m_ObjectHideFlags: 0
@@ -26825,86 +25920,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
---- !u!1 &4599209264408333082
-GameObject:
-=======
 --- !u!33 &4422078083126499914
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3706210374631728776}
-  - component: {fileID: 3011120829571168923}
-  - component: {fileID: 7472410454129720289}
-  m_Layer: 0
-  m_Name: beam_3_low
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4646206765876998020
-Transform:
-=======
   m_GameObject: {fileID: 8262740944263909839}
   m_Mesh: {fileID: 3377926663176614647, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!33 &4649971035406336378
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 5418240208706286910}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.010714332, y: 0.6395663, z: 0.005183411, w: 0.76864374}
-  m_LocalPosition: {x: 15.599255, y: 35.21693, z: -13.4051075}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 211534115}
-  - {fileID: 1777513856046813813}
-  - {fileID: 2441369140252515833}
-  - {fileID: 3706210374631728776}
-  - {fileID: 5402684099350498577}
-  - {fileID: 2553671918101141827}
-  - {fileID: 498301318687847218}
-  - {fileID: 6281128573515528596}
-  - {fileID: 7778555367511055366}
-  - {fileID: 1129748241662835070}
-  - {fileID: 1085235729155748283}
-  - {fileID: 4265646062157587013}
-  - {fileID: 7498935232144265102}
-  - {fileID: 5176955798630908964}
-  - {fileID: 2351636063551084851}
-  - {fileID: 8203220146414326076}
-  - {fileID: 4190135211335669809}
-  - {fileID: 860451393}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -1.324, y: 79.53, z: -0.329}
---- !u!23 &4711157627558788748
-=======
   m_GameObject: {fileID: 7305975329227791386}
   m_Mesh: {fileID: 587368526446329797, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!23 &4775134849489946232
->>>>>>> Stashed changes
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 8337743480140551506}
-=======
   m_GameObject: {fileID: 3970955300456595176}
->>>>>>> Stashed changes
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -27042,21 +26080,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< Updated upstream
---- !u!33 &4819429908940871289
-MeshFilter:
-=======
 --- !u!4 &4814248404014636264
 Transform:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 1728745473398194470}
-  m_Mesh: {fileID: 7464995243427523542, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
-=======
   m_GameObject: {fileID: 7693552725912588206}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -27150,7 +26179,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> Stashed changes
 --- !u!4 &4923536147421053875
 Transform:
   m_ObjectHideFlags: 0
@@ -27348,61 +26376,20 @@ Transform:
   - {fileID: 7399946122772436214}
   m_Father: {fileID: 1659498405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
---- !u!33 &5332203558876146084
-=======
 --- !u!33 &5346027005057677272
->>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 8304177897298235698}
-  m_Mesh: {fileID: -2736774864909159419, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
---- !u!1 &5353413946284089205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8031790734389495778}
-  - component: {fileID: 2381710226550525372}
-  - component: {fileID: 6987719211749191898}
-  m_Layer: 0
-  m_Name: stone_small_low
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5402684099350498577
-=======
   m_GameObject: {fileID: 6943535798831099270}
   m_Mesh: {fileID: -7981919987869145870, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!4 &5416281307536957025
->>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 8304177897298235698}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5418240208706286910
-GameObject:
-=======
   m_GameObject: {fileID: 6790815362390368162}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -27414,23 +26401,10 @@ GameObject:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &5442700240053900964
 Transform:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4646206765876998020}
-  m_Layer: 0
-  m_Name: catapulta_7_2_UV_OVER_SEAM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
   m_GameObject: {fileID: 2469097394548654925}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -27440,7 +26414,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2019432438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes
 --- !u!4 &5444213115969488351
 Transform:
   m_ObjectHideFlags: 0
@@ -27510,7 +26483,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5270622662389967445}
   m_LocalEulerAnglesHint: {x: 26.802, y: 0, z: 0}
-<<<<<<< Updated upstream
 --- !u!33 &5781117031344362913
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -27612,9 +26584,7 @@ MeshFilter:
   m_GameObject: {fileID: 6117202421724546832}
   m_Mesh: {fileID: 5746476956990695312, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!1 &6117202421724546832
-=======
 --- !u!1 &5780397471133273058
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27622,13 +26592,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
-  - component: {fileID: 1777513856046813813}
-  - component: {fileID: 5987908242963071355}
-  - component: {fileID: 3673347584506992854}
-  m_Layer: 0
-  m_Name: beam_1_low
-=======
   - component: {fileID: 7243837175329076969}
   - component: {fileID: 3409596940757433969}
   - component: {fileID: 3980569800941436761}
@@ -27652,7 +26615,6 @@ GameObject:
   - component: {fileID: 1932611275846703866}
   m_Layer: 0
   m_Name: beam_6_low
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27888,31 +26850,14 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5142899776528124204}
   m_Mesh: {fileID: 729737926155358466, guid: 1f5918b129c8dc14ca1724da82c4df3c, type: 3}
-<<<<<<< Updated upstream
---- !u!4 &6281128573515528596
-Transform:
-=======
 --- !u!33 &6351949607919510461
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 7286862114739205873}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 4003817197937670792}
   m_Mesh: {fileID: 6059672568013185852, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
->>>>>>> Stashed changes
 --- !u!1 &6401149453469931392
 GameObject:
   m_ObjectHideFlags: 0
@@ -28039,55 +26984,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829255864565687507}
   m_Mesh: {fileID: -7598062166695136398, guid: 1f5918b129c8dc14ca1724da82c4df3c, type: 3}
-<<<<<<< Updated upstream
---- !u!23 &6843207217432638752
-MeshRenderer:
-=======
 --- !u!4 &6669558839210589615
 Transform:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 1728745473398194470}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   m_GameObject: {fileID: 1207347550982170826}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -28148,7 +27050,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> Stashed changes
 --- !u!4 &6963046100397426693
 Transform:
   m_ObjectHideFlags: 0
@@ -28164,58 +27065,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5270622662389967445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
---- !u!23 &6987719211749191898
-MeshRenderer:
-=======
 --- !u!33 &7055798497843189507
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 5353413946284089205}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   m_GameObject: {fileID: 2469097394548654925}
   m_Mesh: {fileID: -6656606674456519887, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
->>>>>>> Stashed changes
 --- !u!4 &7081880467025920317
 Transform:
   m_ObjectHideFlags: 0
@@ -28328,9 +27185,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20.406487, y: 15.896349, z: 31.592476}
   m_Center: {x: -0.10432768, y: 0.25555587, z: 4.18395}
-<<<<<<< Updated upstream
---- !u!33 &7228518493243325575
-=======
 --- !u!4 &7243837175329076969
 Transform:
   m_ObjectHideFlags: 0
@@ -28347,21 +27201,14 @@ Transform:
   m_Father: {fileID: 1066477209}
   m_LocalEulerAnglesHint: {x: -37.063, y: -32.8, z: 97.945}
 --- !u!33 &7289216559732646502
->>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 1880294168928776312}
-  m_Mesh: {fileID: -1619713762859834946, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
---- !u!1 &7286862114739205873
-=======
   m_GameObject: {fileID: 1040000133662863535}
   m_Mesh: {fileID: 8622293395352310631, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!1 &7305975329227791386
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28369,19 +27216,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
-  - component: {fileID: 6281128573515528596}
-  - component: {fileID: 5781117031344362913}
-  - component: {fileID: 8994703518106359766}
-  m_Layer: 0
-  m_Name: coupling_small_low
-=======
   - component: {fileID: 6712059184256389251}
   - component: {fileID: 4649971035406336378}
   - component: {fileID: 5117331489345853534}
   m_Layer: 0
   m_Name: beam_5_low
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28785,68 +27624,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 57.70891, y: 21.866962, z: 57.766987}
   m_Center: {x: -0.3695145, y: 3.38379, z: 0.06760692}
-<<<<<<< Updated upstream
---- !u!23 &7472410454129720289
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4599209264408333082}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &7498935232144265102
-=======
 --- !u!4 &7445998390937712281
->>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 2628292416716587612}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-=======
   m_GameObject: {fileID: 6041662304460812028}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -28855,7 +27638,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2019432438}
->>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7526729454296232703
 Transform:
@@ -28872,9 +27654,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -86.529}
-<<<<<<< Updated upstream
---- !u!33 &7742995456995430827
-=======
 --- !u!1 &7693552725912588206
 GameObject:
   m_ObjectHideFlags: 0
@@ -28894,13 +27673,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!33 &7819066196694817400
->>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 1449578390129534008}
   m_Mesh: {fileID: -6874735809468866849, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!23 &7755163138714155277
@@ -28960,10 +27737,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4646206765876998020}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 7693552725912588206}
   m_Mesh: {fileID: -6155828813675122059, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
->>>>>>> Stashed changes
 --- !u!114 &7868088438752317205
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -29068,34 +27843,14 @@ MonoBehaviour:
   CloudPoint1: 0.2
   CloudPoint2: 0.25
   CloudPoint3: 0.35
-<<<<<<< Updated upstream
---- !u!1 &7916408726517585547
-GameObject:
-=======
 --- !u!33 &7920795396868773185
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5266125713707963461}
-  - component: {fileID: 9105687990641784453}
-  - component: {fileID: 9010745731453598248}
-  m_Layer: 0
-  m_Name: bowl_low
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
   m_GameObject: {fileID: 8932427477763581120}
   m_Mesh: {fileID: -7719843599331878032, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
->>>>>>> Stashed changes
 --- !u!4 &7951468739632589928
 Transform:
   m_ObjectHideFlags: 0
@@ -29255,31 +28010,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5270622662389967445}
   m_LocalEulerAnglesHint: {x: -97.053, y: 0, z: -144.30301}
-<<<<<<< Updated upstream
---- !u!4 &8203220146414326076
-Transform:
-=======
 --- !u!33 &8127768374021876457
 MeshFilter:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 8541204992456297971}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4646206765876998020}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 4934286419385383465}
   m_Mesh: {fileID: 1571255704857853081, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
->>>>>>> Stashed changes
 --- !u!23 &8228750619674271841
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29324,11 +28062,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< Updated upstream
---- !u!1 &8289914056528346061
-=======
 --- !u!1 &8262740944263909839
->>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -29336,79 +28070,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream
-  - component: {fileID: 4190135211335669809}
-  - component: {fileID: 3667006321052171235}
-  - component: {fileID: 471691745613571771}
-  m_Layer: 0
-  m_Name: wheel_low
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &8293418461618835587
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1449578390129534008}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &8304177897298235698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5402684099350498577}
-  - component: {fileID: 5332203558876146084}
-  - component: {fileID: 459746333865552290}
-  m_Layer: 0
-  m_Name: beam_4_low
-=======
   - component: {fileID: 287609000113777662}
   - component: {fileID: 4422078083126499914}
   - component: {fileID: 5126419588479295920}
   m_Layer: 0
   m_Name: rope_small_low
->>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29573,38 +28239,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 16.927582, y: 16.099104, z: 46.657078}
   m_Center: {x: 0.000121593475, y: 0.00024461746, z: -7.883831}
-<<<<<<< Updated upstream
---- !u!1 &8541204992456297971
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8203220146414326076}
-  - component: {fileID: 9096178697554781242}
-  - component: {fileID: 7755163138714155277}
-  m_Layer: 0
-  m_Name: wheel_coupling_low.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!33 &8753756963700766096
-=======
 --- !u!33 &8558569718722253881
->>>>>>> Stashed changes
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 3931308353004437013}
-  m_Mesh: {fileID: 3377926663176614647, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
-=======
   m_GameObject: {fileID: 3976194598934696983}
   m_Mesh: {fileID: 1844021158741823970, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
 --- !u!23 &8565755404290881292
@@ -29664,7 +28304,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2019432438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes
 --- !u!1 &8823168923195036933
 GameObject:
   m_ObjectHideFlags: 0
@@ -30009,113 +28648,12 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 13.485362, y: 53.92041, z: 28.627234}
   m_Center: {x: -1.2098131, y: -18.816364, z: -5.735135}
-<<<<<<< Updated upstream
---- !u!23 &8994703518106359766
-MeshRenderer:
-=======
 --- !u!4 &9080293431052548075
 Transform:
->>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-  m_GameObject: {fileID: 7286862114739205873}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &9010745731453598248
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7916408726517585547}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 822806137f13d6a49be5d16a95845170, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &9096178697554781242
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8541204992456297971}
-  m_Mesh: {fileID: 2665796574874484380, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
---- !u!33 &9105687990641784453
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7916408726517585547}
-  m_Mesh: {fileID: -8033545299299137026, guid: d7ed35b3a14660a4ba05d111f8b1c301, type: 3}
-=======
   m_GameObject: {fileID: 3976194598934696983}
   serializedVersion: 2
   m_LocalRotation: {x: 0.64294946, y: -0.34835473, z: -0.32760575, w: -0.59828043}
@@ -30125,7 +28663,6 @@ MeshFilter:
   m_Children: []
   m_Father: {fileID: 2019432438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> Stashed changes
 --- !u!64 &9178316519872430518
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30267,10 +28804,6 @@ SceneRoots:
   - {fileID: 1065211401}
   - {fileID: 668562302}
   - {fileID: 1090938675}
-<<<<<<< Updated upstream
-  - {fileID: 4646206765876998020}
-=======
   - {fileID: 7526729454296232703}
   - {fileID: 1511180082}
   - {fileID: 315062228831862878}
->>>>>>> Stashed changes
