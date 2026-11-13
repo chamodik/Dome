@@ -1,0 +1,14 @@
+Paid Creative Tools License 2020-09-17
+
+Nobody likes license agreements, so I will keep things as short as I can!
+
+Please respect the work and effort that goes into creating better tools for everyone to learn from and create with, so:
+- Do not resell my work as your own or sell derivative/modified versions of my work. (Modifying my work is allowed, but it can only be shared with other license holders)
+- Use in commercial products is allowed, though all individuals that can access the paid work directly (source files, etc.) must own a license. So, use in open-source projects is not allowed.
+- Do not distribute my paid work in private circles. Instead refer people to the official platforms I provide to purchase a license. (I am a small developer and really need the money to sustain myself)
+
+You are considered a license holder when a copy of my work has been purchased in your name through any of the platforms that I provide. 
+This license agreement can be updated at any time to rephrase and clarify things, as well as counteract unintended use of my work.
+
+Thank you so much,
+Mark
