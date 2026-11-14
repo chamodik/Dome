@@ -1,0 +1,225 @@
+﻿
+using UdonSharp;
+using UnityEngine;
+using VRC.SDKBase;
+
+[UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
+public class PXR_SizeChange : UdonSharpBehaviour
+{
+    private const float MIN_HEIGHT = 0.2f;
+    private const float MAX_HEIGHT = 10.0f;
+
+    // =====================================
+    // ADMINISTRATOR EXCLUSION
+    // =====================================
+
+    [Header("Administrator Exclusion")]
+
+    [Tooltip(
+        "Players listed in PXR_AdminNames are excluded " +
+        "from size changes and sequential assignments. " +
+        "If no list is assigned, the operation is cancelled."
+    )]
+    public PXR_AdminNames adminList;
+
+    // =====================================
+    // SIZE ASSIGNMENT
+    // =====================================
+
+    [Header("Size Assignment")]
+
+    [Tooltip(
+        "True: each non-admin independently selects a " +
+        "random size. False: non-admin players are assigned " +
+        "sizes sequentially in ascending Player ID order, " +
+        "cycling through the list for even distribution."
+    )]
+    public bool shuffle = true;
+
+    [Header("Possible Eye Heights (Metres)")]
+
+    [Tooltip(
+        "Absolute avatar eye heights in metres. " +
+        "Valid positive values are clamped to 0.2–10.0 metres. " +
+        "Zero, negative, NaN and infinite values are ignored."
+    )]
+    public float[] possibleSizes =
+    {
+        0.5f,
+        1.0f,
+        1.5f,
+        2.0f
+    };
+
+    // =====================================
+    // INITIALIZATION
+    // =====================================
+
+    private void Start()
+    {
+        DisableInteractive = true;
+    }
+
+    // =====================================
+    // INPUT CALLABLE
+    // =====================================
+
+    [PXR_InputCallable]
+    public void RandomizeSize()
+    {
+        VRCPlayerApi localPlayer = Networking.LocalPlayer;
+
+        if (!Utilities.IsValid(localPlayer))
+            return;
+
+        // Fail closed if no administrator list exists.
+        if (!Utilities.IsValid(adminList))
+        {
+            Debug.LogWarning(
+                "[PXR_SizeChange] Missing Admin List."
+            );
+
+            return;
+        }
+
+        // Administrators are excluded entirely.
+        if (adminList.IsLocalPlayerAdmin())
+            return;
+
+        if (possibleSizes == null ||
+            possibleSizes.Length == 0)
+        {
+            Debug.LogWarning(
+                "[PXR_SizeChange] No sizes configured."
+            );
+
+            return;
+        }
+
+        // =================================
+        // COUNT VALID HEIGHTS
+        // =================================
+
+        int validCount = 0;
+
+        for (int i = 0; i < possibleSizes.Length; i++)
+        {
+            if (IsValidHeight(possibleSizes[i]))
+            {
+                validCount++;
+            }
+        }
+
+        if (validCount == 0)
+        {
+            Debug.LogWarning(
+                "[PXR_SizeChange] No valid heights found."
+            );
+
+            return;
+        }
+
+        // =================================
+        // SELECT HEIGHT INDEX
+        // =================================
+
+        int selectedIndex = 0;
+
+        if (shuffle)
+        {
+            // Each non-admin independently
+            // selects a random height.
+
+            selectedIndex = Random.Range(
+                0,
+                validCount
+            );
+        } else
+        {
+            // Count the non-admin players with
+            // lower Player IDs than the local player.
+            //
+            // This determines the local player's
+            // position in the shared sequence.
+
+            int playerRank = 0;
+
+            VRCPlayerApi[] players =
+                VRCPlayerApi.GetPlayers();
+
+            for (int i = 0; i < players.Length; i++)
+            {
+                VRCPlayerApi player = players[i];
+
+                if (!Utilities.IsValid(player))
+                    continue;
+
+                // Ignore administrators.
+                if (adminList.IsAdmin(player))
+                    continue;
+
+                // Each eligible player with a
+                // lower ID comes before us.
+                if (player.playerId < localPlayer.playerId)
+                {
+                    playerRank++;
+                }
+            }
+
+            // Cycle through available heights.
+            // This distributes non-admin players
+            // as evenly as possible.
+
+            selectedIndex = playerRank % validCount;
+        }
+
+        // =================================
+        // APPLY SELECTED HEIGHT
+        // =================================
+
+        // Find the selected item among valid
+        // entries in the original array.
+
+        for (int i = 0; i < possibleSizes.Length; i++)
+        {
+            float height = possibleSizes[i];
+
+            if (!IsValidHeight(height))
+                continue;
+
+            if (selectedIndex == 0)
+            {
+                float targetHeight = Mathf.Clamp(
+                    height,
+                    MIN_HEIGHT,
+                    MAX_HEIGHT
+                );
+
+                // Avatar scaling can only be
+                // applied to the local player.
+                //
+                // VRChat synchronizes the result
+                // to the other players.
+
+                localPlayer.SetAvatarEyeHeightByMeters(
+                    targetHeight
+                );
+
+                return;
+            }
+
+            selectedIndex--;
+        }
+    }
+
+    // =====================================
+    // HEIGHT VALIDATION
+    // =====================================
+
+    private bool IsValidHeight(float height)
+    {
+        return height > 0f &&
+               !float.IsNaN(height) &&
+               !float.IsInfinity(height);
+    }
+}

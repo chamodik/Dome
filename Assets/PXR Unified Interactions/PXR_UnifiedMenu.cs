@@ -15,6 +15,8 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
 
     public PXR_AdminNames adminList;
 
+    public WorldAccessManager accessManager;
+
     // =====================================
     // HAND SETTINGS
     // =====================================
@@ -153,13 +155,12 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
 
     public bool HasMenuAccess()
     {
-        if (!adminOnly)
-            return true;
+        {
+            if (!Utilities.IsValid(accessManager))
+                return false;
 
-        if (!Utilities.IsValid(adminList))
-            return false;
-
-        return adminList.IsLocalPlayerAdmin();
+            return accessManager.IsLocalPlayerAuthorized();
+        }
     }
 
     // =====================================
@@ -503,6 +504,7 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
         menuContent.SetActive(true);
     }
 
+    [PXR_InputCallable]
     public void HideMenu()
     {
         if (!initialized)

@@ -5,6 +5,9 @@ using UnityEngine.UI;
 //using UdonToolkit;
 using UnityEditor;
 using UnityEngine.Serialization;
+using VRC.SDK3.UdonNetworkCalling;
+using VRC.Udon.Common.Interfaces;
+using TMPro;
 
 //[CustomName("Day/Night Cycle Controller v2")]
 public class DayNightCycleController_v2 : UdonSharpBehaviour
@@ -23,6 +26,9 @@ public class DayNightCycleController_v2 : UdonSharpBehaviour
     public Slider SpeedSlider;
     public Slider TimeSlider;
     public Toggle LocalToggle;
+    public Toggle StopAtNightToggle;
+    public Toggle CycleRunningToggle;
+    public TextMeshProUGUI ClockText;
 
     //public GameObject FireFX;
 
@@ -40,7 +46,19 @@ public class DayNightCycleController_v2 : UdonSharpBehaviour
     public float Speed = 1 / 600f;
     public float TimeMultiplier = 1f;
 
-    
+    [Header("Menu Time Settings")]
+
+    [Range(0f, 1f)]
+    public float EveningStartTime = 0.68f;
+
+    [Range(0f, 1f)]
+    public float NightStopTime = 0.80f;
+
+    [Header("Cycle Controls")]
+    public bool CycleRunning = true;
+    public bool StopAtNight = true;
+
+
     [Header("SET Environment Lighting > Source TO Color IN LIGHTING WINDOW!")]
     [Tooltip("Color at set point in the cycle")] public Color AmbientColor1;
     [Tooltip("Color at set point in the cycle")] public Color AmbientColor2;
@@ -147,6 +165,9 @@ public class DayNightCycleController_v2 : UdonSharpBehaviour
     bool local;
     private bool lowCloudNotNull;
     private bool highCloudNotNull;
+    private bool updatingToggleFromCode = false;
+    private bool updatingSpeedFromNetwork = false;
+    private bool speedUpdatePending = false;
 
     private Color c;
 
@@ -165,9 +186,22 @@ public class DayNightCycleController_v2 : UdonSharpBehaviour
         //BirdsInitialVolume = Birds.volume;
         //CicadasInitialVolume = Cicadas.volume;
         UnityEngine.Random.InitState((int)Time.time);
-        TimeSlider.value = CurrentTimeOfDay;
-        SpeedSlider.value = Speed;
-        
+        if(TimeSlider != null)
+            TimeSlider.value = CurrentTimeOfDay;
+
+        if (SpeedSlider != null)
+        {
+            updatingSpeedFromNetwork = true;
+            SpeedSlider.value = TimeMultiplier;
+            updatingSpeedFromNetwork = false;
+        }
+
+        if (StopAtNightToggle != null)
+            StopAtNight = StopAtNightToggle.isOn;
+
+        if (CycleRunningToggle != null)
+            CycleRunningToggle.isOn = CycleRunning;
+
         // null checks
         lowCloudNotNull = LowCloud != null;
         highCloudNotNull = HighCloud != null;
@@ -199,15 +233,123 @@ public class DayNightCycleController_v2 : UdonSharpBehaviour
             //when disabled only master can control synced time, if enabled can cause syncing issues
             //Networking.SetOwner(Networking.LocalPlayer, this.gameObject);
 
-            SetTime = TimeSlider.value;
-            SetSpeed = SpeedSlider.value;
-            syncid = GetID();
+            if (TimeSlider != null)
+                TimeSlider.value = CurrentTimeOfDay;
+
+            
+            //syncid = GetID();
         }
         else
         {
             CurrentTimeOfDay = TimeSlider.value;
             Speed = SpeedSlider.value;
         }
+    }
+
+
+    public void UpdateCycleSpeed()
+    {
+        if (SpeedSlider == null || updatingSpeedFromNetwork)
+            return;
+
+        TimeMultiplier = SpeedSlider.value;
+
+        if (!speedUpdatePending)
+        {
+            speedUpdatePending = true;
+            SendCustomEventDelayedSeconds(nameof(BroadcastCycleSpeed), 0.3f);
+        }
+    }
+
+    public void BroadcastCycleSpeed()
+    {
+        speedUpdatePending = false;
+
+        SendCustomNetworkEvent(
+            NetworkEventTarget.All,
+            nameof(ApplyCycleSpeed),
+            TimeMultiplier
+        );
+    }
+
+    [NetworkCallable]
+    public void ApplyCycleSpeed(float multiplier)
+    {
+        TimeMultiplier = multiplier;
+
+        if (SpeedSlider != null)
+        {
+            updatingSpeedFromNetwork = true;
+            SpeedSlider.value = multiplier;
+            updatingSpeedFromNetwork = false;
+        }
+    }
+
+
+
+
+    // START / STOP DAY
+
+    public void UpdateCycleRunning()
+    {
+        if (CycleRunningToggle == null || updatingToggleFromCode)
+            return;
+
+        SendCustomNetworkEvent(
+            NetworkEventTarget.All,
+            nameof(ApplyCycleRunning),
+            CycleRunningToggle.isOn
+        );
+    }
+
+    [NetworkCallable]
+    public void ApplyCycleRunning(bool running)
+    {
+        CycleRunning = running;
+
+        if (CycleRunningToggle != null)
+        {
+            updatingToggleFromCode = true;
+            CycleRunningToggle.isOn = running;
+            updatingToggleFromCode = false;
+        }
+    }
+
+
+
+    // STOP AT NIGHT
+
+    public void UpdateStopAtNight()
+    {
+        if (StopAtNightToggle == null || updatingToggleFromCode)
+            return;
+
+        SendCustomNetworkEvent(
+            NetworkEventTarget.All,
+            nameof(ApplyStopAtNight),
+            StopAtNightToggle.isOn
+        );
+    }
+
+    [NetworkCallable]
+    public void ApplyStopAtNight(bool enabled)
+    {
+        StopAtNight = enabled;
+
+        if (StopAtNightToggle != null)
+        {
+            updatingToggleFromCode = true;
+            StopAtNightToggle.isOn = enabled;
+            updatingToggleFromCode = false;
+        }
+    }
+
+
+    [PXR_InputCallable]
+    public void SetEveningTime()
+    {
+        CurrentTimeOfDay = EveningStartTime;
+        SetTime = EveningStartTime;
     }
 
     private int GetID()
@@ -220,22 +362,25 @@ public class DayNightCycleController_v2 : UdonSharpBehaviour
         if (syncid != lastreceivedid)
         {
             lastreceivedid = syncid;
+
             if (!local)
             {
                 CurrentTimeOfDay = SetTime;
                 Speed = SetSpeed;
-                TimeSlider.value = CurrentTimeOfDay;
-                SpeedSlider.value = Speed;
+
+                if (TimeSlider != null)
+                    TimeSlider.value = CurrentTimeOfDay;
             }
         }
-        
-        else if (TimeSlider.gameObject.activeInHierarchy && Time.time % 1 < 0.01f)
+
+        else if (TimeSlider != null &&
+         TimeSlider.gameObject.activeInHierarchy &&
+         Time.time % 1f < 0.01f)
         {
             TimeSlider.value = CurrentTimeOfDay;
-            SpeedSlider.value = Speed;
         }
 
-        
+
         RenderSettings.ambientLight = ThreePoint(AmbientPoint1, AmbientPoint2, AmbientPoint3, 
             AmbientColor1, AmbientColor2, AmbientColor3);
         
@@ -284,6 +429,8 @@ public class DayNightCycleController_v2 : UdonSharpBehaviour
         }
         #endregion
 
+
+
         // Moon
         if(UseMoon) MoonMat.color = TwoPoint(MoonPoint1, MoonPoint2, MoonColor1, MoonColor2);
 
@@ -313,22 +460,56 @@ public class DayNightCycleController_v2 : UdonSharpBehaviour
         if (UseReflectionProbe) RefProbe.customBakedTexture = 
             CycleCubemap(SunPoint1, SunPoint2, NightCubemap, DawnCubemap, DayCubemap, DuskCubemap);
 
-        
-        #region Advance Time of Day
-        CurrentTimeOfDay += (Time.deltaTime * Speed) * TimeMultiplier;
 
-        // Ensures CurrentTimeOfDay stays between 0-1
-        if (CurrentTimeOfDay >= 1)
+
+        #region Advance Time of Day
+
+        if (CycleRunning)
         {
-            CurrentTimeOfDay = 0;
+            CurrentTimeOfDay += (Time.deltaTime * Speed) * TimeMultiplier;
+
+            // Automatically pause when nighttime is reached
+            if (StopAtNight && CurrentTimeOfDay >= NightStopTime)
+            {
+                CurrentTimeOfDay = NightStopTime;
+                CycleRunning = false;
+
+                if (CycleRunningToggle != null)
+                {
+                    updatingToggleFromCode = true;
+                    CycleRunningToggle.isOn = false;
+                    updatingToggleFromCode = false;
+                }
+            }
+            // Continue into the next day when Stop at Night is disabled
+            else if (CurrentTimeOfDay >= 1f)
+            {
+                CurrentTimeOfDay = 0f;
+            }
         }
+
+
         #endregion
-        
-    }
+
+        // Update the 24-hour clock
+        if (ClockText != null)
+        {
+            int totalMinutes = Mathf.FloorToInt(CurrentTimeOfDay * 1440f) % 1440;
+
+            int hours = totalMinutes / 60;
+            int minutes = totalMinutes % 60;
+
+            ClockText.text =
+                (hours < 10 ? "0" : "") + hours + ":" +
+                (minutes < 10 ? "0" : "") + minutes;
+        }
+
+    } // This closes Update()
 
 
     public float TwoPointFloat(float p1, float p2)
     {
+
         float p3 = 1 - p2;
         float p4 = 1 - p1;
 
