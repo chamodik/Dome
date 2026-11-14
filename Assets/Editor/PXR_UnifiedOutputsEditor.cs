@@ -1,53 +1,27 @@
 
 #if UNITY_EDITOR
 
-<<<<<<< Updated upstream
-using UnityEngine;
-using UnityEditor;
-using UdonSharp;
-using UdonSharpEditor;
-using VRC.SDKBase;
-using System;
-using System.Collections.Generic;
-using System.Reflection;
-=======
 using System;
 using UnityEngine;
 using UnityEditor;
 using UdonSharpEditor;
 using VRC.SDKBase;
->>>>>>> Stashed changes
 
 [CustomEditor(typeof(PXR_UnifiedOutputs))]
 public class PXR_UnifiedOutputsEditor : Editor
 {
-<<<<<<< Updated upstream
-    private bool showChain = false;
-=======
->>>>>>> Stashed changes
     private bool showObject;
     private bool showDestroy;
     private bool showAnimation;
     private bool showSound;
-<<<<<<< Updated upstream
-    private bool showVideo = false;
-    private bool showTeleport;
-    private bool showSpawn = false;
-=======
     private bool showVideo;
     private bool showTeleport;
     private bool showSpawn;
->>>>>>> Stashed changes
     private bool showComponent;
 
     public override void OnInspectorGUI()
     {
-<<<<<<< Updated upstream
-        if (UdonSharpGUI.DrawDefaultUdonSharpBehaviourHeader(
-            target))
-=======
         if (UdonSharpGUI.DrawDefaultUdonSharpBehaviourHeader(target))
->>>>>>> Stashed changes
             return;
 
         serializedObject.Update();
@@ -56,63 +30,6 @@ public class PXR_UnifiedOutputsEditor : Editor
         string newUrl = "";
 
         Info(
-<<<<<<< Updated upstream
-            "Configure output behaviors, then " +
-            "select their public functions through " +
-            "PXR_UnifiedInputs."
-        );
-
-        // =====================================
-        // CHAIN EVENT
-        // =====================================
-
-        if (Begin(ref showChain, "Chain Event"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("Chain");
-            SerializedProperty enabled =
-                Find("enableChainEvent");
-
-            PXR_InspectorGuidance.PropertyField(
-                enabled,
-                new GUIContent("Enable Chain Event")
-            );
-
-            if (enabled.boolValue)
-            {
-                DrawMethodSelector(
-                    Find("chainEventTarget"),
-                    Find("chainEventName")
-                );
-
-                DrawNonnegativeFloat(
-                    "chainEventDelay",
-                    "Chain Delay (seconds)"
-                );
-
-                if (Find("chainEventTarget")
-                    .objectReferenceValue == target)
-                {
-                    Warning(
-                        "Direct self-chaining is blocked."
-                    );
-                }
-
-                Warning(
-                    "Indirect event cycles are not " +
-                    "automatically detected."
-                );
-            }
-        }
-        End(showChain);
-
-        // =====================================
-        // TOGGLE OBJECT
-        // =====================================
-
-        if (Begin(ref showObject, "ToggleObject()"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("ToggleObject");
-=======
             "Configure output behaviors here and select their " +
             "public functions through PXR_UnifiedInputs. " +
             "Each input event has its own execution delay."
@@ -128,31 +45,19 @@ public class PXR_UnifiedOutputsEditor : Editor
                 "ToggleObject"
             );
 
->>>>>>> Stashed changes
             PXR_InspectorGuidance.PropertyField(
                 Find("toggleObjectTarget"),
                 new GUIContent("Target GameObject")
             );
 
-<<<<<<< Updated upstream
-            SerializedProperty toggle =
-                Find("objectToggle");
-=======
             SerializedProperty toggle = Find("objectToggle");
->>>>>>> Stashed changes
 
             PXR_InspectorGuidance.PropertyField(
                 toggle,
                 new GUIContent("Toggle Object")
             );
 
-<<<<<<< Updated upstream
-            EditorGUI.BeginDisabledGroup(
-                toggle.boolValue
-            );
-=======
             EditorGUI.BeginDisabledGroup(toggle.boolValue);
->>>>>>> Stashed changes
 
             PXR_InspectorGuidance.PropertyField(
                 Find("objectState"),
@@ -169,22 +74,13 @@ public class PXR_UnifiedOutputsEditor : Editor
             if (Find("persistObjectState").boolValue)
             {
                 Info(
-<<<<<<< Updated upstream
-                    "The output owner stores the " +
-                    "resulting state for late joiners."
-=======
                     "The output owner stores the resulting " +
                     "state for late joiners."
->>>>>>> Stashed changes
                 );
 
                 GameObject obj =
                     Find("toggleObjectTarget")
-<<<<<<< Updated upstream
-                    .objectReferenceValue as GameObject;
-=======
                         .objectReferenceValue as GameObject;
->>>>>>> Stashed changes
 
                 if (obj ==
                     ((PXR_UnifiedOutputs)target).gameObject)
@@ -196,17 +92,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                 }
             }
         }
-<<<<<<< Updated upstream
-        End(showObject);
-
-        // =====================================
-        // DESTROY OBJECT
-        // =====================================
-
-        if (Begin(ref showDestroy, "DestroyObject()"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("DestroyObject");
-=======
 
         End(showObject);
 
@@ -220,34 +105,12 @@ public class PXR_UnifiedOutputsEditor : Editor
                 "DestroyObject"
             );
 
->>>>>>> Stashed changes
             PXR_InspectorGuidance.PropertyField(
                 Find("destroyTarget"),
                 new GUIContent("Target GameObject")
             );
 
             Warning(
-<<<<<<< Updated upstream
-                "This function currently performs " +
-                "SetActive(false), not permanent " +
-                "networked destruction."
-            );
-        }
-        End(showDestroy);
-
-        // =====================================
-        // ANIMATION
-        // =====================================
-
-        if (Begin(ref showAnimation, "PlayAnimation()"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("PlayAnimation");
-            SerializedProperty animator =
-                Find("targetAnimator");
-
-            SerializedProperty type =
-                Find("animationParameterType");
-=======
                 "This function performs SetActive(false), " +
                 "not permanent synchronized destruction."
             );
@@ -267,7 +130,6 @@ public class PXR_UnifiedOutputsEditor : Editor
 
             SerializedProperty animator = Find("targetAnimator");
             SerializedProperty type = Find("animationParameterType");
->>>>>>> Stashed changes
 
             PXR_InspectorGuidance.PropertyField(
                 animator,
@@ -282,12 +144,7 @@ public class PXR_UnifiedOutputsEditor : Editor
             PXR_AnimationParameterType selected =
                 (PXR_AnimationParameterType)type.intValue;
 
-<<<<<<< Updated upstream
-            if (selected ==
-                PXR_AnimationParameterType.Boolean)
-=======
             if (selected == PXR_AnimationParameterType.Boolean)
->>>>>>> Stashed changes
             {
                 PXR_InspectorGuidance.PropertyField(
                     Find("animationBoolName"),
@@ -302,13 +159,7 @@ public class PXR_UnifiedOutputsEditor : Editor
                     new GUIContent("Toggle Bool")
                 );
 
-<<<<<<< Updated upstream
-                EditorGUI.BeginDisabledGroup(
-                    toggle.boolValue
-                );
-=======
                 EditorGUI.BeginDisabledGroup(toggle.boolValue);
->>>>>>> Stashed changes
 
                 PXR_InspectorGuidance.PropertyField(
                     Find("animationBoolValue"),
@@ -363,19 +214,10 @@ public class PXR_UnifiedOutputsEditor : Editor
                 SerializedProperty max =
                     Find("animationMaxValue");
 
-<<<<<<< Updated upstream
-                max.intValue =
-                    Mathf.Max(0, max.intValue);
-            }
-
-            if (selected !=
-                PXR_AnimationParameterType.Trigger)
-=======
                 max.intValue = Mathf.Max(0, max.intValue);
             }
 
             if (selected != PXR_AnimationParameterType.Trigger)
->>>>>>> Stashed changes
             {
                 PXR_InspectorGuidance.PropertyField(
                     Find("persistAnimatorState"),
@@ -385,18 +227,6 @@ public class PXR_UnifiedOutputsEditor : Editor
 
             ValidateAnimator(animator, selected);
         }
-<<<<<<< Updated upstream
-        End(showAnimation);
-
-        // =====================================
-        // SOUND
-        // =====================================
-
-
-        if (Begin(ref showSound, "PlaySound()"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("PlaySound");
-=======
 
         End(showAnimation);
 
@@ -410,7 +240,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                 "PlaySound"
             );
 
->>>>>>> Stashed changes
             SerializedProperty audioSource =
                 Find("targetAudioSource");
 
@@ -440,28 +269,15 @@ public class PXR_UnifiedOutputsEditor : Editor
                     Warning("AudioSource has no AudioClip.");
 
                 Info(
-<<<<<<< Updated upstream
-                    "No clips in the array. PlaySound " +
-                    "will use the clip assigned directly " +
-                    "to the AudioSource."
-=======
                     "With no clips in the array, PlaySound " +
                     "uses the clip assigned to the AudioSource."
->>>>>>> Stashed changes
                 );
             } else
             {
                 Info(
-<<<<<<< Updated upstream
-                    "Each PlaySound call stops the current " +
-                    "clip and plays the next clip in the " +
-                    "array. The sequence loops after the " +
-                    "last clip."
-=======
                     "Each call stops the current clip and plays " +
                     "the next valid clip in the playlist. " +
                     "The sequence loops after the last clip."
->>>>>>> Stashed changes
                 );
 
                 for (int i = 0; i < audioClips.arraySize; i++)
@@ -478,22 +294,6 @@ public class PXR_UnifiedOutputsEditor : Editor
             }
 
             Info(
-<<<<<<< Updated upstream
-                "For spatial audio, add VRC Spatial " +
-                "Audio Source alongside the Unity " +
-                "AudioSource on the same GameObject."
-            );
-        }
-        End(showSound);
-
-        // =====================================
-        // AVPRO
-        // =====================================
-
-        if (Begin(ref showVideo, "PlayAVProVideo()"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("PlayAVProVideo");
-=======
                 "For spatial audio, add VRC Spatial Audio Source " +
                 "alongside the Unity AudioSource."
             );
@@ -511,7 +311,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                 "PlayAVProVideo"
             );
 
->>>>>>> Stashed changes
             SerializedProperty useSample =
                 Find("avProUseSyncedPrefab");
 
@@ -528,14 +327,8 @@ public class PXR_UnifiedOutputsEditor : Editor
                 );
 
                 Info(
-<<<<<<< Updated upstream
-                    "Assign the backing UdonBehaviour " +
-                    "for the SDK UdonSyncPlayer (AVPro) " +
-                    "synchronization graph."
-=======
                     "Assign the backing UdonBehaviour for " +
                     "the SDK UdonSyncPlayer (AVPro) graph."
->>>>>>> Stashed changes
                 );
 
                 if (Find("avProSyncPlayer")
@@ -554,14 +347,8 @@ public class PXR_UnifiedOutputsEditor : Editor
                 );
 
                 Warning(
-<<<<<<< Updated upstream
-                    "Direct AVPro playback does not " +
-                    "maintain synchronized playback " +
-                    "state for late joiners."
-=======
                     "Direct AVPro playback does not maintain " +
                     "synchronized playback for late joiners."
->>>>>>> Stashed changes
                 );
             }
 
@@ -576,20 +363,6 @@ public class PXR_UnifiedOutputsEditor : Editor
             EditorGUI.BeginChangeCheck();
 
             newUrl = EditorGUILayout.TextField(
-<<<<<<< Updated upstream
-                new GUIContent("Preset Video URL", "HTTPS video URL used when PlayAVProVideo() is triggered."),
-                currentUrl
-            );
-
-            urlChanged =
-                EditorGUI.EndChangeCheck();
-
-            if (string.IsNullOrWhiteSpace(newUrl))
-            {
-                Warning(
-                    "Assign a preset video URL."
-                );
-=======
                 new GUIContent(
                     "Preset Video URL",
                     "HTTPS URL used when PlayAVProVideo() is triggered."
@@ -602,41 +375,17 @@ public class PXR_UnifiedOutputsEditor : Editor
             if (string.IsNullOrWhiteSpace(newUrl))
             {
                 Warning("Assign a preset video URL.");
->>>>>>> Stashed changes
             } else if (!newUrl.StartsWith(
                   "https://",
                   StringComparison.OrdinalIgnoreCase))
             {
                 Warning(
-<<<<<<< Updated upstream
-                    "HTTPS is recommended. Verify the " +
-                    "URL is supported by VRChat."
-=======
                     "HTTPS is recommended. Verify that VRChat " +
                     "supports the supplied video URL."
->>>>>>> Stashed changes
                 );
             }
 
             Info(
-<<<<<<< Updated upstream
-                "The URL is authored in Unity. " +
-                "Players do not enter URLs through " +
-                "the PXR playback action."
-            );
-        }
-        End(showVideo);
-
-        // =====================================
-        // TELEPORT
-        // =====================================
-
-        if (Begin(ref showTeleport, "TeleportPlayer()"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("TeleportPlayer");
-            SerializedProperty mode =
-                Find("teleportMode");
-=======
                 "The URL is configured in Unity, not entered " +
                 "by players through the PXR action."
             );
@@ -655,7 +404,6 @@ public class PXR_UnifiedOutputsEditor : Editor
             );
 
             SerializedProperty mode = Find("teleportMode");
->>>>>>> Stashed changes
 
             PXR_InspectorGuidance.PropertyField(
                 mode,
@@ -691,22 +439,6 @@ public class PXR_UnifiedOutputsEditor : Editor
 
             if (Find("teleportTargets").arraySize == 0)
             {
-<<<<<<< Updated upstream
-                Warning(
-                    "Assign at least one destination."
-                );
-            }
-        }
-        End(showTeleport);
-
-        // =====================================
-        // SPAWN OBJECT
-        // =====================================
-
-        if (Begin(ref showSpawn, "SpawnObject()"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("SpawnObject");
-=======
                 Warning("Assign at least one destination.");
             }
         }
@@ -723,7 +455,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                 "SpawnObject"
             );
 
->>>>>>> Stashed changes
             PXR_InspectorGuidance.PropertyField(
                 Find("spawnPrefab"),
                 new GUIContent("Spawn Prefab (Local)")
@@ -739,18 +470,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                 new GUIContent(
                     "Velocity",
                     "Local-space velocity relative to " +
-<<<<<<< Updated upstream
-                    "Spawn Transform, in m/s."
-                )
-            );
-
-            if (Find("velocity").vector3Value ==
-                Vector3.zero)
-            {
-                Info(
-                    "Zero velocity: spawned objects " +
-                    "receive no scripted movement."
-=======
                     "Spawn Transform, in metres per second."
                 )
             );
@@ -760,18 +479,12 @@ public class PXR_UnifiedOutputsEditor : Editor
                 Info(
                     "Zero velocity: spawned objects receive " +
                     "no scripted movement."
->>>>>>> Stashed changes
                 );
             } else
             {
                 Info(
-<<<<<<< Updated upstream
-                    "Non-physics objects are moved by " +
-                    "Transform at constant velocity."
-=======
                     "Non-physics objects move at constant " +
                     "velocity using their Transform."
->>>>>>> Stashed changes
                 );
             }
 
@@ -785,17 +498,6 @@ public class PXR_UnifiedOutputsEditor : Editor
             DrawDespawnControls();
 
             Info(
-<<<<<<< Updated upstream
-                "UnifiedInputs determines spawn mode:\n" +
-                "Synced OFF: Spawn Prefab locally.\n" +
-                "Synced ON: request a shared pooled object.\n\n" +
-                "Despawn policies apply to pooled objects."
-            );
-
-            GameObject prefab =
-                Find("spawnPrefab")
-                .objectReferenceValue as GameObject;
-=======
                 "UnifiedInputs selects the spawning route:\n" +
                 "Synced OFF: spawn a local prefab.\n" +
                 "Synced ON: request a shared pooled object.\n\n" +
@@ -813,7 +515,6 @@ public class PXR_UnifiedOutputsEditor : Editor
             GameObject prefab =
                 Find("spawnPrefab")
                     .objectReferenceValue as GameObject;
->>>>>>> Stashed changes
 
             if (prefab != null &&
                 prefab.GetComponent<Rigidbody>() != null)
@@ -825,17 +526,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                 );
             }
         }
-<<<<<<< Updated upstream
-        End(showSpawn);
-
-        // =====================================
-        // COMPONENT TOGGLE
-        // =====================================
-
-        if (Begin(ref showComponent, "ToggleComponent()"))
-        {
-            PXR_InspectorGuidance.OutputRequirements("ToggleComponent");
-=======
 
         End(showSpawn);
 
@@ -849,7 +539,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                 "ToggleComponent"
             );
 
->>>>>>> Stashed changes
             SerializedProperty type =
                 Find("componentTargetType");
 
@@ -883,25 +572,14 @@ public class PXR_UnifiedOutputsEditor : Editor
                 );
             }
 
-<<<<<<< Updated upstream
-            SerializedProperty toggle =
-                Find("componentToggle");
-=======
             SerializedProperty toggle = Find("componentToggle");
->>>>>>> Stashed changes
 
             PXR_InspectorGuidance.PropertyField(
                 toggle,
                 new GUIContent("Toggle")
             );
 
-<<<<<<< Updated upstream
-            EditorGUI.BeginDisabledGroup(
-                toggle.boolValue
-            );
-=======
             EditorGUI.BeginDisabledGroup(toggle.boolValue);
->>>>>>> Stashed changes
 
             PXR_InspectorGuidance.PropertyField(
                 Find("componentEnabled"),
@@ -915,21 +593,11 @@ public class PXR_UnifiedOutputsEditor : Editor
                 new GUIContent("Persist Component State")
             );
         }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
         End(showComponent);
 
         serializedObject.ApplyModifiedProperties();
 
-<<<<<<< Updated upstream
-        // =====================================
-        // EDITOR-ONLY AVPRO URL CONVERSION
-        // =====================================
-
-=======
->>>>>>> Stashed changes
         if (urlChanged)
         {
             PXR_UnifiedOutputs proxy =
@@ -940,36 +608,15 @@ public class PXR_UnifiedOutputsEditor : Editor
                 "Edit PXR AVPro Preset URL"
             );
 
-<<<<<<< Updated upstream
-            proxy.avProVideoUrl =
-                new VRCUrl(newUrl);
-
-            proxy.ApplyProxyModifications();
-
-=======
             // UdonSharp 1.x edits the behaviour directly; the old
             // ApplyProxyModifications() call is an obsolete no-op.
             proxy.avProVideoUrl = new VRCUrl(newUrl);
 
             PrefabUtility.RecordPrefabInstancePropertyModifications(proxy);
->>>>>>> Stashed changes
             EditorUtility.SetDirty(proxy);
         }
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // DESPAWN POLICY CONTROLS
-    // =====================================
-
-    private void DrawDespawnControls()
-    {
-        SerializedProperty policy =
-            Find("despawnMode");
-
-        policy.intValue = EditorGUILayout.Popup(
-            new GUIContent("Despawn Mode", PXR_InspectorGuidance.Tooltip("PXR_UnifiedOutputs", "despawnMode")),
-=======
     private void DrawDespawnControls()
     {
         SerializedProperty policy = Find("despawnMode");
@@ -981,7 +628,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                     "PXR_UnifiedOutputs", "despawnMode"
                 )
             ),
->>>>>>> Stashed changes
             Mathf.Clamp(policy.intValue, 0, 2),
             new string[]
             {
@@ -1000,14 +646,9 @@ public class PXR_UnifiedOutputsEditor : Editor
             );
 
             Info(
-<<<<<<< Updated upstream
-                "The object returns after the first " +
-                "qualifying collision and grace period."
-=======
                 "The object returns after the first qualifying " +
                 "collision and the configured grace period. " +
                 "Pooled objects only; local spawns are not affected."
->>>>>>> Stashed changes
             );
         } else if (policy.intValue == 2)
         {
@@ -1016,14 +657,6 @@ public class PXR_UnifiedOutputsEditor : Editor
                 "Despawn After (seconds)",
                 0.05f
             );
-<<<<<<< Updated upstream
-        } else
-        {
-            Info(
-                "The object remains active until " +
-                "another action returns it. Pool " +
-                "capacity is finite."
-=======
 
             Info(
                 "Pooled objects return to the pool; local spawns " +
@@ -1034,143 +667,10 @@ public class PXR_UnifiedOutputsEditor : Editor
             Info(
                 "The object remains active until another action " +
                 "returns it. Pool capacity is finite."
->>>>>>> Stashed changes
             );
         }
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // CHAIN METHOD SELECTOR
-    // =====================================
-
-    private static void DrawMethodSelector(
-        SerializedProperty targetProperty,
-        SerializedProperty nameProperty)
-    {
-        EditorGUI.BeginChangeCheck();
-
-        PXR_InspectorGuidance.PropertyField(
-            targetProperty,
-            new GUIContent("Chain Event Target")
-        );
-
-        if (EditorGUI.EndChangeCheck())
-            nameProperty.stringValue = "";
-
-        UdonSharpBehaviour receiver =
-            targetProperty.objectReferenceValue
-            as UdonSharpBehaviour;
-
-        if (receiver == null)
-        {
-            Info("Assign a Chain Event Target.");
-            return;
-        }
-
-        MethodInfo[] methods =
-            receiver.GetType().GetMethods(
-                BindingFlags.Public |
-                BindingFlags.Instance |
-                BindingFlags.DeclaredOnly
-            );
-
-        List<string> names =
-            new List<string>();
-
-        for (int i = 0; i < methods.Length; i++)
-        {
-            MethodInfo method = methods[i];
-
-            if (method.ReturnType != typeof(void) ||
-                method.GetParameters().Length != 0 ||
-                method.IsSpecialName ||
-                method.Name.StartsWith("_"))
-                continue;
-
-            string name = method.Name;
-
-            if (receiver is PXR_UnifiedOutputs &&
-                !IsOutputMethod(name))
-                continue;
-
-            if (receiver is PXR_UnifiedPhysics &&
-                !IsPhysicsMethod(name))
-                continue;
-
-            names.Add(name);
-        }
-
-        names.Sort(StringComparer.Ordinal);
-
-        string[] options =
-            new string[names.Count + 1];
-
-        options[0] = "<Select Function>";
-
-        int current = 0;
-
-        for (int i = 0; i < names.Count; i++)
-        {
-            options[i + 1] = names[i] + "()";
-
-            if (nameProperty.stringValue == names[i])
-                current = i + 1;
-        }
-
-        EditorGUI.BeginChangeCheck();
-
-        int next = EditorGUILayout.Popup(
-            new GUIContent("Chain Event Name", PXR_InspectorGuidance.Tooltip("PXR_UnifiedOutputs", "chainEventName")),
-            current,
-            options
-        );
-
-        if (EditorGUI.EndChangeCheck())
-        {
-            nameProperty.stringValue =
-                next == 0 ? "" : names[next - 1];
-        }
-    }
-
-    // =====================================
-    // METHOD WHITELISTS
-    // =====================================
-
-    private static bool IsOutputMethod(string name)
-    {
-        return
-            name == "ToggleObject" ||
-            name == "ToggleComponent" ||
-            name == "PlayAnimation" ||
-            name == "PlaySound" ||
-            name == "TeleportPlayer" ||
-            name == "SpawnObject" ||
-            name == "DestroyObject" ||
-            name == "PlayAVProVideo" ||
-            name == "ChainEvent";
-    }
-
-    private static bool IsPhysicsMethod(string name)
-    {
-        return
-            name == "RadialForce" ||
-            name == "BeamForce" ||
-            name == "SpawnObject" ||
-            name == "StartRadialForce" ||
-            name == "StopRadialForce" ||
-            name == "StartBeamForce" ||
-            name == "StopBeamForce" ||
-            name == "StopAllForces" ||
-            name == "ChainEvent";
-    }
-
-    // =====================================
-    // ANIMATOR VALIDATION
-    // =====================================
-
-=======
->>>>>>> Stashed changes
     private void ValidateAnimator(
         SerializedProperty property,
         PXR_AnimationParameterType type)
@@ -1186,14 +686,6 @@ public class PXR_UnifiedOutputsEditor : Editor
 
         if (animator.runtimeAnimatorController == null)
         {
-<<<<<<< Updated upstream
-            Warning(
-                "The Animator has no controller."
-            );
-            return;
-        }
-
-=======
             Warning("The Animator has no controller.");
             return;
         }
@@ -1216,33 +708,11 @@ public class PXR_UnifiedOutputsEditor : Editor
         if (controller == null)
             return;
 
->>>>>>> Stashed changes
         string name = "";
 
         AnimatorControllerParameterType requiredType =
             AnimatorControllerParameterType.Bool;
 
-<<<<<<< Updated upstream
-        if (type ==
-            PXR_AnimationParameterType.Boolean)
-        {
-            name = Find("animationBoolName").stringValue;
-            requiredType =
-                AnimatorControllerParameterType.Bool;
-        } else if (type ==
-                   PXR_AnimationParameterType.Trigger)
-        {
-            name =
-                Find("animationTriggerName").stringValue;
-
-            requiredType =
-                AnimatorControllerParameterType.Trigger;
-        } else
-        {
-            name = Find("animationIntName").stringValue;
-            requiredType =
-                AnimatorControllerParameterType.Int;
-=======
         if (type == PXR_AnimationParameterType.Boolean)
         {
             name = Find("animationBoolName").stringValue;
@@ -1255,17 +725,12 @@ public class PXR_UnifiedOutputsEditor : Editor
         {
             name = Find("animationIntName").stringValue;
             requiredType = AnimatorControllerParameterType.Int;
->>>>>>> Stashed changes
         }
 
         bool found = false;
 
         foreach (AnimatorControllerParameter parameter
-<<<<<<< Updated upstream
-                 in animator.parameters)
-=======
                  in controller.parameters)
->>>>>>> Stashed changes
         {
             if (parameter.name == name &&
                 parameter.type == requiredType)
@@ -1278,22 +743,12 @@ public class PXR_UnifiedOutputsEditor : Editor
         if (!found)
         {
             Warning(
-<<<<<<< Updated upstream
-                "Animator parameter not found " +
-                "or its type does not match."
-=======
                 "Animator parameter not found or " +
                 "its type does not match."
->>>>>>> Stashed changes
             );
         }
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // INSPECTOR UTILITIES
-    // =====================================
-=======
     // Non-physics pooled objects are kinematic, and Unity reports no
     // collisions between kinematic and static colliders. Collision
     // despawn therefore needs a trigger collider on the projectile.
@@ -1372,7 +827,6 @@ public class PXR_UnifiedOutputsEditor : Editor
             }
         }
     }
->>>>>>> Stashed changes
 
     private SerializedProperty Find(string name)
     {
@@ -1383,15 +837,7 @@ public class PXR_UnifiedOutputsEditor : Editor
         string propertyName,
         string label)
     {
-<<<<<<< Updated upstream
-        DrawMinimumFloat(
-            propertyName,
-            label,
-            0f
-        );
-=======
         DrawMinimumFloat(propertyName, label, 0f);
->>>>>>> Stashed changes
     }
 
     private void DrawMinimumFloat(
@@ -1399,12 +845,7 @@ public class PXR_UnifiedOutputsEditor : Editor
         string label,
         float minimum)
     {
-<<<<<<< Updated upstream
-        SerializedProperty property =
-            Find(propertyName);
-=======
         SerializedProperty property = Find(propertyName);
->>>>>>> Stashed changes
 
         PXR_InspectorGuidance.PropertyField(
             property,
@@ -1415,27 +856,12 @@ public class PXR_UnifiedOutputsEditor : Editor
             Mathf.Max(minimum, property.floatValue);
     }
 
-<<<<<<< Updated upstream
-    private static bool Begin(
-        ref bool expanded,
-        string label)
-    {
-        EditorGUILayout.BeginVertical(
-            EditorStyles.helpBox
-        );
-
-        expanded = EditorGUILayout.Foldout(
-            expanded,
-            label,
-            true
-=======
     private static bool Begin(ref bool expanded, string label)
     {
         EditorGUILayout.BeginVertical(EditorStyles.helpBox);
 
         expanded = EditorGUILayout.Foldout(
             expanded, label, true
->>>>>>> Stashed changes
         );
 
         if (expanded)
@@ -1452,33 +878,6 @@ public class PXR_UnifiedOutputsEditor : Editor
         EditorGUILayout.EndVertical();
     }
 
-<<<<<<< Updated upstream
-    private static void Heading(string text)
-    {
-        EditorGUILayout.LabelField(
-            text,
-            EditorStyles.boldLabel
-        );
-    }
-
-    private static void Info(string text)
-    {
-        EditorGUILayout.HelpBox(
-            text,
-            MessageType.Info
-        );
-    }
-
-    private static void Warning(string text)
-    {
-        EditorGUILayout.HelpBox(
-            text,
-            MessageType.Warning
-        );
-    }
-}
-
-=======
     private static void Heading(string value)
     {
         EditorGUILayout.LabelField(
@@ -1496,5 +895,4 @@ public class PXR_UnifiedOutputsEditor : Editor
         EditorGUILayout.HelpBox(value, MessageType.Warning);
     }
 }
->>>>>>> Stashed changes
 #endif

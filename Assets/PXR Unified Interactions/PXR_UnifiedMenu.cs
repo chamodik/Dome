@@ -105,8 +105,6 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
 
     private bool thumbstickWasPressed;
 
-<<<<<<< Updated upstream
-=======
     // VR mode cannot change during a session, so it is read once.
     private bool vrChecked;
     private bool userInVR;
@@ -117,7 +115,6 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
     private bool cachedAccess;
     private float nextAccessCheck;
 
->>>>>>> Stashed changes
     // =====================================
     // INITIALIZATION
     // =====================================
@@ -126,10 +123,7 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
     {
         DisableInteractive = true;
 
-<<<<<<< Updated upstream
-=======
         startTime = Time.time;
->>>>>>> Stashed changes
         localPlayer = Networking.LocalPlayer;
 
         if (!Utilities.IsValid(menuContent) ||
@@ -226,14 +220,6 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
             return;
         }
 
-<<<<<<< Updated upstream
-        if (menuOpen && !HasMenuAccess())
-        {
-            HideMenu();
-        }
-
-        if (localPlayer.IsUserInVR())
-=======
         if (menuOpen)
         {
             if (Time.time >= nextAccessCheck)
@@ -247,7 +233,6 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
         }
 
         if (IsVR())
->>>>>>> Stashed changes
         {
             CheckThumbstickInput();
         } else
@@ -405,11 +390,7 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
         Vector3 position;
         Quaternion rotation;
 
-<<<<<<< Updated upstream
-        if (localPlayer.IsUserInVR())
-=======
         if (IsVR())
->>>>>>> Stashed changes
         {
             VRCPlayerApi.TrackingDataType handType =
                 rightHand
@@ -534,14 +515,11 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
         if (!HasMenuAccess())
             return;
 
-<<<<<<< Updated upstream
-=======
         // Access was just confirmed; the periodic re-check in
         // Update() resumes a second from now.
         cachedAccess = true;
         nextAccessCheck = Time.time + 1f;
 
->>>>>>> Stashed changes
         UpdateHandTransform();
 
         menuOpen = true;
@@ -561,8 +539,6 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
     {
         return menuOpen;
     }
-<<<<<<< Updated upstream
-=======
 
     private bool IsVR()
     {
@@ -580,5 +556,4 @@ public class PXR_UnifiedMenu : UdonSharpBehaviour
 
         return userInVR;
     }
->>>>>>> Stashed changes
 }

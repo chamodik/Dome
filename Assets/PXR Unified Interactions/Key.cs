@@ -42,8 +42,6 @@ public class Key : UdonSharpBehaviour
             : "";
     }
 
-<<<<<<< Updated upstream
-=======
     // True when this client is the one physically controlling the
     // key: it is holding it, or nobody holds it and it owns the
     // key's physics body. Only that client sees reliable contacts
@@ -98,7 +96,6 @@ public class Key : UdonSharpBehaviour
         return keyId;
     }
 
->>>>>>> Stashed changes
     private VRCPlayerApi GetAttributedPlayer()
     {
         VRCPickup pickup = pickupReference;
@@ -152,8 +149,6 @@ public class Key : UdonSharpBehaviour
     private MeshRenderer localMeshRenderer;
     private bool originalMeshRendererState;
 
-<<<<<<< Updated upstream
-=======
     // True when Visual Root is an ancestor of this Key (commonly the
     // pickup root). Deactivating it would also deactivate this Key,
     // and VRChat sends no synced data from inactive objects, so other
@@ -173,7 +168,6 @@ public class Key : UdonSharpBehaviour
     private bool rootBodyKinematic;
     private VRCObjectSync rootSync;
 
->>>>>>> Stashed changes
     private bool cached;
 
     // =====================================
@@ -184,12 +178,9 @@ public class Key : UdonSharpBehaviour
     {
         CacheDefaults();
         ApplyConsumedState();
-<<<<<<< Updated upstream
-=======
 
         // Capture the identity before anything can reparent the key.
         GetKeyId();
->>>>>>> Stashed changes
     }
 
     private void CacheDefaults()
@@ -218,15 +209,12 @@ public class Key : UdonSharpBehaviour
             visualRoot != gameObject)
         {
             originalVisualState = visualRoot.activeSelf;
-<<<<<<< Updated upstream
-=======
 
             visualRootContainsKey =
                 transform.IsChildOf(visualRoot.transform);
 
             if (visualRootContainsKey)
                 CacheRootState();
->>>>>>> Stashed changes
         }
 
         // Find only a MeshRenderer attached
@@ -246,8 +234,6 @@ public class Key : UdonSharpBehaviour
         cached = true;
     }
 
-<<<<<<< Updated upstream
-=======
     private void CacheRootState()
     {
         rootRenderers =
@@ -340,7 +326,6 @@ public class Key : UdonSharpBehaviour
         rootBody.isKinematic = hide ? true : rootBodyKinematic;
     }
 
->>>>>>> Stashed changes
     private void OnEnable()
     {
         CacheDefaults();
@@ -375,8 +360,6 @@ public class Key : UdonSharpBehaviour
         ConsumeGlobally();
     }
 
-<<<<<<< Updated upstream
-=======
     // Called by the client that registered this key with a lock (the
     // one physically controlling it). Taking ownership of the Key and
     // consuming locally avoids relying on an event reaching whoever
@@ -405,7 +388,6 @@ public class Key : UdonSharpBehaviour
         ConsumeGlobally();
     }
 
->>>>>>> Stashed changes
     public void ConsumeGlobally()
     {
         if (!Networking.IsOwner(gameObject))
@@ -458,13 +440,6 @@ public class Key : UdonSharpBehaviour
         if (Utilities.IsValid(visualRoot) &&
             visualRoot != gameObject)
         {
-<<<<<<< Updated upstream
-            visualRoot.SetActive(
-                consumed
-                    ? false
-                    : originalVisualState
-            );
-=======
             if (visualRootContainsKey)
             {
                 ApplyHiddenInPlace(consumed);
@@ -477,7 +452,6 @@ public class Key : UdonSharpBehaviour
                         : originalVisualState
                 );
             }
->>>>>>> Stashed changes
         }
 
         // ---------------------------------

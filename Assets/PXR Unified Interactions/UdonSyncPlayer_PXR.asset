@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
   m_Name: UdonSyncPlayer_PXR
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: cc227ab3a0661eb4bb580ec242f2678c,
-    type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 145b8254c8a60e84b9d115eb7dbfbb81, type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export player\r\n    .export syncFrequency\r\n   
     .export allowGuestControl\r\n    .sync url, none\r\n    .sync timeAndOffset,
     none\r\n    \r\n    __object_0: %SystemObject, null\r\n    __result_0: %SystemBoolean,

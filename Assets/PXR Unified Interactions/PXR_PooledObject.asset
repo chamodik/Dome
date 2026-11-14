@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: PXR_PooledObject
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: aa0b0a020f304264e9bc1b0200dddcae,
-    type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 1bb4aad57dfd28644964853b9fb94ac1, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: c51c4a2b97a1c7341a9d611f9d6859d2, type: 3}
@@ -44,11 +43,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-<<<<<<< Updated upstream
-      Data: 11
-=======
       Data: 12
->>>>>>> Stashed changes
     - Name: 
       Entry: 7
       Data: 
@@ -653,8 +648,6 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-<<<<<<< Updated upstream
-=======
       Entry: 7
       Data: 
     - Name: $k
@@ -709,7 +702,6 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
->>>>>>> Stashed changes
       Entry: 13
       Data: 
     - Name: 

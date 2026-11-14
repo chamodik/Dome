@@ -4,32 +4,12 @@ using VRC.SDKBase;
 using VRC.SDK3.UdonNetworkCalling;
 using VRC.Udon.Common.Interfaces;
 
-<<<<<<< Updated upstream
-=======
 // Persistent key state is separated from PXR_UnifiedInputs
 // so physical pickups can use VRCObjectSync.
->>>>>>> Stashed changes
 [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
 public class PXR_KeyLockState : UdonSharpBehaviour
 {
     [Header("Key Lock Input")]
-<<<<<<< Updated upstream
-    public PXR_UnifiedInputs input;
-
-    [Header("Synchronized Key State (read only at runtime)")]
-    [UdonSynced] public int keyCount;
-    [UdonSynced] public bool keysComplete;
-
-    [UdonSynced]
-    private int[] registeredPoolSlots = new int[0];
-
-    [UdonSynced]
-    private int[] registeredPoolGenerations = new int[0];
-
-    // Ordinary key identities remain local to the
-    // lock-state owner, as in the original toolkit.
-    private GameObject[] countedKeys;
-=======
     [Tooltip("The PXR_UnifiedInputs configured as a Key lock.")]
     public PXR_UnifiedInputs input;
 
@@ -74,17 +54,12 @@ public class PXR_KeyLockState : UdonSharpBehaviour
 
     // Pooled-key report rate limit (events per second, 1-100).
     private const int KEY_EVENT_RATE = 20;
->>>>>>> Stashed changes
 
     private void Start()
     {
         DisableInteractive = true;
-<<<<<<< Updated upstream
-        countedKeys = new GameObject[Needed()];
-=======
         latchedKeys = new GameObject[Mathf.Max(8, Needed())];
         latchedKeyRefs = new Key[latchedKeys.Length];
->>>>>>> Stashed changes
         InitializeKeyRecords();
     }
 
@@ -94,8 +69,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
             ? Mathf.Max(1, input.requiredKeys) : 1;
     }
 
-<<<<<<< Updated upstream
-=======
     private int PoolSize()
     {
         if (!Utilities.IsValid(input) ||
@@ -107,7 +80,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
         return input.pooledKeyPool.objectPool.Pool.Length;
     }
 
->>>>>>> Stashed changes
     private bool RecordsReady()
     {
         int needed = Needed();
@@ -117,8 +89,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
             registeredPoolGenerations.Length == needed;
     }
 
-<<<<<<< Updated upstream
-=======
     private bool HistoryReady()
     {
         int poolSize = PoolSize();
@@ -129,57 +99,11 @@ public class PXR_KeyLockState : UdonSharpBehaviour
             lastAcceptedPoolOwnerBySlot.Length == poolSize;
     }
 
->>>>>>> Stashed changes
     private void InitializeKeyRecords()
     {
         if (!Networking.IsOwner(gameObject))
             return;
 
-<<<<<<< Updated upstream
-        if (RecordsReady())
-            return;
-
-        // Never discard synchronized identities
-        // while a partially completed lock is active.
-        if (keyCount > 0)
-            return;
-
-        int needed = Needed();
-        registeredPoolSlots = new int[needed];
-        registeredPoolGenerations = new int[needed];
-        for (int i = 0; i < needed; i++)
-        {
-            registeredPoolSlots[i] = -1;
-            registeredPoolGenerations[i] = -1;
-        }
-        RequestSerialization();
-    }
-
-    // Optional: if a collider is placed on this
-    // object's GameObject, it can receive contact
-    // directly instead of relying on input forwarding.
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (!Utilities.IsValid(collision) ||
-            !Utilities.IsValid(input) ||
-            input.interactionType != PXR_InputType.Key)
-            return;
-
-        GameObject other = collision.gameObject;
-        if (!Utilities.IsValid(other))
-            return;
-
-        PXR_PooledObject pooled =
-            other.GetComponent<PXR_PooledObject>();
-        if (Utilities.IsValid(pooled))
-            return;
-
-        Rigidbody rb = collision.rigidbody;
-        if (Utilities.IsValid(rb) &&
-            Utilities.IsValid(
-                rb.GetComponent<PXR_PooledObject>()))
-            return;
-=======
         bool changed = false;
 
         if (!RecordsReady() && keyCount == 0)
@@ -272,41 +196,17 @@ public class PXR_KeyLockState : UdonSharpBehaviour
             if (Utilities.IsValid(pooled))
                 return null;
         }
->>>>>>> Stashed changes
 
         Key key = other.GetComponent<Key>();
         if (!Utilities.IsValid(key))
             key = other.GetComponentInChildren<Key>();
 
-<<<<<<< Updated upstream
-        if (!Utilities.IsValid(key) &&
-            Utilities.IsValid(rb))
-=======
         if (!Utilities.IsValid(key) && Utilities.IsValid(rb))
->>>>>>> Stashed changes
         {
             key = rb.GetComponent<Key>();
             if (!Utilities.IsValid(key))
                 key = rb.GetComponentInChildren<Key>();
         }
-<<<<<<< Updated upstream
-
-        if (Utilities.IsValid(key))
-            TryRegisterOrdinaryKey(key);
-    }
-
-    // Called on the authoritative lock owner by
-    // PXR_UnifiedInputs, or from this component's
-    // OnCollisionEnter when it has its own collider.
-    public void TryRegisterOrdinaryKey(Key key)
-    {
-        if (!Networking.IsOwner(gameObject) ||
-            !Utilities.IsValid(input) ||
-            input.interactionType != PXR_InputType.Key ||
-            !Utilities.IsValid(key) ||
-            keysComplete || key.IsConsumed())
-            return;
-=======
         return key;
     }
 
@@ -438,44 +338,10 @@ public class PXR_KeyLockState : UdonSharpBehaviour
             !Utilities.IsValid(key) ||
             keysComplete || key.IsConsumed())
             return false;
->>>>>>> Stashed changes
 
         if (input.checkKeyTag &&
             (string.IsNullOrEmpty(input.requiredKeyTag) ||
              key.tag != input.requiredKeyTag))
-<<<<<<< Updated upstream
-            return;
-
-        int needed = Needed();
-        if (keyCount >= needed)
-            return;
-
-        if (countedKeys == null ||
-            countedKeys.Length != needed)
-            countedKeys = new GameObject[needed];
-
-        // Prevent re-counting an ordinary Key.
-        for (int i = 0; i < countedKeys.Length; i++)
-        {
-            if (countedKeys[i] == key.gameObject)
-                return;
-        }
-
-        // Attribute a pickup to its holder or
-        // post-release owner. Do not guess an owner
-        // for a non-pickup key.
-        int userId = key.GetAttributedPlayerId();
-        string userName = key.GetAttributedPlayerName();
-
-        countedKeys[keyCount] = key.gameObject;
-        CompleteRegistration(userId, userName);
-
-        if (input.destroyKeyAfterUse)
-            key.RequestConsume();
-    }
-
-    [NetworkCallable]
-=======
             return false;
 
         if (keyCount >= Needed() || IsLatched(key.gameObject))
@@ -603,7 +469,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
     }
 
     [NetworkCallable(KEY_EVENT_RATE)]
->>>>>>> Stashed changes
     public void OwnerReceivePooledKey(
         int slot,
         int generation,
@@ -620,11 +485,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
 
         PXR_PoolManager pool = input.pooledKeyPool;
         VRCPlayerApi sender = NetworkCalling.CallingPlayer;
-<<<<<<< Updated upstream
-        VRCPlayerApi poolOwner =
-            Networking.GetOwner(pool.gameObject);
-
-=======
 
         // Outside a network call (lock owner also owns the pool),
         // the caller is the local player.
@@ -632,7 +492,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
             sender = Networking.LocalPlayer;
 
         VRCPlayerApi poolOwner = Networking.GetOwner(pool.gameObject);
->>>>>>> Stashed changes
         if (!Utilities.IsValid(sender) ||
             !Utilities.IsValid(poolOwner) ||
             sender.playerId != poolOwner.playerId ||
@@ -640,33 +499,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
             return;
 
         PXR_PooledObject pooled = pool.GetPooledObject(slot);
-<<<<<<< Updated upstream
-        if (!Utilities.IsValid(pooled) ||
-            !pooled.actsAsKey)
-            return;
-
-        InitializeKeyRecords();
-        if (!RecordsReady())
-            return; // pool retries until records are ready
-
-        bool accepted = false;
-        bool tagMatches = !input.checkKeyTag ||
-            (!string.IsNullOrEmpty(input.requiredKeyTag) &&
-             pooled.keyTag == input.requiredKeyTag);
-
-        if (tagMatches)
-        {
-            if (ContainsPooledKey(slot, generation))
-            {
-                // A duplicate request is acknowledged
-                // but does not affect count or user.
-                accepted = true;
-            } else if (!keysComplete && keyCount < Needed())
-            {
-                registeredPoolSlots[keyCount] = slot;
-                registeredPoolGenerations[keyCount] =
-                    generation;
-=======
         if (!Utilities.IsValid(pooled) || !pooled.actsAsKey)
             return;
 
@@ -695,7 +527,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
                 registeredPoolGenerations[keyCount] = generation;
                 lastAcceptedGenerationBySlot[slot] = generation;
                 lastAcceptedPoolOwnerBySlot[slot] = poolOwner.playerId;
->>>>>>> Stashed changes
                 accepted = true;
                 CompleteRegistration(userId, userName);
             }
@@ -711,22 +542,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
         );
     }
 
-<<<<<<< Updated upstream
-    private bool ContainsPooledKey(int slot, int generation)
-    {
-        if (!RecordsReady())
-            return false;
-
-        int count = Mathf.Min(
-            keyCount, registeredPoolSlots.Length);
-        for (int i = 0; i < count; i++)
-        {
-            if (registeredPoolSlots[i] == slot &&
-                registeredPoolGenerations[i] == generation)
-                return true;
-        }
-        return false;
-=======
     // Clears only one counting cycle. The per-slot generation
     // history and the currently-touching ordinary key latch
     // must survive a repeatable auto reset.
@@ -749,7 +564,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
             registeredPoolSlots[i] = -1;
             registeredPoolGenerations[i] = -1;
         }
->>>>>>> Stashed changes
     }
 
     private void CompleteRegistration(int userId, string userName)
@@ -759,18 +573,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
 
         keyCount++;
         if (keyCount >= Needed())
-<<<<<<< Updated upstream
-            keysComplete = true;
-
-        RequestSerialization();
-
-        if (keysComplete && Utilities.IsValid(input))
-        {
-            // Identity is passed directly for this
-            // completion event; it need not be synced.
-            input.CompleteKeyFromState(userId, userName);
-        }
-=======
         {
             keysComplete = true;
 
@@ -787,7 +589,6 @@ public class PXR_KeyLockState : UdonSharpBehaviour
         // generation history. For Repeatable, completed cycles
         // settle back at zero after the output is dispatched.
         RequestSerialization();
->>>>>>> Stashed changes
     }
 
     public int GetKeyCount()
@@ -805,24 +606,9 @@ public class PXR_KeyLockState : UdonSharpBehaviour
         if (!Networking.IsOwner(gameObject))
             return;
 
-<<<<<<< Updated upstream
-        keyCount = 0;
-        keysComplete = false;
-        countedKeys = new GameObject[Needed()];
-
-        int needed = Needed();
-        registeredPoolSlots = new int[needed];
-        registeredPoolGenerations = new int[needed];
-        for (int i = 0; i < needed; i++)
-        {
-            registeredPoolSlots[i] = -1;
-            registeredPoolGenerations[i] = -1;
-        }
-=======
         // Manual reset also preserves per-slot history so an
         // already-fired projectile cannot count a second time.
         ClearCycle();
->>>>>>> Stashed changes
         RequestSerialization();
     }
 }

@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: PXR_AdminNames
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b1425d9a2f6b48c4e8b6ab3eeb98350d,
-    type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 265efb4884a8edd44be1a5f059e0217f, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 2b84a031298a999438399c7989e2ca1f, type: 3}

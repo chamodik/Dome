@@ -32,36 +32,16 @@ public enum PXR_TeleportMode
 [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
 public class PXR_UnifiedOutputs : UdonSharpBehaviour
 {
-<<<<<<< Updated upstream
-    // =====================================
-    // TOGGLE OBJECT
-    // =====================================
-
-=======
     [Header("Toggle Object")]
->>>>>>> Stashed changes
     public GameObject toggleObjectTarget;
     public bool objectToggle = true;
     public bool objectState = true;
     public bool persistObjectState = false;
 
-<<<<<<< Updated upstream
-    // =====================================
-    // DESTROY / DEACTIVATE
-    // =====================================
-
-    public GameObject destroyTarget;
-
-    // =====================================
-    // ANIMATION
-    // =====================================
-
-=======
     [Header("Destroy Object")]
     public GameObject destroyTarget;
 
     [Header("Animation")]
->>>>>>> Stashed changes
     public Animator targetAnimator;
 
     public PXR_AnimationParameterType animationParameterType =
@@ -72,43 +52,10 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     public bool animationBoolValue = true;
 
     public string animationTriggerName = "Activate";
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     public string animationIntName = "State";
     public int animationIncrement = 1;
     public int animationMaxValue = 3;
     public int animationFixedValue = 0;
-<<<<<<< Updated upstream
-
-    public bool persistAnimatorState = false;
-
-    // =====================================
-    // SOUND
-    // =====================================
-
-
-    [Header("Sound")]
-    public AudioSource targetAudioSource;
-
-    // Ordered playlist. Supports one or more clips.
-    // If empty, the AudioSource's existing clip
-    // is used for backward compatibility.
-    public AudioClip[] audioClips = new AudioClip[0];
-
-    // Local, unsynchronized playback position.
-    // Each client maintains its own counter.
-    private int nextAudioClipIndex = 0;
-
-
-    // =====================================
-    // AVPRO
-    // =====================================
-
-    [Header("AVPro Video")]
-
-=======
     public bool persistAnimatorState = false;
 
     [Header("Sound")]
@@ -120,29 +67,17 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     private int nextAudioClipIndex = 0;
 
     [Header("AVPro Video")]
->>>>>>> Stashed changes
     public bool avProUseSyncedPrefab = true;
     public UdonBehaviour avProSyncPlayer;
     public VRCAVProVideoPlayer avProPlayer;
     public VRCUrl avProVideoUrl;
 
-<<<<<<< Updated upstream
-    // =====================================
-    // TELEPORT
-    // =====================================
-
-=======
     [Header("Teleport")]
->>>>>>> Stashed changes
     public PXR_TeleportMode teleportMode =
         PXR_TeleportMode.TeleportUser;
 
     public string teleportUsername = "";
     public float teleportRange = 5f;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     public Transform[] teleportTargets;
 
     [HideInInspector]
@@ -157,26 +92,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     private int[] pendingIndices;
     private float[] pendingTimes;
     private int pendingCount;
-<<<<<<< Updated upstream
-
-    // =====================================
-    // SPAWN OBJECT
-    // =====================================
-
-    [Header("Spawn Object")]
-
-    public GameObject spawnPrefab;
-    public Transform spawnTransform;
-
-    [Tooltip(
-        "Velocity in Spawn Transform local axes, " +
-        "in metres per second."
-    )]
-    public Vector3 velocity = Vector3.forward;
-
-    [Header("Networked Pool Settings")]
-
-=======
     private bool teleportRecheckPending;
 
     // Teleport network event rate limit (events per second, 1-100).
@@ -192,7 +107,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     public Vector3 velocity = Vector3.forward;
 
     [Header("Networked Pool Settings")]
->>>>>>> Stashed changes
     public PXR_PoolManager spawnPoolManager;
 
     public PXR_DespawnMode despawnMode =
@@ -208,91 +122,17 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     private Vector3[] movingVelocities;
     private int movingCount;
 
-<<<<<<< Updated upstream
-    // =====================================
-    // TOGGLE COMPONENT
-    // =====================================
-
-=======
     [Header("Toggle Component")]
->>>>>>> Stashed changes
     public PXR_ComponentTargetType componentTargetType =
         PXR_ComponentTargetType.Behaviour;
 
     public Behaviour targetBehaviour;
     public Renderer targetRenderer;
     public Collider targetCollider;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     public bool componentToggle = true;
     public bool componentEnabled = true;
     public bool persistComponentState = false;
 
-<<<<<<< Updated upstream
-    // =====================================
-    // CHAIN EVENT
-    // =====================================
-
-    public bool enableChainEvent = false;
-    public UdonSharpBehaviour chainEventTarget;
-    public string chainEventName = "";
-
-    [Min(0f)]
-    public float chainEventDelay = 0f;
-
-    // =====================================
-    // LEGACY REFERENCES
-    // =====================================
-
-    [HideInInspector]
-    public GameObject targetObject;
-
-    [HideInInspector]
-    public GameObject enableObjectTarget;
-
-    [HideInInspector]
-    public GameObject disableObjectTarget;
-
-    [HideInInspector]
-    public GameObject destroyObjectTarget;
-
-    [HideInInspector]
-    public Component targetComponent;
-
-    // =====================================
-    // PERSISTENT STATES
-    // =====================================
-
-    [UdonSynced]
-    private bool syncedObjectInitialized;
-
-    [UdonSynced]
-    private bool syncedObjectEnabled;
-
-    [UdonSynced]
-    private bool syncedComponentInitialized;
-
-    [UdonSynced]
-    private bool syncedComponentEnabled;
-
-    [UdonSynced]
-    private bool syncedAnimatorBoolInitialized;
-
-    [UdonSynced]
-    private bool syncedAnimatorBool;
-
-    [UdonSynced]
-    private bool syncedAnimatorIntInitialized;
-
-    [UdonSynced]
-    private int syncedAnimatorInt;
-
-    // =====================================
-    // INITIALIZATION
-    // =====================================
-=======
     // Legacy Inspector references remain for existing scenes.
     [HideInInspector] public GameObject targetObject;
     [HideInInspector] public GameObject enableObjectTarget;
@@ -308,7 +148,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     [UdonSynced] private bool syncedAnimatorBool;
     [UdonSynced] private bool syncedAnimatorIntInitialized;
     [UdonSynced] private int syncedAnimatorInt;
->>>>>>> Stashed changes
 
     private void Start()
     {
@@ -322,12 +161,7 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
     private void ApplyPersistentStates()
     {
-<<<<<<< Updated upstream
-        if (persistObjectState &&
-            syncedObjectInitialized)
-=======
         if (persistObjectState && syncedObjectInitialized)
->>>>>>> Stashed changes
         {
             GameObject obj = GetToggleObject();
 
@@ -335,16 +169,8 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
                 obj.SetActive(syncedObjectEnabled);
         }
 
-<<<<<<< Updated upstream
-        if (persistComponentState &&
-            syncedComponentInitialized)
-        {
-            ApplyComponentState(syncedComponentEnabled);
-        }
-=======
         if (persistComponentState && syncedComponentInitialized)
             ApplyComponentState(syncedComponentEnabled);
->>>>>>> Stashed changes
 
         if (persistAnimatorState &&
             Utilities.IsValid(targetAnimator))
@@ -369,51 +195,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         }
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // CHAIN EVENT
-    // =====================================
-
-    private void RunChainEvent()
-    {
-        if (!enableChainEvent)
-            return;
-
-        if (!Utilities.IsValid(chainEventTarget))
-            return;
-
-        if (string.IsNullOrEmpty(chainEventName))
-            return;
-
-        if (chainEventTarget == this)
-            return;
-
-        if (chainEventDelay > 0f)
-        {
-            chainEventTarget.SendCustomEventDelayedSeconds(
-                chainEventName,
-                chainEventDelay
-            );
-        } else
-        {
-            chainEventTarget.SendCustomEvent(
-                chainEventName
-            );
-        }
-    }
-
-    [PXR_InputCallable]
-    public void ChainEvent()
-    {
-        RunChainEvent();
-    }
-
-    // =====================================
-    // OBJECT FUNCTIONS
-    // =====================================
-
-=======
->>>>>>> Stashed changes
     private GameObject GetToggleObject()
     {
         if (Utilities.IsValid(toggleObjectTarget))
@@ -425,11 +206,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     [PXR_InputCallable]
     public void ToggleObject()
     {
-<<<<<<< Updated upstream
-        RunChainEvent();
-
-=======
->>>>>>> Stashed changes
         GameObject obj = GetToggleObject();
 
         if (!Utilities.IsValid(obj))
@@ -462,11 +238,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
     public void EnableObject()
     {
-<<<<<<< Updated upstream
-        RunChainEvent();
-
-=======
->>>>>>> Stashed changes
         GameObject obj = enableObjectTarget;
 
         if (!Utilities.IsValid(obj))
@@ -478,11 +249,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
     public void DisableObject()
     {
-<<<<<<< Updated upstream
-        RunChainEvent();
-
-=======
->>>>>>> Stashed changes
         GameObject obj = disableObjectTarget;
 
         if (!Utilities.IsValid(obj))
@@ -495,11 +261,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     [PXR_InputCallable]
     public void DestroyObject()
     {
-<<<<<<< Updated upstream
-        RunChainEvent();
-
-=======
->>>>>>> Stashed changes
         GameObject obj = destroyTarget;
 
         if (!Utilities.IsValid(obj))
@@ -508,30 +269,14 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         if (!Utilities.IsValid(obj))
             obj = targetObject;
 
-<<<<<<< Updated upstream
-        // Logical removal, not network destruction.
-=======
         // Local deactivation, not permanent network destruction.
->>>>>>> Stashed changes
         if (Utilities.IsValid(obj))
             obj.SetActive(false);
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // ANIMATION
-    // =====================================
-
     [PXR_InputCallable]
     public void PlayAnimation()
     {
-        RunChainEvent();
-
-=======
-    [PXR_InputCallable]
-    public void PlayAnimation()
-    {
->>>>>>> Stashed changes
         if (!Utilities.IsValid(targetAnimator))
             return;
 
@@ -578,14 +323,7 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
                 ? !targetAnimator.GetBool(animationBoolName)
                 : animationBoolValue;
 
-<<<<<<< Updated upstream
-            targetAnimator.SetBool(
-                animationBoolName,
-                next
-            );
-=======
             targetAnimator.SetBool(animationBoolName, next);
->>>>>>> Stashed changes
             return;
         }
 
@@ -604,38 +342,24 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
             if (persistAnimatorState &&
                 syncedAnimatorIntInitialized)
-<<<<<<< Updated upstream
-                previous = syncedAnimatorInt;
-=======
             {
                 previous = syncedAnimatorInt;
             }
->>>>>>> Stashed changes
 
             int nextValue = animationFixedValue;
 
             if (animationIncrement != 0)
             {
-<<<<<<< Updated upstream
-                // Floating intermediate avoids overflow.
-=======
->>>>>>> Stashed changes
                 double next =
                     (double)previous + animationIncrement;
 
                 int maxValue =
                     Mathf.Max(0, animationMaxValue);
 
-<<<<<<< Updated upstream
-                nextValue = (next < 0 || next > maxValue)
-                    ? 0
-                    : (int)next;
-=======
                 nextValue =
                     next < 0 || next > maxValue
                         ? 0
                         : (int)next;
->>>>>>> Stashed changes
             }
 
             targetAnimator.SetInteger(
@@ -652,21 +376,9 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         }
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // SOUND
-    // =====================================
-
-
     [PXR_InputCallable]
     public void PlaySound()
     {
-        // Validate the assigned Unity AudioSource.
-=======
-    [PXR_InputCallable]
-    public void PlaySound()
-    {
->>>>>>> Stashed changes
         if (!Utilities.IsValid(targetAudioSource))
         {
             Debug.LogWarning(
@@ -676,25 +388,9 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
             return;
         }
 
-<<<<<<< Updated upstream
-        // ----------------------------------------
-        // LEGACY MODE
-        // ----------------------------------------
-        //
-        // If the new playlist is empty, continue
-        // using the AudioClip already assigned
-        // directly to the Unity AudioSource.
-        //
-        // Always stop before playing so another
-        // interaction restarts the current clip.
-
-        if (audioClips == null ||
-            audioClips.Length == 0)
-=======
         // Backward compatibility: use the AudioSource clip
         // when the playlist is empty.
         if (audioClips == null || audioClips.Length == 0)
->>>>>>> Stashed changes
         {
             if (!Utilities.IsValid(targetAudioSource.clip))
             {
@@ -710,18 +406,7 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
             return;
         }
 
-<<<<<<< Updated upstream
-        // ----------------------------------------
-        // PLAYLIST MODE
-        // ----------------------------------------
-
         int count = audioClips.Length;
-
-        // Protect against an out-of-range counter
-        // if the array's size has changed.
-=======
-        int count = audioClips.Length;
->>>>>>> Stashed changes
         int startIndex = nextAudioClipIndex % count;
 
         if (startIndex < 0)
@@ -729,14 +414,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
         int selectedIndex = -1;
 
-<<<<<<< Updated upstream
-        // Find the next valid AudioClip.
-        //
-        // Empty playlist entries are skipped,
-        // without blocking subsequent playback.
-
-=======
->>>>>>> Stashed changes
         for (int offset = 0; offset < count; offset++)
         {
             int index = (startIndex + offset) % count;
@@ -748,10 +425,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
             }
         }
 
-<<<<<<< Updated upstream
-        // Nothing playable in the array.
-=======
->>>>>>> Stashed changes
         if (selectedIndex < 0)
         {
             Debug.LogWarning(
@@ -761,62 +434,12 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
             return;
         }
 
-<<<<<<< Updated upstream
-        // ----------------------------------------
-        // STOP PREVIOUS AUDIO
-        // ----------------------------------------
-        //
-        // Stops the currently playing clip,
-        // regardless of whether it has finished.
-
         targetAudioSource.Stop();
 
-        // ----------------------------------------
-        // ASSIGN NEXT CLIP
-        // ----------------------------------------
-
-=======
-        targetAudioSource.Stop();
-
->>>>>>> Stashed changes
         AudioClip selectedClip =
             audioClips[selectedIndex];
 
         targetAudioSource.clip = selectedClip;
-<<<<<<< Updated upstream
-
-        // ----------------------------------------
-        // PLAY SELECTED CLIP
-        // ----------------------------------------
-
-        targetAudioSource.Play();
-
-        // ----------------------------------------
-        // ADVANCE PLAYLIST
-        // ----------------------------------------
-        //
-        // After the last element, wrap to zero.
-        //
-        // This counter remains local to each
-        // client. UnifiedInputs determines
-        // whether PlaySound runs locally or
-        // on all players.
-
-        nextAudioClipIndex =
-            (selectedIndex + 1) % count;
-    }
-
-
-    // =====================================
-    // AVPRO
-    // =====================================
-
-    [PXR_InputCallable]
-    public void PlayAVProVideo()
-    {
-        RunChainEvent();
-
-=======
         targetAudioSource.Play();
 
         // Playlist position remains local to each client.
@@ -826,7 +449,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     [PXR_InputCallable]
     public void PlayAVProVideo()
     {
->>>>>>> Stashed changes
         if (VRCUrl.IsNullOrEmpty(avProVideoUrl))
             return;
 
@@ -835,19 +457,11 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
             if (!Utilities.IsValid(avProSyncPlayer))
                 return;
 
-<<<<<<< Updated upstream
-            // This method is intended to be called
-            // once by the initiating client's Input.
-=======
->>>>>>> Stashed changes
             SendCustomNetworkEvent(
                 NetworkEventTarget.All,
                 nameof(ApplyAVProVideoOnOwner)
             );
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
             return;
         }
 
@@ -858,19 +472,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     [NetworkCallable]
     public void ApplyAVProVideoOnOwner()
     {
-<<<<<<< Updated upstream
-        if (!avProUseSyncedPrefab)
-            return;
-
-        if (!Utilities.IsValid(avProSyncPlayer))
-            return;
-
-        if (VRCUrl.IsNullOrEmpty(avProVideoUrl))
-            return;
-
-        if (!Networking.IsOwner(avProSyncPlayer.gameObject))
-            return;
-=======
         if (!avProUseSyncedPrefab ||
             !Utilities.IsValid(avProSyncPlayer) ||
             VRCUrl.IsNullOrEmpty(avProVideoUrl) ||
@@ -878,7 +479,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         {
             return;
         }
->>>>>>> Stashed changes
 
         avProSyncPlayer.SetProgramVariable(
             "url",
@@ -888,15 +488,8 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         avProSyncPlayer.RequestSerialization();
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // TELEPORT ENTRY POINT
-    // =====================================
-
-=======
     // Direct method remains available for compatibility.
     // UnifiedInputs normally uses RequestTeleport instead.
->>>>>>> Stashed changes
     [PXR_InputCallable]
     public void TeleportPlayer()
     {
@@ -919,11 +512,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         Vector3 sourcePosition,
         float delay)
     {
-<<<<<<< Updated upstream
-        RunChainEvent();
-
-=======
->>>>>>> Stashed changes
         SendCustomNetworkEvent(
             NetworkEventTarget.Owner,
             nameof(OwnerTeleportRequest),
@@ -934,26 +522,15 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         );
     }
 
-<<<<<<< Updated upstream
-    [NetworkCallable]
-=======
     [NetworkCallable(TELEPORT_EVENT_RATE)]
->>>>>>> Stashed changes
     public void OwnerTeleportRequest(
         int playerId,
         string playerName,
         Vector3 sourcePosition,
         float delay)
     {
-<<<<<<< Updated upstream
-        if (!Networking.IsOwner(gameObject))
-            return;
-
-        if (!HasTeleportDestination())
-=======
         if (!Networking.IsOwner(gameObject) ||
             !HasTeleportDestination())
->>>>>>> Stashed changes
             return;
 
         int selected = teleportNextIndex;
@@ -976,11 +553,7 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         );
     }
 
-<<<<<<< Updated upstream
-    [NetworkCallable]
-=======
     [NetworkCallable(TELEPORT_EVENT_RATE)]
->>>>>>> Stashed changes
     public void NetworkTeleport(
         int playerId,
         string playerName,
@@ -1008,13 +581,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         }
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // DELAYED TELEPORT QUEUE
-    // =====================================
-
-=======
->>>>>>> Stashed changes
     private void QueueTeleport(
         int playerId,
         string playerName,
@@ -1072,12 +638,8 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
     public void ProcessTeleportQueue()
     {
-<<<<<<< Updated upstream
-        float now = Time.time;
-=======
         // Small tolerance for scheduler timing jitter.
         float now = Time.time + 0.02f;
->>>>>>> Stashed changes
         int i = 0;
 
         while (i < pendingCount)
@@ -1111,8 +673,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
                 index
             );
         }
-<<<<<<< Updated upstream
-=======
 
         // Backstop: if anything is still waiting, check again
         // when the soonest remaining entry is due.
@@ -1139,7 +699,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     {
         teleportRecheckPending = false;
         ProcessTeleportQueue();
->>>>>>> Stashed changes
     }
 
     private void ExecuteTeleport(
@@ -1157,14 +716,9 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
         if (teleportMode == PXR_TeleportMode.TeleportUser)
         {
-<<<<<<< Updated upstream
-            eligible = playerId >= 0 &&
-                       local.playerId == playerId;
-=======
             eligible =
                 playerId >= 0 &&
                 local.playerId == playerId;
->>>>>>> Stashed changes
 
             if (eligible &&
                 !string.IsNullOrEmpty(playerName))
@@ -1181,21 +735,10 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         } else if (teleportMode ==
                    PXR_TeleportMode.TeleportByRange)
         {
-<<<<<<< Updated upstream
-            float range =
-                Mathf.Max(0f, teleportRange);
-
-            Vector3 delta =
-                local.GetPosition() - origin;
-
-            eligible =
-                delta.sqrMagnitude <= range * range;
-=======
             float range = Mathf.Max(0f, teleportRange);
 
             Vector3 delta = local.GetPosition() - origin;
             eligible = delta.sqrMagnitude <= range * range;
->>>>>>> Stashed changes
         } else if (teleportMode ==
                    PXR_TeleportMode.TeleportAll)
         {
@@ -1264,32 +807,15 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         return null;
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // LOCAL NON-PHYSICS SPAWNING
-    // =====================================
-
     [PXR_InputCallable]
     public void SpawnObject()
     {
-        RunChainEvent();
-
-=======
-    [PXR_InputCallable]
-    public void SpawnObject()
-    {
->>>>>>> Stashed changes
         if (!Utilities.IsValid(spawnPrefab) ||
             !Utilities.IsValid(spawnTransform))
             return;
 
-<<<<<<< Updated upstream
-        GameObject spawned =
-            VRCInstantiate(spawnPrefab);
-=======
         // Same Udon extern as the obsolete VRCInstantiate().
         GameObject spawned = Instantiate(spawnPrefab);
->>>>>>> Stashed changes
 
         if (!Utilities.IsValid(spawned))
             return;
@@ -1301,11 +827,8 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
         spawned.SetActive(true);
 
-<<<<<<< Updated upstream
-=======
         ScheduleLocalDespawn(spawned);
 
->>>>>>> Stashed changes
         if (velocity.sqrMagnitude <= 0f)
             return;
 
@@ -1318,22 +841,9 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         );
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // POOLED NON-PHYSICS SPAWNING
-    // =====================================
-
-    // Invoked internally when Inputs.Synced = true.
-
-    public void SpawnPooledObject()
-    {
-        RunChainEvent();
-
-=======
     // Invoked by UnifiedInputs for Synced spawning.
     public void SpawnPooledObject()
     {
->>>>>>> Stashed changes
         if (!Utilities.IsValid(spawnPoolManager) ||
             !Utilities.IsValid(spawnTransform))
             return;
@@ -1352,13 +862,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         );
     }
 
-<<<<<<< Updated upstream
-    // =====================================
-    // LOCAL MOVEMENT REGISTRATION
-    // =====================================
-
-=======
->>>>>>> Stashed changes
     private void RegisterMovingObject(
         Transform obj,
         Vector3 worldVelocity)
@@ -1373,16 +876,8 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         {
             int capacity = movingObjects.Length * 2;
 
-<<<<<<< Updated upstream
-            Transform[] objects =
-                new Transform[capacity];
-
-            Vector3[] velocities =
-                new Vector3[capacity];
-=======
             Transform[] objects = new Transform[capacity];
             Vector3[] velocities = new Vector3[capacity];
->>>>>>> Stashed changes
 
             for (int i = 0; i < movingCount; i++)
             {
@@ -1397,13 +892,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         movingObjects[movingCount] = obj;
         movingVelocities[movingCount] = worldVelocity;
         movingCount++;
-<<<<<<< Updated upstream
-    }
-
-    // =====================================
-    // COMPONENT HELPERS
-    // =====================================
-=======
 
         StartMoveLoop();
     }
@@ -1488,19 +976,11 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
                 Destroy(obj);
         }
     }
->>>>>>> Stashed changes
 
     private bool HasComponentTarget()
     {
         if (componentTargetType ==
             PXR_ComponentTargetType.Behaviour)
-<<<<<<< Updated upstream
-            return Utilities.IsValid(targetBehaviour);
-
-        if (componentTargetType ==
-            PXR_ComponentTargetType.Renderer)
-            return Utilities.IsValid(targetRenderer);
-=======
         {
             return Utilities.IsValid(targetBehaviour);
         }
@@ -1510,7 +990,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         {
             return Utilities.IsValid(targetRenderer);
         }
->>>>>>> Stashed changes
 
         return Utilities.IsValid(targetCollider);
     }
@@ -1558,11 +1037,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
     [PXR_InputCallable]
     public void ToggleComponent()
     {
-<<<<<<< Updated upstream
-        RunChainEvent();
-
-=======
->>>>>>> Stashed changes
         if (!HasComponentTarget())
             return;
 
@@ -1593,45 +1067,19 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
         ApplyComponentState(value);
     }
 
-<<<<<<< Updated upstream
-    // Legacy wrappers.
-    public void EnableComponent()
-    {
-        RunChainEvent();
-=======
     // Legacy wrappers remain available.
     public void EnableComponent()
     {
->>>>>>> Stashed changes
         ApplyComponentState(true);
     }
 
     public void DisableComponent()
     {
-<<<<<<< Updated upstream
-        RunChainEvent();
-=======
->>>>>>> Stashed changes
         ApplyComponentState(false);
     }
 
     public void SetComponentEnabled()
     {
-<<<<<<< Updated upstream
-        RunChainEvent();
-        ApplyComponentState(componentEnabled);
-    }
-
-    // =====================================
-    // LOCAL RUNTIME UPDATE
-    // =====================================
-
-    private void Update()
-    {
-        if (pendingCount > 0)
-            ProcessTeleportQueue();
-
-=======
         ApplyComponentState(componentEnabled);
     }
 
@@ -1703,7 +1151,6 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
 
     private void StepMovingObjects()
     {
->>>>>>> Stashed changes
         int i = 0;
 
         while (i < movingCount)
@@ -1715,12 +1162,7 @@ public class PXR_UnifiedOutputs : UdonSharpBehaviour
                 int last = movingCount - 1;
 
                 movingObjects[i] = movingObjects[last];
-<<<<<<< Updated upstream
-                movingVelocities[i] =
-                    movingVelocities[last];
-=======
                 movingVelocities[i] = movingVelocities[last];
->>>>>>> Stashed changes
 
                 movingObjects[last] = null;
                 movingCount--;
